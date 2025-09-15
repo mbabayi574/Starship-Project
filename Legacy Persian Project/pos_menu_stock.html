@@ -1,0 +1,1402 @@
+<!doctype html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <title>اچ‌یودی | پوز - موجودی منو</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <link href="assets/css/vendor.min.css" rel="stylesheet" />
+    <link href="assets/css/app.min.css" rel="stylesheet" />
+  </head>
+
+  <body class="pace-top">
+    <div
+      id="app"
+      class="app app-content-full-height app-without-sidebar app-without-header"
+    >
+      <div id="content" class="app-content p-1 ps-xl-4 pe-xl-4 pt-xl-3 pb-xl-3">
+        <div class="pos pos-vertical card" id="pos">
+          <div class="pos-container card-body">
+            <div class="pos-header">
+              <div class="logo">
+                <a href="pos_counter_checkout.html">
+                  <div class="logo-img">
+                    <i class="bi bi-x-diamond" style="font-size: 1.5rem"></i>
+                  </div>
+                  <div class="logo-text">پین و شام</div>
+                </a>
+              </div>
+              <div class="time" id="time">00:00</div>
+              <div class="nav">
+                <div class="nav-item">
+                  <a href="pos_kitchen_order.html" class="nav-link">
+                    <i class="bi bi-bootstrap-reboot nav-icon"></i>
+                  </a>
+                </div>
+                <div class="nav-item">
+                  <a href="pos_table_booking.html" class="nav-link">
+                    <i class="bi bi-calendar-date nav-icon"></i>
+                  </a>
+                </div>
+                <div class="nav-item">
+                  <a href="pos_menu_stock.html" class="nav-link">
+                    <i class="bi bi-pie-chart nav-icon"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="pos-content">
+              <div
+                class="pos-content-container h-100 p-3"
+                data-scrollbar="true"
+                data-height="100%"
+              >
+                <div class="row gx-3">
+                  <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 pb-3">
+                    <div class="card h-100">
+                      <div class="card-body h-100 p-1">
+                        <div class="pos-product">
+                          <div
+                            class="img"
+                            style="
+                              background-image: url(assets/img/pos/product-1.jpg);
+                            "
+                          ></div>
+                          <div class="info">
+                            <div class="title text-truncate">مرغ گریل&reg;</div>
+                            <div class="desc text-truncate">
+                              مرغ، تخم مرغ، قارچ، سالاد
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                              <div class="w-100px">در انبار:</div>
+                              <div class="flex-1">
+                                <input
+                                  type="text"
+                                  class="form-control"
+                                  value="20"
+                                />
+                              </div>
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                              <div class="w-100px">موجودی:</div>
+                              <div class="flex-1">
+                                <div class="form-check form-switch">
+                                  <input
+                                    class="form-check-input"
+                                    type="checkbox"
+                                    name="qty"
+                                    id="product1"
+                                    checked
+                                    value="1"
+                                  />
+                                  <label
+                                    class="form-check-label"
+                                    for="product1"
+                                  ></label>
+                                </div>
+                              </div>
+                            </div>
+                            <div>
+                              <a href="#" class="btn btn-success d-block mb-2"
+                                ><i class="fa fa-check fa-fw"></i>به‌روزرسانی</a
+                              >
+                              <a href="#" class="btn btn-default d-block"
+                                ><i class="fa fa-times fa-fw"></i> لغو</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-arrow">
+                        <div class="card-arrow-top-left"></div>
+                        <div class="card-arrow-top-right"></div>
+                        <div class="card-arrow-bottom-left"></div>
+                        <div class="card-arrow-bottom-right"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 pb-3">
+                    <div class="card h-100">
+                      <div class="card-body h-100 p-1">
+                        <div class="pos-product">
+                          <div
+                            class="img"
+                            style="
+                              background-image: url(assets/img/pos/product-2.jpg);
+                            "
+                          ></div>
+                          <div class="info">
+                            <div class="title text-truncate">
+                              گوشت گریل&reg;
+                            </div>
+                            <div class="desc text-truncate">
+                              گوشت، تخم مرغ، قارچ، سالاد
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                              <div class="w-100px">در انبار:</div>
+                              <div class="flex-1">
+                                <input
+                                  type="text"
+                                  class="form-control"
+                                  value="30"
+                                />
+                              </div>
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                              <div class="w-100px">موجودی:</div>
+                              <div class="flex-1">
+                                <div class="form-check form-switch">
+                                  <input
+                                    class="form-check-input"
+                                    type="checkbox"
+                                    name="qty"
+                                    id="product2"
+                                    checked
+                                    value="1"
+                                  />
+                                  <label
+                                    class="form-check-label"
+                                    for="product2"
+                                  ></label>
+                                </div>
+                              </div>
+                            </div>
+                            <div>
+                              <a href="#" class="btn btn-success d-block mb-2"
+                                ><i class="fa fa-check fa-fw"></i>به‌روزرسانی</a
+                              >
+                              <a href="#" class="btn btn-default d-block"
+                                ><i class="fa fa-times fa-fw"></i> لغو</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-arrow">
+                        <div class="card-arrow-top-left"></div>
+                        <div class="card-arrow-top-right"></div>
+                        <div class="card-arrow-bottom-left"></div>
+                        <div class="card-arrow-bottom-right"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 pb-3">
+                    <div class="card h-100">
+                      <div class="card-body h-100 p-1">
+                        <div class="pos-product">
+                          <div
+                            class="img"
+                            style="
+                              background-image: url(assets/img/pos/product-3.jpg);
+                            "
+                          ></div>
+                          <div class="info">
+                            <div class="title text-truncate">
+                              کالوپینی گوجه &reg;
+                            </div>
+                            <div class="desc text-truncate">
+                              اسپاگتی، گوجه فرنگی، قارچ
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                              <div class="w-100px">در انبار:</div>
+                              <div class="flex-1">
+                                <input
+                                  type="text"
+                                  class="form-control"
+                                  value="15"
+                                />
+                              </div>
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                              <div class="w-100px">موجودی:</div>
+                              <div class="flex-1">
+                                <div class="form-check form-switch">
+                                  <input
+                                    class="form-check-input"
+                                    type="checkbox"
+                                    name="qty"
+                                    id="product3"
+                                    checked
+                                    value="1"
+                                  />
+                                  <label
+                                    class="form-check-label"
+                                    for="product3"
+                                  ></label>
+                                </div>
+                              </div>
+                            </div>
+                            <div>
+                              <a href="#" class="btn btn-success d-block mb-2"
+                                ><i class="fa fa-check fa-fw"></i>به‌روزرسانی</a
+                              >
+                              <a href="#" class="btn btn-default d-block"
+                                ><i class="fa fa-times fa-fw"></i> لغو</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-arrow">
+                        <div class="card-arrow-top-left"></div>
+                        <div class="card-arrow-top-right"></div>
+                        <div class="card-arrow-bottom-left"></div>
+                        <div class="card-arrow-bottom-right"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 pb-3">
+                    <div class="card h-100">
+                      <div class="card-body h-100 p-1">
+                        <div class="pos-product">
+                          <div
+                            class="img"
+                            style="
+                              background-image: url(assets/img/pos/product-4.jpg);
+                            "
+                          ></div>
+                          <div class="info">
+                            <div class="title text-truncate">
+                              کاسه سالاد وگان&reg;
+                            </div>
+                            <div class="desc text-truncate">
+                              اپل، هویج، گوجه فرنگی
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                              <div class="w-100px">در انبار:</div>
+                              <div class="flex-1">
+                                <input
+                                  type="text"
+                                  class="form-control"
+                                  value="10"
+                                />
+                              </div>
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                              <div class="w-100px">موجودی:</div>
+                              <div class="flex-1">
+                                <div class="form-check form-switch">
+                                  <input
+                                    class="form-check-input"
+                                    type="checkbox"
+                                    name="qty"
+                                    id="product4"
+                                    checked
+                                    value="1"
+                                  />
+                                  <label
+                                    class="form-check-label"
+                                    for="product4"
+                                  ></label>
+                                </div>
+                              </div>
+                            </div>
+                            <div>
+                              <a href="#" class="btn btn-success d-block mb-2"
+                                ><i class="fa fa-check fa-fw"></i>به‌روزرسانی</a
+                              >
+                              <a href="#" class="btn btn-default d-block"
+                                ><i class="fa fa-times fa-fw"></i> لغو</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-arrow">
+                        <div class="card-arrow-top-left"></div>
+                        <div class="card-arrow-top-right"></div>
+                        <div class="card-arrow-bottom-left"></div>
+                        <div class="card-arrow-bottom-right"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 pb-3">
+                    <div class="card h-100">
+                      <div class="card-body h-100 p-1">
+                        <div class="pos-product">
+                          <div
+                            class="img"
+                            style="
+                              background-image: url(assets/img/pos/product-5.jpg);
+                            "
+                          ></div>
+                          <div class="info">
+                            <div class="title text-truncate">
+                              پیتزا هاوایی&reg;
+                            </div>
+                            <div class="desc text-truncate">
+                              پیتزا، گوشت خرچنگ، آناناس
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                              <div class="w-100px">در انبار:</div>
+                              <div class="flex-1">
+                                <input
+                                  type="text"
+                                  class="form-control"
+                                  value="10"
+                                />
+                              </div>
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                              <div class="w-100px">موجودی:</div>
+                              <div class="flex-1">
+                                <div class="form-check form-switch">
+                                  <input
+                                    class="form-check-input"
+                                    type="checkbox"
+                                    name="qty"
+                                    id="product5"
+                                    checked
+                                    value="1"
+                                  />
+                                  <label
+                                    class="form-check-label"
+                                    for="product5"
+                                  ></label>
+                                </div>
+                              </div>
+                            </div>
+                            <div>
+                              <a href="#" class="btn btn-success d-block mb-2"
+                                ><i class="fa fa-check fa-fw"></i>به‌روزرسانی</a
+                              >
+                              <a href="#" class="btn btn-default d-block"
+                                ><i class="fa fa-times fa-fw"></i> لغو</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-arrow">
+                        <div class="card-arrow-top-left"></div>
+                        <div class="card-arrow-top-right"></div>
+                        <div class="card-arrow-bottom-left"></div>
+                        <div class="card-arrow-bottom-right"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 pb-3">
+                    <div class="card h-100">
+                      <div class="card-body h-100 p-1">
+                        <div class="pos-product">
+                          <div
+                            class="img"
+                            style="
+                              background-image: url(assets/img/pos/product-6.jpg);
+                            "
+                          ></div>
+                          <div class="info">
+                            <div class="title text-truncate">شیک آواکادو</div>
+                            <div class="desc text-truncate">
+                              آووکادو، شیر، وانیل
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                              <div class="w-100px">در انبار:</div>
+                              <div class="flex-1">
+                                <input
+                                  type="text"
+                                  class="form-control"
+                                  value="0"
+                                />
+                              </div>
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                              <div class="w-100px">موجودی:</div>
+                              <div class="flex-1">
+                                <div class="form-check form-switch">
+                                  <input
+                                    class="form-check-input"
+                                    type="checkbox"
+                                    name="qty"
+                                    id="product6"
+                                    value="1"
+                                  />
+                                  <label
+                                    class="form-check-label"
+                                    for="product6"
+                                  ></label>
+                                </div>
+                              </div>
+                            </div>
+                            <div>
+                              <a href="#" class="btn btn-success d-block mb-2"
+                                ><i class="fa fa-check fa-fw"></i>به‌روزرسانی</a
+                              >
+                              <a href="#" class="btn btn-default d-block"
+                                ><i class="fa fa-times fa-fw"></i> لغو</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-arrow">
+                        <div class="card-arrow-top-left"></div>
+                        <div class="card-arrow-top-right"></div>
+                        <div class="card-arrow-bottom-left"></div>
+                        <div class="card-arrow-bottom-right"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 pb-3">
+                    <div class="card h-100">
+                      <div class="card-body h-100 p-1">
+                        <div class="pos-product">
+                          <div
+                            class="img"
+                            style="
+                              background-image: url(assets/img/pos/product-7.jpg);
+                            "
+                          ></div>
+                          <div class="info">
+                            <div class="title text-truncate">قهوه لاته</div>
+                            <div class="desc text-truncate">اسپرسو، شیر</div>
+                            <div class="d-flex align-items-center mb-3">
+                              <div class="w-100px">در انبار:</div>
+                              <div class="flex-1">
+                                <input
+                                  type="text"
+                                  class="form-control"
+                                  value="50"
+                                />
+                              </div>
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                              <div class="w-100px">موجودی:</div>
+                              <div class="flex-1">
+                                <div class="form-check form-switch">
+                                  <input
+                                    class="form-check-input"
+                                    type="checkbox"
+                                    name="qty"
+                                    id="product7"
+                                    checked
+                                    value="1"
+                                  />
+                                  <label
+                                    class="form-check-label"
+                                    for="product7"
+                                  ></label>
+                                </div>
+                              </div>
+                            </div>
+                            <div>
+                              <a href="#" class="btn btn-success d-block mb-2"
+                                ><i class="fa fa-check fa-fw"></i>به‌روزرسانی</a
+                              >
+                              <a href="#" class="btn btn-default d-block"
+                                ><i class="fa fa-times fa-fw"></i> لغو</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-arrow">
+                        <div class="card-arrow-top-left"></div>
+                        <div class="card-arrow-top-right"></div>
+                        <div class="card-arrow-bottom-left"></div>
+                        <div class="card-arrow-bottom-right"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 pb-3">
+                    <div class="card h-100">
+                      <div class="card-body h-100 p-1">
+                        <div class="pos-product">
+                          <div
+                            class="img"
+                            style="
+                              background-image: url(assets/img/pos/product-8.jpg);
+                            "
+                          ></div>
+                          <div class="info">
+                            <div class="title text-truncate">
+                              ویتا دیتاکس آب میوه
+                            </div>
+                            <div class="desc text-truncate">
+                              زردآلو، سیب، هویج و آب زنجبیل
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                              <div class="w-100px">در انبار:</div>
+                              <div class="flex-1">
+                                <input
+                                  type="text"
+                                  class="form-control"
+                                  value="50"
+                                />
+                              </div>
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                              <div class="w-100px">موجودی:</div>
+                              <div class="flex-1">
+                                <div class="form-check form-switch">
+                                  <input
+                                    class="form-check-input"
+                                    type="checkbox"
+                                    name="qty"
+                                    id="product8"
+                                    checked
+                                    value="1"
+                                  />
+                                  <label
+                                    class="form-check-label"
+                                    for="product8"
+                                  ></label>
+                                </div>
+                              </div>
+                            </div>
+                            <div>
+                              <a href="#" class="btn btn-success d-block mb-2"
+                                ><i class="fa fa-check fa-fw"></i>به‌روزرسانی</a
+                              >
+                              <a href="#" class="btn btn-default d-block"
+                                ><i class="fa fa-times fa-fw"></i> لغو</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-arrow">
+                        <div class="card-arrow-top-left"></div>
+                        <div class="card-arrow-top-right"></div>
+                        <div class="card-arrow-bottom-left"></div>
+                        <div class="card-arrow-bottom-right"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 pb-3">
+                    <div class="card h-100">
+                      <div class="card-body h-100 p-1">
+                        <div class="pos-product">
+                          <div
+                            class="img"
+                            style="
+                              background-image: url(assets/img/pos/product-9.jpg);
+                            "
+                          ></div>
+                          <div class="info">
+                            <div class="title text-truncate">پن کیک</div>
+                            <div class="desc text-truncate">
+                              لبنیات، تخم مرغ، شکر، آرد
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                              <div class="w-100px">در انبار:</div>
+                              <div class="flex-1">
+                                <input
+                                  type="text"
+                                  class="form-control"
+                                  value="13"
+                                />
+                              </div>
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                              <div class="w-100px">موجودی:</div>
+                              <div class="flex-1">
+                                <div class="form-check form-switch">
+                                  <input
+                                    class="form-check-input"
+                                    type="checkbox"
+                                    name="qty"
+                                    id="product9"
+                                    checked
+                                    value="1"
+                                  />
+                                  <label
+                                    class="form-check-label"
+                                    for="product9"
+                                  ></label>
+                                </div>
+                              </div>
+                            </div>
+                            <div>
+                              <a href="#" class="btn btn-success d-block mb-2"
+                                ><i class="fa fa-check fa-fw"></i>به‌روزرسانی</a
+                              >
+                              <a href="#" class="btn btn-default d-block"
+                                ><i class="fa fa-times fa-fw"></i> لغو</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-arrow">
+                        <div class="card-arrow-top-left"></div>
+                        <div class="card-arrow-top-right"></div>
+                        <div class="card-arrow-bottom-left"></div>
+                        <div class="card-arrow-bottom-right"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 pb-3">
+                    <div class="card h-100">
+                      <div class="card-body h-100 p-1">
+                        <div class="pos-product">
+                          <div
+                            class="img"
+                            style="
+                              background-image: url(assets/img/pos/product-10.jpg);
+                            "
+                          ></div>
+                          <div class="info">
+                            <div class="title text-truncate">سوپ قارچ</div>
+                            <div class="desc text-truncate">
+                              شیر تبخیر شده، شراب مارسالا، مکعب گوشت گاو، جوجه
+                              مرغ، کره
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                              <div class="w-100px">در انبار:</div>
+                              <div class="flex-1">
+                                <input
+                                  type="text"
+                                  class="form-control"
+                                  value="30"
+                                />
+                              </div>
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                              <div class="w-100px">موجودی:</div>
+                              <div class="flex-1">
+                                <div class="form-check form-switch">
+                                  <input
+                                    class="form-check-input"
+                                    type="checkbox"
+                                    name="qty"
+                                    id="product10"
+                                    checked
+                                    value="1"
+                                  />
+                                  <label
+                                    class="form-check-label"
+                                    for="product10"
+                                  ></label>
+                                </div>
+                              </div>
+                            </div>
+                            <div>
+                              <a href="#" class="btn btn-success d-block mb-2"
+                                ><i class="fa fa-check fa-fw"></i>به‌روزرسانی</a
+                              >
+                              <a href="#" class="btn btn-default d-block"
+                                ><i class="fa fa-times fa-fw"></i> لغو</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-arrow">
+                        <div class="card-arrow-top-left"></div>
+                        <div class="card-arrow-top-right"></div>
+                        <div class="card-arrow-bottom-left"></div>
+                        <div class="card-arrow-bottom-right"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 pb-3">
+                    <div class="card h-100">
+                      <div class="card-body h-100 p-1">
+                        <div class="pos-product">
+                          <div
+                            class="img"
+                            style="
+                              background-image: url(assets/img/pos/product-11.jpg);
+                            "
+                          ></div>
+                          <div class="info">
+                            <div class="title text-truncate">
+                              بال مرغ پخته شده
+                            </div>
+                            <div class="desc text-truncate">
+                              بال مرغ، سس استیک، عسل، فلفل کاین
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                              <div class="w-100px">در انبار:</div>
+                              <div class="flex-1">
+                                <input
+                                  type="text"
+                                  class="form-control"
+                                  value="32"
+                                />
+                              </div>
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                              <div class="w-100px">موجودی:</div>
+                              <div class="flex-1">
+                                <div class="form-check form-switch">
+                                  <input
+                                    class="form-check-input"
+                                    type="checkbox"
+                                    name="qty"
+                                    id="product11"
+                                    checked
+                                    value="1"
+                                  />
+                                  <label
+                                    class="form-check-label"
+                                    for="product11"
+                                  ></label>
+                                </div>
+                              </div>
+                            </div>
+                            <div>
+                              <a href="#" class="btn btn-success d-block mb-2"
+                                ><i class="fa fa-check fa-fw"></i>به‌روزرسانی</a
+                              >
+                              <a href="#" class="btn btn-default d-block"
+                                ><i class="fa fa-times fa-fw"></i> لغو</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-arrow">
+                        <div class="card-arrow-top-left"></div>
+                        <div class="card-arrow-top-right"></div>
+                        <div class="card-arrow-bottom-left"></div>
+                        <div class="card-arrow-bottom-right"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 pb-3">
+                    <div class="card h-100">
+                      <div class="card-body h-100 p-1">
+                        <div class="pos-product">
+                          <div
+                            class="img"
+                            style="
+                              background-image: url(assets/img/pos/product-12.jpg);
+                            "
+                          ></div>
+                          <div class="info">
+                            <div class="title text-truncate">
+                              ماکارون سبزیجات
+                            </div>
+                            <div class="desc text-truncate">
+                              اسکواش زرد، ماکارونی، فلفل قرمز بو داده، کدو سبز
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                              <div class="w-100px">در انبار:</div>
+                              <div class="flex-1">
+                                <input
+                                  type="text"
+                                  class="form-control"
+                                  value="7"
+                                />
+                              </div>
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                              <div class="w-100px">موجودی:</div>
+                              <div class="flex-1">
+                                <div class="form-check form-switch">
+                                  <input
+                                    class="form-check-input"
+                                    type="checkbox"
+                                    name="qty"
+                                    id="product12"
+                                    checked
+                                    value="1"
+                                  />
+                                  <label
+                                    class="form-check-label"
+                                    for="product12"
+                                  ></label>
+                                </div>
+                              </div>
+                            </div>
+                            <div>
+                              <a href="#" class="btn btn-success d-block mb-2"
+                                ><i class="fa fa-check fa-fw"></i>به‌روزرسانی</a
+                              >
+                              <a href="#" class="btn btn-default d-block"
+                                ><i class="fa fa-times fa-fw"></i> لغو</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-arrow">
+                        <div class="card-arrow-top-left"></div>
+                        <div class="card-arrow-top-right"></div>
+                        <div class="card-arrow-bottom-left"></div>
+                        <div class="card-arrow-bottom-right"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 pb-3">
+                    <div class="card h-100">
+                      <div class="card-body h-100 p-1">
+                        <div class="pos-product">
+                          <div
+                            class="img"
+                            style="
+                              background-image: url(assets/img/pos/product-13.jpg);
+                            "
+                          ></div>
+                          <div class="info">
+                            <div class="title text-truncate">بستنی وانیلی</div>
+                            <div class="desc text-truncate">
+                              خامه سنگین، شکر سفید، عصاره وانیل
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                              <div class="w-100px">در انبار:</div>
+                              <div class="flex-1">
+                                <input
+                                  type="text"
+                                  class="form-control"
+                                  value="50"
+                                />
+                              </div>
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                              <div class="w-100px">موجودی:</div>
+                              <div class="flex-1">
+                                <div class="form-check form-switch">
+                                  <input
+                                    class="form-check-input"
+                                    type="checkbox"
+                                    name="qty"
+                                    id="product13"
+                                    checked
+                                    value="1"
+                                  />
+                                  <label
+                                    class="form-check-label"
+                                    for="product13"
+                                  ></label>
+                                </div>
+                              </div>
+                            </div>
+                            <div>
+                              <a href="#" class="btn btn-success d-block mb-2"
+                                ><i class="fa fa-check fa-fw"></i>به‌روزرسانی</a
+                              >
+                              <a href="#" class="btn btn-default d-block"
+                                ><i class="fa fa-times fa-fw"></i> لغو</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-arrow">
+                        <div class="card-arrow-top-left"></div>
+                        <div class="card-arrow-top-right"></div>
+                        <div class="card-arrow-bottom-left"></div>
+                        <div class="card-arrow-bottom-right"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 pb-3">
+                    <div class="card h-100">
+                      <div class="card-body h-100 p-1">
+                        <div class="pos-product">
+                          <div
+                            class="img"
+                            style="
+                              background-image: url(assets/img/pos/product-14.jpg);
+                            "
+                          ></div>
+                          <div class="info">
+                            <div class="title text-truncate">دونات کامل</div>
+                            <div class="desc text-truncate">
+                              شکلات فندق ، آرد نان، دونات، مخمر، کره
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                              <div class="w-100px">در انبار:</div>
+                              <div class="flex-1">
+                                <input
+                                  type="text"
+                                  class="form-control"
+                                  value="10"
+                                />
+                              </div>
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                              <div class="w-100px">موجودی:</div>
+                              <div class="flex-1">
+                                <div class="form-check form-switch">
+                                  <input
+                                    class="form-check-input"
+                                    type="checkbox"
+                                    name="qty"
+                                    id="product14"
+                                    checked
+                                    value="1"
+                                  />
+                                  <label
+                                    class="form-check-label"
+                                    for="product14"
+                                  ></label>
+                                </div>
+                              </div>
+                            </div>
+                            <div>
+                              <a href="#" class="btn btn-success d-block mb-2"
+                                ><i class="fa fa-check fa-fw"></i>به‌روزرسانی</a
+                              >
+                              <a href="#" class="btn btn-default d-block"
+                                ><i class="fa fa-times fa-fw"></i> لغو</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-arrow">
+                        <div class="card-arrow-top-left"></div>
+                        <div class="card-arrow-top-right"></div>
+                        <div class="card-arrow-bottom-left"></div>
+                        <div class="card-arrow-bottom-right"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 pb-3">
+                    <div class="card h-100">
+                      <div class="card-body h-100 p-1">
+                        <div class="pos-product">
+                          <div
+                            class="img"
+                            style="
+                              background-image: url(assets/img/pos/product-15.jpg);
+                            "
+                          ></div>
+                          <div class="info">
+                            <div class="title text-truncate">ماکارون</div>
+                            <div class="desc text-truncate">
+                              آرد بادام، تخم مرغ، خامه سنگین، رنگ مواد غذایی،
+                              شکر پودر
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                              <div class="w-100px">در انبار:</div>
+                              <div class="flex-1">
+                                <input
+                                  type="text"
+                                  class="form-control"
+                                  value="20"
+                                />
+                              </div>
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                              <div class="w-100px">موجودی:</div>
+                              <div class="flex-1">
+                                <div class="form-check form-switch">
+                                  <input
+                                    class="form-check-input"
+                                    type="checkbox"
+                                    name="qty"
+                                    id="product15"
+                                    checked
+                                    value="1"
+                                  />
+                                  <label
+                                    class="form-check-label"
+                                    for="product15"
+                                  ></label>
+                                </div>
+                              </div>
+                            </div>
+                            <div>
+                              <a href="#" class="btn btn-success d-block mb-2"
+                                ><i class="fa fa-check fa-fw"></i>به‌روزرسانی</a
+                              >
+                              <a href="#" class="btn btn-default d-block"
+                                ><i class="fa fa-times fa-fw"></i> لغو</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-arrow">
+                        <div class="card-arrow-top-left"></div>
+                        <div class="card-arrow-top-right"></div>
+                        <div class="card-arrow-bottom-left"></div>
+                        <div class="card-arrow-bottom-right"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 pb-3">
+                    <div class="card h-100">
+                      <div class="card-body h-100 p-1">
+                        <div class="pos-product">
+                          <div
+                            class="img"
+                            style="
+                              background-image: url(assets/img/pos/product-16.jpg);
+                            "
+                          ></div>
+                          <div class="info">
+                            <div class="title text-truncate">کیک وانیلی</div>
+                            <div class="desc text-truncate">
+                              آرد ، کافیر ساده، عصاره وانیل
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                              <div class="w-100px">در انبار:</div>
+                              <div class="flex-1">
+                                <input
+                                  type="text"
+                                  class="form-control"
+                                  value="16"
+                                />
+                              </div>
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                              <div class="w-100px">موجودی:</div>
+                              <div class="flex-1">
+                                <div class="form-check form-switch">
+                                  <input
+                                    class="form-check-input"
+                                    type="checkbox"
+                                    name="qty"
+                                    id="product16"
+                                    checked
+                                    value="1"
+                                  />
+                                  <label
+                                    class="form-check-label"
+                                    for="product16"
+                                  ></label>
+                                </div>
+                              </div>
+                            </div>
+                            <div>
+                              <a href="#" class="btn btn-success d-block mb-2"
+                                ><i class="fa fa-check fa-fw"></i>به‌روزرسانی</a
+                              >
+                              <a href="#" class="btn btn-default d-block"
+                                ><i class="fa fa-times fa-fw"></i> لغو</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-arrow">
+                        <div class="card-arrow-top-left"></div>
+                        <div class="card-arrow-top-right"></div>
+                        <div class="card-arrow-bottom-left"></div>
+                        <div class="card-arrow-bottom-right"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-arrow">
+            <div class="card-arrow-top-left"></div>
+            <div class="card-arrow-top-right"></div>
+            <div class="card-arrow-bottom-left"></div>
+            <div class="card-arrow-bottom-right"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="app-theme-panel">
+        <div class="app-theme-panel-container">
+          <a
+            href="javascript:;"
+            data-toggle="theme-panel-expand"
+            class="app-theme-toggle-btn"
+            ><i class="bi bi-sliders"></i
+          ></a>
+          <div class="app-theme-panel-content">
+            <div class="small fw-bold text-white mb-1">رنگ قالب</div>
+            <div class="card mb-3">
+              <div class="card-body p-2">
+                <div class="app-theme-list">
+                  <div class="app-theme-list-item">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-list-link bg-pink"
+                      data-theme-class="theme-pink"
+                      data-toggle="theme-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="صورتی"
+                      >&nbsp;</a
+                    >
+                  </div>
+                  <div class="app-theme-list-item">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-list-link bg-red"
+                      data-theme-class="theme-red"
+                      data-toggle="theme-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="قرمز"
+                      >&nbsp;</a
+                    >
+                  </div>
+                  <div class="app-theme-list-item">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-list-link bg-warning"
+                      data-theme-class="theme-warning"
+                      data-toggle="theme-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="نارنجی"
+                      >&nbsp;</a
+                    >
+                  </div>
+                  <div class="app-theme-list-item">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-list-link bg-yellow"
+                      data-theme-class="theme-yellow"
+                      data-toggle="theme-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="زرد"
+                      >&nbsp;</a
+                    >
+                  </div>
+                  <div class="app-theme-list-item">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-list-link bg-lime"
+                      data-theme-class="theme-lime"
+                      data-toggle="theme-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="لیمویی"
+                      >&nbsp;</a
+                    >
+                  </div>
+                  <div class="app-theme-list-item">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-list-link bg-green"
+                      data-theme-class="theme-green"
+                      data-toggle="theme-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="سبز"
+                      >&nbsp;</a
+                    >
+                  </div>
+                  <div class="app-theme-list-item active">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-list-link bg-teal"
+                      data-theme-class=""
+                      data-toggle="theme-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="پیشفرض"
+                      >&nbsp;</a
+                    >
+                  </div>
+                  <div class="app-theme-list-item">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-list-link bg-info"
+                      data-theme-class="theme-info"
+                      data-toggle="theme-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="سبزآبی"
+                      >&nbsp;</a
+                    >
+                  </div>
+                  <div class="app-theme-list-item">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-list-link bg-primary"
+                      data-theme-class="theme-primary"
+                      data-toggle="theme-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="آبی"
+                      >&nbsp;</a
+                    >
+                  </div>
+                  <div class="app-theme-list-item">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-list-link bg-purple"
+                      data-theme-class="theme-purple"
+                      data-toggle="theme-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="بنفش"
+                      >&nbsp;</a
+                    >
+                  </div>
+                  <div class="app-theme-list-item">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-list-link bg-indigo"
+                      data-theme-class="theme-indigo"
+                      data-toggle="theme-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="یاسی"
+                      >&nbsp;</a
+                    >
+                  </div>
+                  <div class="app-theme-list-item">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-list-link bg-gray-100"
+                      data-theme-class="theme-gray-200"
+                      data-toggle="theme-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="خاکستری"
+                      >&nbsp;</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-arrow">
+                <div class="card-arrow-top-left"></div>
+                <div class="card-arrow-top-right"></div>
+                <div class="card-arrow-bottom-left"></div>
+                <div class="card-arrow-bottom-right"></div>
+              </div>
+            </div>
+            <div class="small fw-bold text-white mb-1">کاور تم</div>
+            <div class="card">
+              <div class="card-body p-2">
+                <div class="app-theme-cover">
+                  <div class="app-theme-cover-item active">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-cover-link"
+                      style="
+                        background-image: url(assets/img/cover/cover-thumb-1.jpg);
+                      "
+                      data-theme-cover-class=""
+                      data-toggle="theme-cover-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="پیشفرض"
+                      >&nbsp;</a
+                    >
+                  </div>
+                  <div class="app-theme-cover-item">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-cover-link"
+                      style="
+                        background-image: url(assets/img/cover/cover-thumb-2.jpg);
+                      "
+                      data-theme-cover-class="bg-cover-2"
+                      data-toggle="theme-cover-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="کاور 2"
+                      >&nbsp;</a
+                    >
+                  </div>
+                  <div class="app-theme-cover-item">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-cover-link"
+                      style="
+                        background-image: url(assets/img/cover/cover-thumb-3.jpg);
+                      "
+                      data-theme-cover-class="bg-cover-3"
+                      data-toggle="theme-cover-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="کاور 3"
+                      >&nbsp;</a
+                    >
+                  </div>
+                  <div class="app-theme-cover-item">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-cover-link"
+                      style="
+                        background-image: url(assets/img/cover/cover-thumb-4.jpg);
+                      "
+                      data-theme-cover-class="bg-cover-4"
+                      data-toggle="theme-cover-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="کاور 4"
+                      >&nbsp;</a
+                    >
+                  </div>
+                  <div class="app-theme-cover-item">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-cover-link"
+                      style="
+                        background-image: url(assets/img/cover/cover-thumb-5.jpg);
+                      "
+                      data-theme-cover-class="bg-cover-5"
+                      data-toggle="theme-cover-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="کاور 5"
+                      >&nbsp;</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-arrow">
+                <div class="card-arrow-top-left"></div>
+                <div class="card-arrow-top-right"></div>
+                <div class="card-arrow-bottom-left"></div>
+                <div class="card-arrow-bottom-right"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a href="#" data-toggle="scroll-to-top" class="btn-scroll-top fade"
+        ><i class="fa fa-arrow-up"></i
+      ></a>
+    </div>
+
+    <script
+      src="assets/js/vendor.min.js"
+      type="a9e4ca1690c3ac3b49dbbd35-text/javascript"
+    ></script>
+    <script
+      src="assets/js/app.min.js"
+      type="a9e4ca1690c3ac3b49dbbd35-text/javascript"
+    ></script>
+
+    <script
+      src="assets/js/demo/pos-menu-stock.demo.js"
+      type="a9e4ca1690c3ac3b49dbbd35-text/javascript"
+    ></script>
+
+    <script
+      src="assets/plugins/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js"
+      data-cf-settings="a9e4ca1690c3ac3b49dbbd35-|49"
+      defer=""
+    ></script>
+    <script
+      defer
+      src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194"
+      integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw=="
+      data-cf-beacon='{"rayId":"6e58f8b82c038ec8","version":"2021.12.0","r":1,"token":"4db8c6ef997743fda032d4f73cfeff63","si":100}'
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

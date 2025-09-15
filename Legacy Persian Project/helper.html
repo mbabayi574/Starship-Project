@@ -1,0 +1,3017 @@
+<!doctype html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <title>اچ‌یودی | هلپرها</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <link href="assets/css/vendor.min.css" rel="stylesheet" />
+    <link href="assets/css/app.min.css" rel="stylesheet" />
+  </head>
+
+  <body
+    data-bs-spy="scroll"
+    data-bs-target="#sidebar-bootstrap"
+    data-bs-offset="200"
+  >
+    <div id="app" class="app">
+      <div id="header" class="app-header">
+        <div class="desktop-toggler">
+          <button
+            type="button"
+            class="menu-toggler"
+            data-toggle-class="app-sidebar-collapsed"
+            data-dismiss-class="app-sidebar-toggled"
+            data-toggle-target=".app"
+          >
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </button>
+        </div>
+
+        <div class="mobile-toggler">
+          <button
+            type="button"
+            class="menu-toggler"
+            data-toggle-class="app-sidebar-mobile-toggled"
+            data-toggle-target=".app"
+          >
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </button>
+        </div>
+
+        <div class="brand">
+          <a href="#" class="brand-logo">
+            <span class="brand-img">
+              <span class="brand-img-text text-theme">ه</span>
+            </span>
+            <span class="brand-text">اچ‌یودی ادمین</span>
+          </a>
+        </div>
+
+        <div class="menu">
+          <div class="menu-item dropdown">
+            <a
+              href="#"
+              data-toggle-class="app-header-menu-search-toggled"
+              data-toggle-target=".app"
+              class="menu-link"
+            >
+              <div class="menu-icon"><i class="bi bi-search nav-icon"></i></div>
+            </a>
+          </div>
+          <div class="menu-item dropdown dropdown-mobile-full">
+            <a
+              href="#"
+              data-bs-toggle="dropdown"
+              data-bs-display="static"
+              class="menu-link"
+            >
+              <div class="menu-icon">
+                <i class="bi bi-grid-3x3-gap nav-icon"></i>
+              </div>
+            </a>
+            <div
+              class="dropdown-menu fade dropdown-menu-end w-300px text-center p-0 mt-1"
+            >
+              <div class="row row-grid gx-0">
+                <div class="col-4">
+                  <a
+                    href="#"
+                    class="dropdown-item text-decoration-none p-3 bg-none"
+                  >
+                    <div class="position-relative">
+                      <i
+                        class="bi bi-circle-fill position-absolute text-theme top-0 mt-n2 me-n2 fs-6px d-block text-center w-100"
+                      ></i>
+                      <i class="bi bi-envelope h2 opacity-5 d-block my-1"></i>
+                    </div>
+                    <div class="fw-500 fs-10px text-white">صندوق ورودی</div>
+                  </a>
+                </div>
+                <div class="col-4">
+                  <a
+                    href="#"
+                    class="dropdown-item text-decoration-none p-3 bg-none"
+                  >
+                    <div>
+                      <i
+                        class="bi bi-hdd-network h2 opacity-5 d-block my-1"
+                      ></i>
+                    </div>
+                    <div class="fw-500 fs-10px text-white">دیسک درایو</div>
+                  </a>
+                </div>
+                <div class="col-4">
+                  <a
+                    href="#"
+                    class="dropdown-item text-decoration-none p-3 bg-none"
+                  >
+                    <div>
+                      <i class="bi bi-calendar4 h2 opacity-5 d-block my-1"></i>
+                    </div>
+                    <div class="fw-500 fs-10px text-white">تقویم</div>
+                  </a>
+                </div>
+              </div>
+              <div class="row row-grid gx-0">
+                <div class="col-4">
+                  <a
+                    href="#"
+                    class="dropdown-item text-decoration-none p-3 bg-none"
+                  >
+                    <div>
+                      <i class="bi bi-terminal h2 opacity-5 d-block my-1"></i>
+                    </div>
+                    <div class="fw-500 fs-10px text-white">ترمینال</div>
+                  </a>
+                </div>
+                <div class="col-4">
+                  <a
+                    href="#"
+                    class="dropdown-item text-decoration-none p-3 bg-none"
+                  >
+                    <div class="position-relative">
+                      <i
+                        class="bi bi-circle-fill position-absolute text-theme top-0 mt-n2 me-n2 fs-6px d-block text-center w-100"
+                      ></i>
+                      <i class="bi bi-sliders h2 opacity-5 d-block my-1"></i>
+                    </div>
+                    <div class="fw-500 fs-10px text-white">تنظیمات</div>
+                  </a>
+                </div>
+                <div class="col-4">
+                  <a
+                    href="#"
+                    class="dropdown-item text-decoration-none p-3 bg-none"
+                  >
+                    <div>
+                      <i
+                        class="bi bi-collection-play h2 opacity-5 d-block my-1"
+                      ></i>
+                    </div>
+                    <div class="fw-500 fs-10px text-white">کتابخانه</div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="menu-item dropdown dropdown-mobile-full">
+            <a
+              href="#"
+              data-bs-toggle="dropdown"
+              data-bs-display="static"
+              class="menu-link"
+            >
+              <div class="menu-icon"><i class="bi bi-bell nav-icon"></i></div>
+              <div class="menu-badge bg-theme"></div>
+            </a>
+            <div
+              class="dropdown-menu dropdown-menu-end mt-1 w-300px fs-11px pt-1"
+            >
+              <h6 class="dropdown-header fs-10px mb-1">اطلاعیه‌ها</h6>
+              <div class="dropdown-divider mt-1"></div>
+              <a
+                href="#"
+                class="d-flex align-items-center py-10px dropdown-item text-wrap"
+              >
+                <div class="fs-20px">
+                  <i class="bi bi-bag text-theme"></i>
+                </div>
+                <div class="flex-1 flex-wrap ps-3">
+                  <div class="mb-1 text-white">
+                    سفارش جدید دریافتی(1,299 تومان)
+                  </div>
+                  <div class="small">اکنون</div>
+                </div>
+                <div class="ps-2 fs-16px">
+                  <i class="bi bi-chevron-left"></i>
+                </div>
+              </a>
+              <a
+                href="#"
+                class="d-flex align-items-center py-10px dropdown-item text-wrap"
+              >
+                <div class="fs-20px w-20px">
+                  <i class="bi bi-person-circle text-theme"></i>
+                </div>
+                <div class="flex-1 flex-wrap ps-3">
+                  <div class="mb-1 text-white">3 اکانت ساخته شد</div>
+                  <div class="small">2 دقیقه قبل</div>
+                </div>
+                <div class="ps-2 fs-16px">
+                  <i class="bi bi-chevron-left"></i>
+                </div>
+              </a>
+              <a
+                href="#"
+                class="d-flex align-items-center py-10px dropdown-item text-wrap"
+              >
+                <div class="fs-20px w-20px">
+                  <i class="bi bi-gear text-theme"></i>
+                </div>
+                <div class="flex-1 flex-wrap ps-3">
+                  <div class="mb-1 text-white">نصب کامل شد</div>
+                  <div class="small">3 دقیقه قبل</div>
+                </div>
+                <div class="ps-2 fs-16px">
+                  <i class="bi bi-chevron-left"></i>
+                </div>
+              </a>
+              <a
+                href="#"
+                class="d-flex align-items-center py-10px dropdown-item text-wrap"
+              >
+                <div class="fs-20px w-20px">
+                  <i class="bi bi-grid text-theme"></i>
+                </div>
+                <div class="flex-1 flex-wrap ps-3">
+                  <div class="mb-1 text-white">ویجت اینستاگرام نصب شد</div>
+                  <div class="small">5 دقیقه قبل</div>
+                </div>
+                <div class="ps-2 fs-16px">
+                  <i class="bi bi-chevron-left"></i>
+                </div>
+              </a>
+              <a
+                href="#"
+                class="d-flex align-items-center py-10px dropdown-item text-wrap"
+              >
+                <div class="fs-20px w-20px">
+                  <i class="bi bi-credit-card text-theme"></i>
+                </div>
+                <div class="flex-1 flex-wrap ps-3">
+                  <div class="mb-1 text-white">روش پرداختی فعال شد</div>
+                  <div class="small">10 دقیقه قبل</div>
+                </div>
+                <div class="ps-2 fs-16px">
+                  <i class="bi bi-chevron-left"></i>
+                </div>
+              </a>
+              <hr class="bg-white-transparent-5 mb-0 mt-2" />
+              <div class="py-10px mb-n2 text-center">
+                <a href="#" class="text-decoration-none fw-bold">دیدن همه</a>
+              </div>
+            </div>
+          </div>
+          <div class="menu-item dropdown dropdown-mobile-full">
+            <a
+              href="#"
+              data-bs-toggle="dropdown"
+              data-bs-display="static"
+              class="menu-link"
+            >
+              <div class="menu-img online">
+                <img src="assets/img/user/profile.jpg" height="60px" />
+              </div>
+              <div class="menu-text d-sm-block d-none">
+                <span
+                  class="__cf_email__"
+                  data-cfemail="44313721362a252921042527272b312a306a272b29"
+                  >[email&#160;protected]</span
+                >
+              </div>
+            </a>
+            <div class="dropdown-menu dropdown-menu-end me-lg-3 fs-11px mt-1">
+              <a class="dropdown-item d-flex align-items-center" href="#"
+                >پروفایل<i
+                  class="bi bi-person-circle ms-auto text-theme fs-16px my-n1"
+                ></i
+              ></a>
+              <a class="dropdown-item d-flex align-items-center" href="#"
+                >صندوق ورودی<i
+                  class="bi bi-envelope ms-auto text-theme fs-16px my-n1"
+                ></i
+              ></a>
+              <a class="dropdown-item d-flex align-items-center" href="#"
+                >تقویم<i
+                  class="bi bi-calendar ms-auto text-theme fs-16px my-n1"
+                ></i
+              ></a>
+              <a class="dropdown-item d-flex align-items-center" href="#"
+                >تنظیمات<i
+                  class="bi bi-gear ms-auto text-theme fs-16px my-n1"
+                ></i
+              ></a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item d-flex align-items-center" href="#"
+                >خروج<i
+                  class="bi bi-toggle-off ms-auto text-theme fs-16px my-n1"
+                ></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <form class="menu-search" method="POST" name="header_search_form">
+          <div class="menu-search-container">
+            <div class="menu-search-icon"><i class="bi bi-search"></i></div>
+            <div class="menu-search-input">
+              <input
+                type="text"
+                class="form-control form-control-lg"
+                placeholder="جستجو..."
+              />
+            </div>
+            <div class="menu-search-icon">
+              <a
+                href="#"
+                data-toggle-class="app-header-menu-search-toggled"
+                data-toggle-target=".app"
+                ><i class="bi bi-x-lg"></i
+              ></a>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div id="sidebar" class="app-sidebar">
+        <div
+          class="app-sidebar-content"
+          data-scrollbar="true"
+          data-height="100%"
+        >
+          <div class="menu">
+            <div class="menu-header">ناوبری</div>
+            <div class="menu-item">
+              <a href="index.html" class="menu-link">
+                <span class="menu-icon"><i class="bi bi-cpu"></i></span>
+                <span class="menu-text">داشبرد</span>
+              </a>
+            </div>
+            <div class="menu-item">
+              <a href="analytics.html" class="menu-link">
+                <span class="menu-icon"><i class="bi bi-bar-chart"></i></span>
+                <span class="menu-text">آمار</span>
+              </a>
+            </div>
+            <div class="menu-item has-sub">
+              <a href="#" class="menu-link">
+                <span class="menu-icon">
+                  <i class="bi bi-envelope"></i>
+                </span>
+                <span class="menu-text">ایمیل</span>
+                <span class="menu-caret"><b class="caret"></b></span>
+              </a>
+              <div class="menu-submenu">
+                <div class="menu-item">
+                  <a href="email_inbox.html" class="menu-link">
+                    <span class="menu-text">صندوق ورودی</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="email_compose.html" class="menu-link">
+                    <span class="menu-text">ارسال</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="email_detail.html" class="menu-link">
+                    <span class="menu-text">جزییات</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="menu-header">کامپوننت‌ها</div>
+            <div class="menu-item">
+              <a href="widgets.html" class="menu-link">
+                <span class="menu-icon"><i class="bi bi-columns-gap"></i></span>
+                <span class="menu-text">ویجت‌ها</span>
+              </a>
+            </div>
+            <div class="menu-item has-sub">
+              <a href="javascript:;" class="menu-link">
+                <div class="menu-icon">
+                  <i class="bi bi-bag-check"></i>
+                  <span
+                    class="w-5px h-5px rounded-3 bg-theme position-absolute top-0 end-0 mt-3px me-3px"
+                  ></span>
+                </div>
+                <div class="menu-text d-flex align-items-center">سیستم پوز</div>
+                <span class="menu-caret"><b class="caret"></b></span>
+              </a>
+              <div class="menu-submenu">
+                <div class="menu-item">
+                  <a
+                    href="pos_customer_order.html"
+                    target="_blank"
+                    class="menu-link"
+                  >
+                    <div class="menu-text">سفارش مشتری</div>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a
+                    href="pos_kitchen_order.html"
+                    target="_blank"
+                    class="menu-link"
+                  >
+                    <div class="menu-text">سفارش آشپزخانه</div>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a
+                    href="pos_counter_checkout.html"
+                    target="_blank"
+                    class="menu-link"
+                  >
+                    <div class="menu-text">پیشخوان پرداخت</div>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a
+                    href="pos_table_booking.html"
+                    target="_blank"
+                    class="menu-link"
+                  >
+                    <div class="menu-text">رزرو میز</div>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a
+                    href="pos_menu_stock.html"
+                    target="_blank"
+                    class="menu-link"
+                  >
+                    <div class="menu-text">موجودی انبار</div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="menu-item has-sub">
+              <a href="#" class="menu-link">
+                <span class="menu-icon"><i class="bi bi-controller"></i></span>
+                <span class="menu-text">کیت رابط کاربری</span>
+                <span class="menu-caret"><b class="caret"></b></span>
+              </a>
+              <div class="menu-submenu">
+                <div class="menu-item">
+                  <a href="ui_bootstrap.html" class="menu-link">
+                    <span class="menu-text">بوت‌سترپ</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="ui_buttons.html" class="menu-link">
+                    <span class="menu-text">دکمه‌ها</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="ui_card.html" class="menu-link">
+                    <span class="menu-text">کا‌رت‌ها</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="ui_icons.html" class="menu-link">
+                    <span class="menu-text">آیکون‌ها</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="ui_modal_notification.html" class="menu-link">
+                    <span class="menu-text">مودال و اطلاعیه</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="ui_typography.html" class="menu-link">
+                    <span class="menu-text">تایپوگرافی</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="ui_tabs_accordions.html" class="menu-link">
+                    <span class="menu-text">تب و آکاردیون</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="menu-item has-sub">
+              <a href="#" class="menu-link">
+                <span class="menu-icon"><i class="bi bi-pen"></i></span>
+                <span class="menu-text">فرم‌ها</span>
+                <span class="menu-caret"><b class="caret"></b></span>
+              </a>
+              <div class="menu-submenu">
+                <div class="menu-item">
+                  <a href="form_elements.html" class="menu-link">
+                    <span class="menu-text">المنت‌های فرم‌</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="form_plugins.html" class="menu-link">
+                    <span class="menu-text">پلاگین‌های فرم‌</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="form_wizards.html" class="menu-link">
+                    <span class="menu-text">ویزاردها</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="menu-item has-sub">
+              <a href="#" class="menu-link">
+                <span class="menu-icon"><i class="bi bi-grid-3x3"></i></span>
+                <span class="menu-text">جداول</span>
+                <span class="menu-caret"><b class="caret"></b></span>
+              </a>
+              <div class="menu-submenu">
+                <div class="menu-item">
+                  <a href="table_elements.html" class="menu-link">
+                    <span class="menu-text">المنت‌های جدول</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="table_plugins.html" class="menu-link">
+                    <span class="menu-text">افزونه‌های جدول</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="menu-item has-sub">
+              <a href="#" class="menu-link">
+                <span class="menu-icon"><i class="bi bi-pie-chart"></i></span>
+                <span class="menu-text">نمودارها</span>
+                <span class="menu-caret"><b class="caret"></b></span>
+              </a>
+              <div class="menu-submenu">
+                <div class="menu-item">
+                  <a href="chart_js.html" class="menu-link">
+                    <span class="menu-text">چارت جی‌اس</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="chart_apex.html" class="menu-link">
+                    <span class="menu-text">اپکس چارت</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="menu-item">
+              <a href="map.html" class="menu-link">
+                <span class="menu-icon"><i class="bi bi-compass"></i></span>
+                <span class="menu-text">نقشه</span>
+              </a>
+            </div>
+            <div class="menu-item has-sub">
+              <a href="#" class="menu-link">
+                <span class="menu-icon"
+                  ><i class="bi bi-layout-sidebar"></i
+                ></span>
+                <span class="menu-text">چینش</span>
+                <span class="menu-caret"><b class="caret"></b></span>
+              </a>
+              <div class="menu-submenu">
+                <div class="menu-item">
+                  <a href="layout_starter.html" class="menu-link">
+                    <span class="menu-text">صفحه شروع</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="layout_fixed_footer.html" class="menu-link">
+                    <span class="menu-text">فوتر ثابت</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="layout_full_height.html" class="menu-link">
+                    <span class="menu-text">ارتفاع کامل</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="layout_full_width.html" class="menu-link">
+                    <span class="menu-text">تمام عرض</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="layout_boxed_layout.html" class="menu-link">
+                    <span class="menu-text">چینش باکس</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="layout_collapsed_sidebar.html" class="menu-link">
+                    <span class="menu-text">سایدبار چسبیده</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="menu-item has-sub">
+              <a href="#" class="menu-link">
+                <span class="menu-icon"><i class="bi bi-collection"></i></span>
+                <span class="menu-text">صفحات</span>
+                <span class="menu-caret"><b class="caret"></b></span>
+              </a>
+              <div class="menu-submenu">
+                <div class="menu-item">
+                  <a href="page_scrum_board.html" class="menu-link">
+                    <span class="menu-text">اسکرام برد</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="page_products.html" class="menu-link">
+                    <span class="menu-text">محصولات</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="page_orders.html" class="menu-link">
+                    <span class="menu-text">سفارشات</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="page_gallery.html" class="menu-link">
+                    <span class="menu-text">گالری</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="page_search_results.html" class="menu-link">
+                    <span class="menu-text">نتایج جستجو</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="page_coming_soon.html" class="menu-link">
+                    <span class="menu-text">به زودی</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="page_404_error.html" class="menu-link">
+                    <span class="menu-text">خطای 404</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="page_login.html" class="menu-link">
+                    <span class="menu-text">ورود</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="page_register.html" class="menu-link">
+                    <span class="menu-text">ثبت نام</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="menu-divider"></div>
+            <div class="menu-header">کاربران</div>
+            <div class="menu-item">
+              <a href="profile.html" class="menu-link">
+                <span class="menu-icon"><i class="bi bi-people"></i></span>
+                <span class="menu-text">پروفایل</span>
+              </a>
+            </div>
+            <div class="menu-item">
+              <a href="calendar.html" class="menu-link">
+                <span class="menu-icon"><i class="bi bi-calendar4"></i></span>
+                <span class="menu-text">تقویم</span>
+              </a>
+            </div>
+            <div class="menu-item">
+              <a href="settings.html" class="menu-link">
+                <span class="menu-icon"><i class="bi bi-gear"></i></span>
+                <span class="menu-text">تنظیمات</span>
+              </a>
+            </div>
+            <div class="menu-item active">
+              <a href="helper.html" class="menu-link">
+                <span class="menu-icon"><i class="bi bi-gem"></i></span>
+                <span class="menu-text">راهنما</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="p-3 px-4 mt-auto">
+            <a
+              href="documentation/index.html"
+              class="btn d-block btn-outline-theme"
+            >
+              <i class="fa fa-code-branch me-2 ms-n2 opacity-5"></i> مستندات
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <button
+        class="app-sidebar-mobile-backdrop"
+        data-toggle-target=".app"
+        data-toggle-class="app-sidebar-mobile-toggled"
+      ></button>
+
+      <div id="content" class="app-content">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-xl-10">
+              <div class="row">
+                <div class="col-xl-9">
+                  <h1 class="page-header">
+                    هلپرها <small>توضیح هدر در این قسمت قرار دارد...</small>
+                  </h1>
+                  <hr class="mb-4" />
+
+                  <div id="borders" class="mb-5">
+                    <h4>خط ها</h4>
+                    <p>
+                      از ابزارهای خط برای استایل سریع حاشیه و شعاع حاشیه یک عنصر
+                      استفاده کنید. برای تصاویر، دکمه ها یا هر عنصر دیگری عالی
+                      است. لطفا.
+                      <a
+                        href="https://getbootstrap.com/docs/5.0/utultions/borders/"
+                        spress=""
+                        ="blank"
+                      >
+                        مستندات رسمی
+                      </a>
+                      برای لیست کامل گزینه ها را بخوانید.
+                    </p>
+                    <div class="card">
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col-lg mb-lg-0 mb-3">
+                            <div
+                              class="small fw-bold text-white text-opacity-50 mb-3"
+                            >
+                              افزودنی
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px border me-2 bg-gray-100-transparent-5"
+                              ></div>
+                              .border
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px border-top me-2 bg-gray-100-transparent-5"
+                              ></div>
+                              .border-top
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px border-end me-2 bg-gray-100-transparent-5"
+                              ></div>
+                              .border-end
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px border-bottom me-2 bg-gray-100-transparent-5"
+                              ></div>
+                              .border-bottom
+                            </div>
+                            <div class="d-flex align-items-center mb-4">
+                              <div
+                                class="w-30px h-30px border-start me-2 bg-gray-100-transparent-5"
+                              ></div>
+                              .border-start
+                            </div>
+                            <div
+                              class="small fw-bold text-white text-opacity-50 mb-3"
+                            >
+                              کاهشی (برداشتن)
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px border border-0 me-2 bg-gray-100-transparent-5"
+                              ></div>
+                              .border-0
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px border border-top-0 me-2 bg-gray-100-transparent-5"
+                              ></div>
+                              .border-top-0
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px border border-end-0 me-2 bg-gray-100-transparent-5"
+                              ></div>
+                              .border-end-0
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px border border-bottom-0 me-2 bg-gray-100-transparent-5"
+                              ></div>
+                              .border-bottom-0
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px border border-start-0 me-2 bg-gray-100-transparent-5"
+                              ></div>
+                              .border-start-0
+                            </div>
+                          </div>
+                          <div class="col-lg">
+                            <div
+                              class="small fw-bold text-white text-opacity-50 mb-3"
+                            >
+                              رنگ لبه
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px border border-primary me-2 bg-gray-100-transparent-5"
+                              ></div>
+                              .border-primary
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px border border-secondary me-2 bg-gray-100-transparent-5"
+                              ></div>
+                              .border-secondary
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px border border-success me-2 bg-gray-100-transparent-5"
+                              ></div>
+                              .border-success
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px border border-danger me-2 bg-gray-100-transparent-5"
+                              ></div>
+                              .border-danger
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px border border-warning me-2 bg-gray-100-transparent-5"
+                              ></div>
+                              .border-warning
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px border border-info me-2 bg-gray-100-transparent-5"
+                              ></div>
+                              .border-info
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px border border-light me-2 bg-gray-100-transparent-5"
+                              ></div>
+                              .border-light
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px border border-dark me-2 bg-gray-100-transparent-5"
+                              ></div>
+                              .border-dark
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px border border-white me-2 bg-gray-100-transparent-5"
+                              ></div>
+                              .border-white
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-arrow">
+                        <div class="card-arrow-top-left"></div>
+                        <div class="card-arrow-top-right"></div>
+                        <div class="card-arrow-bottom-left"></div>
+                        <div class="card-arrow-bottom-right"></div>
+                      </div>
+                      <div class="hljs-container">
+                        <pre><code>&lt;!-- additive example --&gt;
+&lt;span class="border"&gt;&lt;/span&gt;
+
+&lt;!-- subtractive example --&gt;
+&lt;span class="border-0"&gt;&lt;/span&gt;
+
+&lt;!-- border color example --&gt;
+&lt;span class="border border-primary"&gt;&lt;/span&gt;</code></pre>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="borderRadius" class="mb-5">
+                    <h4>گوشه گرد</h4>
+                    <p>
+                      کلاس ها را به یک عنصر اضافه کنید تا به راحتی گوشه های خود
+                      را گرد کنید. لطفا
+                      <a
+                        href="https://getbootstrap.com/docs/5.0/utilities/borders/#border-radius"
+                        target="_blank"
+                      >
+                        مستندات رسمی
+                      </a>
+                      برای لیست کامل گزینه ها بخوانید.
+                    </p>
+                    <div class="card">
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col-lg mb-lg-0 mb-3">
+                            <div
+                              class="small fw-bold text-white text-opacity-50 mb-3"
+                            >
+                              گوشه گرد
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-60px h-30px me-2 bg-white bg-opacity-25 rounded"
+                              ></div>
+                              .rounded
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-60px h-30px me-2 bg-white bg-opacity-25 rounded-top"
+                              ></div>
+                              .rounded-top
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-60px h-30px me-2 bg-white bg-opacity-25 rounded-end"
+                              ></div>
+                              .rounded-end
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-60px h-30px me-2 bg-white bg-opacity-25 rounded-bottom"
+                              ></div>
+                              .rounded-bottom
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-60px h-30px me-2 bg-white bg-opacity-25 rounded-start"
+                              ></div>
+                              .rounded-start
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-60px h-30px me-2 bg-white bg-opacity-25 rounded-pill"
+                              ></div>
+                              .rounded-pill
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-60px h-30px me-2 bg-white bg-opacity-25 rounded-circle"
+                              ></div>
+                              .rounded-circle
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-60px h-30px me-2 bg-white bg-opacity-25 rounded-0"
+                              ></div>
+                              .rounded-0
+                            </div>
+                          </div>
+                          <div class="col-lg">
+                            <div
+                              class="small fw-bold text-white text-opacity-50 mb-3"
+                            >
+                              سایز گوشه های گرد
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-60px h-30px me-2 bg-white bg-opacity-25 rounded"
+                              ></div>
+                              .rounded
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-60px h-30px me-2 bg-white bg-opacity-25 rounded-1"
+                              ></div>
+                              .rounded-1
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-60px h-30px me-2 bg-white bg-opacity-25 rounded-2"
+                              ></div>
+                              .rounded-2
+                            </div>
+                            <div class="d-flex align-items-center mb-4">
+                              <div
+                                class="w-60px h-30px me-2 bg-white bg-opacity-25 rounded-3"
+                              ></div>
+                              .rounded-3
+                            </div>
+                            <div
+                              class="small fw-bold text-white text-opacity-50 mb-3"
+                            >
+                              حذف گوشه گرد
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-60px h-30px me-2 bg-white bg-opacity-25 rounded rounded-top-0"
+                              ></div>
+                              .rounded-top-0
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-60px h-30px me-2 bg-white bg-opacity-25 rounded rounded-top-start-0"
+                              ></div>
+                              .rounded-top-start-0
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-60px h-30px me-2 bg-white bg-opacity-25 rounded rounded-top-end-0"
+                              ></div>
+                              .rounded-top-end-0
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-60px h-30px me-2 bg-white bg-opacity-25 rounded rounded-bottom-0"
+                              ></div>
+                              .rounded-bottom-0
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-60px h-30px me-2 bg-white bg-opacity-25 rounded rounded-bottom-start-0"
+                              ></div>
+                              .rounded-bottom-start-0
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-60px h-30px me-2 bg-white bg-opacity-25 rounded rounded-bottom-end-0"
+                              ></div>
+                              .rounded-bottom-end-0
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-arrow">
+                        <div class="card-arrow-top-left"></div>
+                        <div class="card-arrow-top-right"></div>
+                        <div class="card-arrow-bottom-left"></div>
+                        <div class="card-arrow-bottom-right"></div>
+                      </div>
+                      <div class="hljs-container">
+                        <pre><code>&lt;!-- border-radius example --&gt;
+&lt;img src="" alt="" class="rounded" /&gt;
+
+&lt;!-- border-radius sizes example --&gt;
+&lt;img src="" alt="" class="rounded-sm" /&gt;
+</code></pre>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="textColor" class="mb-5">
+                    <h4>رنگ متن</h4>
+                    <p>
+                      معنی را از طریق رنگ با تعداد انگشت شماری از کلاس های ابزار
+                      رنگی انتقال دهید.شامل پشتیبانی از لینک های یک ظاهر طراحی
+                      شده با حالت های شناور نیز می شود.لطفا
+                      <a
+                        href="https://getbootstrap.com/docs/5.0/utilities/colors/#color"
+                        target="_blank"
+                      >
+                        مستندات رسمی
+                      </a>
+                      برای لیست کامل گزینه ها را بخوانید.
+                    </p>
+                    <div class="card">
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col-lg mb-lg-0 mb-3">
+                            <div
+                              class="text-white text-opacity-50 fw-bold small mb-3"
+                            >
+                              رنگ متن بوت استرپ
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px me-2 border fs-16px d-flex align-items-center justify-content-center text-primary font-weight-bolder"
+                              >
+                                T
+                              </div>
+                              .text-primary
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px me-2 border fs-16px d-flex align-items-center justify-content-center text-secondary font-weight-bolder"
+                              >
+                                T
+                              </div>
+                              .text-secondary
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px me-2 border fs-16px d-flex align-items-center justify-content-center text-success font-weight-bolder"
+                              >
+                                T
+                              </div>
+                              .text-success
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px me-2 border fs-16px d-flex align-items-center justify-content-center text-danger font-weight-bolder"
+                              >
+                                T
+                              </div>
+                              .text-danger
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px me-2 border fs-16px d-flex align-items-center justify-content-center text-warning font-weight-bolder"
+                              >
+                                T
+                              </div>
+                              .text-warning
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px me-2 border fs-16px d-flex align-items-center justify-content-center text-info font-weight-bolder"
+                              >
+                                T
+                              </div>
+                              .text-info
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px me-2 border fs-16px d-flex align-items-center justify-content-center text-dark font-weight-bolder"
+                              >
+                                T
+                              </div>
+                              .text-dark
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px me-2 border fs-16px d-flex align-items-center justify-content-center text-body font-weight-bolder"
+                              >
+                                T
+                              </div>
+                              .text-body
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px me-2 border fs-16px d-flex align-items-center justify-content-center text-muted font-weight-bolder"
+                              >
+                                T
+                              </div>
+                              .text-muted
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px me-2 border fs-16px d-flex align-items-center justify-content-center text-black-50 font-weight-bolder"
+                              >
+                                T
+                              </div>
+                              .text-black-50
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px me-2 border fs-16px d-flex align-items-center justify-content-center text-white font-weight-bolder bg-dark border-dark"
+                              >
+                                T
+                              </div>
+                              .text-white
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px me-2 border fs-16px d-flex align-items-center justify-content-center text-light font-weight-bolder bg-dark border-dark"
+                              >
+                                T
+                              </div>
+                              .text-light
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px me-2 border fs-16px d-flex align-items-center justify-content-center text-white-50 font-weight-bolder bg-dark border-dark"
+                              >
+                                T
+                              </div>
+                              .text-white-50
+                            </div>
+                          </div>
+                          <div class="col-lg">
+                            <div
+                              class="text-white text-opacity-50 fw-bold small mb-3"
+                            >
+                              رنگ متن بیشتر
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px me-2 border fs-16px d-flex align-items-center justify-content-center text-teal font-weight-bolder"
+                              >
+                                T
+                              </div>
+                              .text-teal
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px me-2 border fs-16px d-flex align-items-center justify-content-center text-indigo font-weight-bolder"
+                              >
+                                T
+                              </div>
+                              .text-indigo
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px me-2 border fs-16px d-flex align-items-center justify-content-center text-purple font-weight-bolder"
+                              >
+                                T
+                              </div>
+                              .text-purple
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px me-2 border fs-16px d-flex align-items-center justify-content-center text-yellow font-weight-bolder"
+                              >
+                                T
+                              </div>
+                              .text-yellow
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px me-2 border fs-16px d-flex align-items-center justify-content-center text-gray-100 font-weight-bolder"
+                              >
+                                T
+                              </div>
+                              .text-gray-100
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px me-2 border fs-16px d-flex align-items-center justify-content-center text-gray-200 font-weight-bolder"
+                              >
+                                T
+                              </div>
+                              .text-gray-200
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px me-2 border fs-16px d-flex align-items-center justify-content-center text-gray-300 font-weight-bolder"
+                              >
+                                T
+                              </div>
+                              .text-gray-300
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px me-2 border fs-16px d-flex align-items-center justify-content-center text-gray-400 font-weight-bolder"
+                              >
+                                T
+                              </div>
+                              .text-gray-400
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px me-2 border fs-16px d-flex align-items-center justify-content-center text-gray-500 font-weight-bolder"
+                              >
+                                T
+                              </div>
+                              .text-gray-500
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px me-2 border fs-16px d-flex align-items-center justify-content-center text-gray-600 font-weight-bolder"
+                              >
+                                T
+                              </div>
+                              .text-gray-600
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px me-2 border fs-16px d-flex align-items-center justify-content-center text-gray-700 font-weight-bolder"
+                              >
+                                T
+                              </div>
+                              .text-gray-700
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px me-2 border fs-16px d-flex align-items-center justify-content-center text-gray-800 font-weight-bolder"
+                              >
+                                T
+                              </div>
+                              .text-gray-800
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px me-2 border fs-16px d-flex align-items-center justify-content-center text-gray-900 font-weight-bolder"
+                              >
+                                T
+                              </div>
+                              .text-gray-900
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-arrow">
+                        <div class="card-arrow-top-left"></div>
+                        <div class="card-arrow-top-right"></div>
+                        <div class="card-arrow-bottom-left"></div>
+                        <div class="card-arrow-bottom-right"></div>
+                      </div>
+                      <div class="hljs-container">
+                        <pre><code class="xml">&lt;!-- example --&gt;
+&lt;p class="text-theme"&gt;&lt;/p&gt;</code></pre>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="textTransparentColor" class="mb-5">
+                    <h4>رنگ متن شفاف</h4>
+                    <p>
+                      ما در حال حاضر متن شفاف از 10٪ تا 90٪ شفاف پشتیبانی می
+                      کنیم.همچنین برای هر کلاس متن دیگر نیز قابل استفاده است
+                      <code>.text-teal-transparent-*</code>.
+                    </p>
+                    <div class="card">
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col-lg mb-lg-0 mb-3">
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px me-2 border fs-16px d-flex align-items-center justify-content-center text-theme text-opacity-5 font-weight-bolder"
+                              >
+                                T
+                              </div>
+                              .text-opacity-5
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px me-2 border fs-16px d-flex align-items-center justify-content-center text-theme text-opacity-10 font-weight-bolder"
+                              >
+                                T
+                              </div>
+                              .text-opacity-10
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px me-2 border fs-16px d-flex align-items-center justify-content-center text-theme text-opacity-15 font-weight-bolder"
+                              >
+                                T
+                              </div>
+                              .text-opacity-15
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px me-2 border fs-16px d-flex align-items-center justify-content-center text-theme text-opacity-20 font-weight-bolder"
+                              >
+                                T
+                              </div>
+                              .text-opacity-20
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px me-2 border fs-16px d-flex align-items-center justify-content-center text-theme text-opacity-25 font-weight-bolder"
+                              >
+                                T
+                              </div>
+                              .text-opacity-25
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px me-2 border fs-16px d-flex align-items-center justify-content-center text-theme text-opacity-30 font-weight-bolder"
+                              >
+                                T
+                              </div>
+                              .text-opacity-30
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px me-2 border fs-16px d-flex align-items-center justify-content-center text-theme text-opacity-35 font-weight-bolder"
+                              >
+                                T
+                              </div>
+                              .text-opacity-35
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px me-2 border fs-16px d-flex align-items-center justify-content-center text-theme text-opacity-40 font-weight-bolder"
+                              >
+                                T
+                              </div>
+                              .text-opacity-40
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px me-2 border fs-16px d-flex align-items-center justify-content-center text-theme text-opacity-45 font-weight-bolder"
+                              >
+                                T
+                              </div>
+                              .text-opacity-45
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px me-2 border fs-16px d-flex align-items-center justify-content-center text-theme text-opacity-50 font-weight-bolder"
+                              >
+                                T
+                              </div>
+                              .text-opacity-50
+                            </div>
+                          </div>
+                          <div class="col-lg">
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px me-2 border fs-16px d-flex align-items-center justify-content-center text-theme text-opacity-55 font-weight-bolder"
+                              >
+                                T
+                              </div>
+                              .text-opacity-55
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px me-2 border fs-16px d-flex align-items-center justify-content-center text-theme text-opacity-60 font-weight-bolder"
+                              >
+                                T
+                              </div>
+                              .text-opacity-60
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px me-2 border fs-16px d-flex align-items-center justify-content-center text-theme text-opacity-65 font-weight-bolder"
+                              >
+                                T
+                              </div>
+                              .text-opacity-65
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px me-2 border fs-16px d-flex align-items-center justify-content-center text-theme text-opacity-70 font-weight-bolder"
+                              >
+                                T
+                              </div>
+                              .text-opacity-70
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px me-2 border fs-16px d-flex align-items-center justify-content-center text-theme text-opacity-75 font-weight-bolder"
+                              >
+                                T
+                              </div>
+                              .text-opacity-75
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px me-2 border fs-16px d-flex align-items-center justify-content-center text-theme text-opacity-80 font-weight-bolder"
+                              >
+                                T
+                              </div>
+                              .text-opacity-80
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px me-2 border fs-16px d-flex align-items-center justify-content-center text-theme text-opacity-85 font-weight-bolder"
+                              >
+                                T
+                              </div>
+                              .text-opacity-85
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px me-2 border fs-16px d-flex align-items-center justify-content-center text-theme text-opacity-90 font-weight-bolder"
+                              >
+                                T
+                              </div>
+                              .text-opacity-90
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px me-2 border fs-16px d-flex align-items-center justify-content-center text-theme text-opacity-95 font-weight-bolder"
+                              >
+                                T
+                              </div>
+                              .text-opacity-95
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px me-2 border fs-16px d-flex align-items-center justify-content-center text-theme font-weight-bolder"
+                              >
+                                T
+                              </div>
+                              .text-theme
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-arrow">
+                        <div class="card-arrow-top-left"></div>
+                        <div class="card-arrow-top-right"></div>
+                        <div class="card-arrow-bottom-left"></div>
+                        <div class="card-arrow-bottom-right"></div>
+                      </div>
+                      <div class="hljs-container">
+                        <pre><code class="xml">&lt;!-- example --&gt;
+&lt;p class="text-theme text-opacity-50"&gt;&lt;/p&gt;</code></pre>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="backgroundColor" class="mb-5">
+                    <h4>رنگ پشت زمینه</h4>
+                    <p>
+                      شبیه به کلاس های رنگ متن متنی، به راحتی پس زمینه یک عنصر
+                      را به هر کلاس متنی تنظیم کنید.کامپوننت های انکر، درست
+                      مانند کلاس های متن، تاریک می شوند.پس زمینه خدمات<b
+                        >رنگ را تنظیم نکنید</b
+                      >,بنابراین در برخی موارد شما می خواهید استفاده کنید
+                      <code>.text-*</code> امکانات . لطفا
+                      <a
+                        href="https://getbootstrap.com/docs/5.0/utilities/colors/#background-color"
+                        target="_blank"
+                        >مستندات رسمی</a
+                      >
+                      برای لیست کامل گزینه ها بخوانید.
+                    </p>
+                    <div class="card">
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col-lg mb-lg-0 mb-3">
+                            <div
+                              class="text-white text-opacity-50 fw-bold small mb-3"
+                            >
+                              رنگ پس زمینه بوت استرپ
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px rounded bg-primary me-2"
+                              ></div>
+                              .bg-primary
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px rounded bg-secondary me-2"
+                              ></div>
+                              .bg-secondary
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px rounded bg-success me-2"
+                              ></div>
+                              .bg-success
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px rounded bg-danger me-2"
+                              ></div>
+                              .bg-danger
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px rounded bg-warning me-2"
+                              ></div>
+                              .bg-warning
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px rounded bg-info me-2"
+                              ></div>
+                              .bg-info
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px rounded bg-light me-2"
+                              ></div>
+                              .bg-light
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px rounded bg-dark me-2"
+                              ></div>
+                              .bg-dark
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px rounded border bg-white me-2"
+                              ></div>
+                              .bg-white
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px rounded border bg-transparent me-2"
+                              ></div>
+                              .bg-transparent
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px rounded border bg-none me-2"
+                              ></div>
+                              .bg-none
+                            </div>
+                          </div>
+                          <div class="col-lg">
+                            <div
+                              class="text-white text-opacity-50 fw-bold small mb-3"
+                            >
+                              رنگ پس زمینه بیشتر
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px rounded bg-teal me-2"
+                              ></div>
+                              .bg-teal
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px rounded bg-indigo me-2"
+                              ></div>
+                              .bg-indigo
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px rounded bg-purple me-2"
+                              ></div>
+                              .bg-purple
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px rounded bg-yellow me-2"
+                              ></div>
+                              .bg-yellow
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px rounded bg-gray-100 me-2"
+                              ></div>
+                              .bg-gray-100
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px rounded bg-gray-200 me-2"
+                              ></div>
+                              .bg-gray-200
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px rounded bg-gray-300 me-2"
+                              ></div>
+                              .bg-gray-300
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px rounded bg-gray-400 me-2"
+                              ></div>
+                              .bg-gray-400
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px rounded bg-gray-500 me-2"
+                              ></div>
+                              .bg-gray-500
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px rounded bg-gray-600 me-2"
+                              ></div>
+                              .bg-gray-600
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px rounded bg-gray-700 me-2"
+                              ></div>
+                              .bg-gray-700
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px rounded bg-gray-800 me-2"
+                              ></div>
+                              .bg-gray-800
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px rounded bg-gray-900 me-2"
+                              ></div>
+                              .bg-gray-900
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-arrow">
+                        <div class="card-arrow-top-left"></div>
+                        <div class="card-arrow-top-right"></div>
+                        <div class="card-arrow-bottom-left"></div>
+                        <div class="card-arrow-bottom-right"></div>
+                      </div>
+                      <div class="hljs-container">
+                        <pre><code class="xml">&lt;!-- example --&gt;
+&lt;div class="bg-primary w-30px h-30px rounded"&gt;&lt;/div&gt;</code></pre>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="backgroundGradientColor" class="mb-5">
+                    <h4>رنگ گرادیانت پس زمینه</h4>
+                    <p>
+                      ما هر گرادیانت رنگی را بر اساس متغیر رنگ تعریف شده در فایل
+                      های سی اس اس ایجاد کرده ایم
+                      <code>/scss/_variables.scss</code>.شما می توانید کد رنگ و
+                      کلاس بیشتری را که می خواهید نیز اضافه کنید.
+                    </p>
+                    <div class="card">
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col-lg mb-lg-0 mb-3">
+                            <div
+                              class="text-white text-opacity-50 fw-bold small mb-3"
+                            >
+                              کلاس گرادیانت بوت استرپ
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px rounded bg-gradient-primary me-2"
+                              ></div>
+                              .bg-gradient-primary
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px rounded bg-gradient-secondary me-2"
+                              ></div>
+                              .bg-gradient-secondary
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px rounded bg-gradient-success me-2"
+                              ></div>
+                              .bg-gradient-success
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px rounded bg-gradient-danger me-2"
+                              ></div>
+                              .bg-gradient-danger
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px rounded bg-gradient-warning me-2"
+                              ></div>
+                              .bg-gradient-warning
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px rounded bg-gradient-info me-2"
+                              ></div>
+                              .bg-gradient-info
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px rounded bg-gradient-light me-2"
+                              ></div>
+                              .bg-gradient-light
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px rounded bg-gradient-dark me-2"
+                              ></div>
+                              .bg-gradient-dark
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px rounded bg-gradient-white me-2"
+                              ></div>
+                              .bg-gradient-white
+                            </div>
+                          </div>
+                          <div class="col-lg">
+                            <div
+                              class="text-white text-opacity-50 fw-bold small mb-3"
+                            >
+                              گرادیانت بیشتر
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px rounded bg-gradient-teal me-2"
+                              ></div>
+                              .bg-gradient-teal
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px rounded bg-gradient-indigo me-2"
+                              ></div>
+                              .bg-gradient-indigo
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px rounded bg-gradient-purple me-2"
+                              ></div>
+                              .bg-gradient-purple
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px rounded bg-gradient-yellow me-2"
+                              ></div>
+                              .bg-gradient-yellow
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px rounded bg-gradient-gray-100 me-2"
+                              ></div>
+                              .bg-gradient-gray-100
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px rounded bg-gradient-gray-200 me-2"
+                              ></div>
+                              .bg-gradient-gray-200
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px rounded bg-gradient-gray-300 me-2"
+                              ></div>
+                              .bg-gradient-gray-300
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px rounded bg-gradient-gray-400 me-2"
+                              ></div>
+                              .bg-gradient-gray-400
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px rounded bg-gradient-gray-500 me-2"
+                              ></div>
+                              .bg-gradient-gray-500
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px rounded bg-gradient-gray-600 me-2"
+                              ></div>
+                              .bg-gradient-gray-600
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px rounded bg-gradient-gray-700 me-2"
+                              ></div>
+                              .bg-gradient-gray-700
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px rounded bg-gradient-gray-800 me-2"
+                              ></div>
+                              .bg-gradient-gray-800
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px rounded bg-gradient-gray-900 me-2"
+                              ></div>
+                              .bg-gradient-gray-900
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-arrow">
+                        <div class="card-arrow-top-left"></div>
+                        <div class="card-arrow-top-right"></div>
+                        <div class="card-arrow-bottom-left"></div>
+                        <div class="card-arrow-bottom-right"></div>
+                      </div>
+                      <div class="hljs-container">
+                        <pre><code class="xml">&lt;!-- example --&gt;
+&lt;div class="bg-gradient-primary w-30px h-30px rounded"&gt;&lt;/div&gt;</code></pre>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="backgroundGradientFancyColor" class="mb-5">
+                    <h4>رنگ پس زمینه گرادیانت فانتزی</h4>
+                    <p>
+                      ما گرادیانت خطی مختلفی را براساس متغیر رنگی که ما داریم،
+                      ایجاد کرده ایم.شما ممکن است ترکیب بیشتری را اضافه
+                      کنید<code>/css/app.css</code>
+                    </p>
+                    <div class="card">
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col-lg mb-lg-0 mb-3">
+                            <div
+                              class="text-white text-opacity-50 fw-bold small mb-3"
+                            >
+                              گرادیانت فانتزی
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px rounded bg-gradient-red-pink me-2"
+                              ></div>
+                              .bg-gradient-red-pink
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px rounded bg-gradient-orange-red me-2"
+                              ></div>
+                              .bg-gradient-orange-red
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px rounded bg-gradient-yellow-red me-2"
+                              ></div>
+                              .bg-gradient-yellow-red
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px rounded bg-gradient-yellow-orange me-2"
+                              ></div>
+                              .bg-gradient-yellow-orange
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px rounded bg-gradient-yellow-green me-2"
+                              ></div>
+                              .bg-gradient-yellow-green
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px rounded bg-gradient-cyan-blue me-2"
+                              ></div>
+                              .bg-gradient-cyan-blue
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px rounded bg-gradient-cyan-indigo me-2"
+                              ></div>
+                              .bg-gradient-cyan-indigo
+                            </div>
+                          </div>
+                          <div class="col-lg">
+                            <div
+                              class="text-white text-opacity-50 fw-bold small mb-3"
+                            >
+                              گرادیانت سفارشی
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px rounded bg-gradient-custom-orange me-2"
+                              ></div>
+                              .bg-gradient-custom-orange
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px rounded bg-gradient-custom-pink me-2"
+                              ></div>
+                              .bg-gradient-custom-pink
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px rounded bg-gradient-custom-teal me-2"
+                              ></div>
+                              .bg-gradient-custom-teal
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px rounded bg-gradient-custom-indigo me-2"
+                              ></div>
+                              .bg-gradient-custom-indigo
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <div
+                                class="w-30px h-30px rounded bg-gradient-custom-blue me-2"
+                              ></div>
+                              .bg-gradient-custom-blue
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-arrow">
+                        <div class="card-arrow-top-left"></div>
+                        <div class="card-arrow-top-right"></div>
+                        <div class="card-arrow-bottom-left"></div>
+                        <div class="card-arrow-bottom-right"></div>
+                      </div>
+                      <div class="hljs-container">
+                        <pre><code class="xml">&lt;!-- example --&gt;
+&lt;div class="bg-gradient-orange-red w-30px h-30px rounded "&gt;&lt;/div&gt;</code></pre>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="displayProperty" class="mb-5">
+                    <h4>ویژگی های نمایش</h4>
+                    <p>
+                      با ابزارهای نمایشگر ما به سرعت و پاسخگو ارزش نمایش اجزا و
+                      موارد دیگر را تغییر دهید. شامل پشتیبانی از برخی از مقادیر
+                      رایج تر، و همچنین برخی موارد اضافی برای کنترل نمایشگر
+                      هنگام چاپ می شود. لطفا
+                      <a
+                        href="https://getbootstrap.com/docs/5.0/utilities/display/"
+                        target="_blank"
+                        >مستندات رسمی</a
+                      >
+                      برای لیست کامل گزینه ها بخوانید.
+                    </p>
+                    <div class="card">
+                      <div class="card-body">
+                        <p>
+                          نمایش کلاس های ابزاری که برای همه نقاط شکست اعمال می
+                          شوند، از
+                          <code>xs</code> تا <code>xl</code>.به همین ترتیب، کلاس
+                          ها با استفاده از فرمت نامگذاری شده اند:
+                        </p>
+                        <ul>
+                          <li><code>.d-{value}</code> برای <code>xs</code></li>
+                          <li>
+                            <code>.d-{breakpoint}-{value}</code> برای
+                            <code>sm</code>, <code>md</code>, <code>lg</code>, و
+                            <code>xl</code>.
+                          </li>
+                        </ul>
+                        <p>جایی که <code>{value}</code> از موارد زیر است:</p>
+                        <ul>
+                          <li><code>none</code></li>
+                          <li><code>inline</code></li>
+                          <li><code>inline-block</code></li>
+                          <li><code>block</code></li>
+                          <li><code>میز</code></li>
+                          <li><code>میز-cell</code></li>
+                          <li><code>میز-row</code></li>
+                          <li><code>flex</code></li>
+                          <li><code>inline-flex</code></li>
+                        </ul>
+                      </div>
+                      <div class="card-arrow">
+                        <div class="card-arrow-top-left"></div>
+                        <div class="card-arrow-top-right"></div>
+                        <div class="card-arrow-bottom-left"></div>
+                        <div class="card-arrow-bottom-right"></div>
+                      </div>
+                      <div class="hljs-container">
+                        <pre><code class="xml">&lt;!-- example --&gt;
+&lt;div class="d-none d-md-block"&gt;&lt;/div&gt;</code></pre>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="ratios" class="mb-5">
+                    <h4>ریتیو</h4>
+                    <p>
+                      از عناصر شبه تولید شده استفاده کنید تا یک عنصر نسبت ابعاد
+                      انتخابی شما را حفظ کند. ایده آل برای مدیریت پاسخگو ویدیو
+                      یا جاسازی های نمایش اسلاید بر اساس عرض والد. لطفاً
+                      بخوانید<a
+                        href="https://getbootstrap.com/docs/5.0/helpers/ratio/"
+                        target="_blank"
+                        >مستندات رسمی
+                      </a>
+                      برای لیست کامل گزینه ها بخوانید.
+                    </p>
+                    <div class="card">
+                      <div class="card-body">
+                        <p>
+                          برای مدیریت نسبت ابعاد محتوای خارجی مانند کمک کننده
+                          نسبت استفاده کنید
+                          <code>&lt;iframe&gt;</code>ها,
+                          <code>&lt;embed&gt;</code>ها,
+                          <code>&lt;video&gt;</code>ها, و
+                          <code>&lt;object&gt;</code>. این کمک‌کننده‌ها همچنین
+                          می‌توانند روی هر عنصر فرزند استاندارد HTML (به عنوان
+                          مثال، یک <code>&lt;div&gt;</code> or
+                          <code>&lt;img&gt;</code>).سبک ها از والدین استفاده می
+                          شود <code>.ratio</code> کلاس به طور مستقیم به فرزند.
+                        </p>
+                        <div class="ratio ratio-16x9">
+                          <iframe
+                            class="embed-responsive-item"
+                            src="https://www.youtube.com/embed/3Kf-FlECN7M?rel=0"
+                            allowfullscreen
+                          ></iframe>
+                        </div>
+                      </div>
+                      <div class="card-arrow">
+                        <div class="card-arrow-top-left"></div>
+                        <div class="card-arrow-top-right"></div>
+                        <div class="card-arrow-bottom-left"></div>
+                        <div class="card-arrow-bottom-right"></div>
+                      </div>
+                      <div class="hljs-container">
+                        <pre><code class="xml">&lt;!-- example --&gt;
+&lt;div class="ratio ratio-16x9"&gt;
+  &lt;iframe class="embed-responsive-item" src="https://www.youtube.com/embed/3Kf-FlECN7M?rel=0" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;</code></pre>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="flex" class="mb-5">
+                    <h4>فلکس</h4>
+                    <p>
+                      به سرعت طرح بندی، تراز کردن و اندازه گیری ستون های شبکه،
+                      ناوبری، اجزای، و موارد دیگر را با یک مجموعه کامل از نرم
+                      افزار فلکس باکس پاسخگو مدیریت کنید.برای پیاده سازی پیچیده
+                      تر، سی اس اس سفارشی ممکن است ضروری باشد.لطفا
+                      <a
+                        href="https://getbootstrap.com/docs/5.0/utilities/flex/"
+                        target="_blank"
+                      >
+                        مستندات رسمی
+                      </a>
+                      برای لیست کامل گزینه ها را بخوانید.
+                    </p>
+                    <div class="card">
+                      <div class="table-responsive">
+                        <table class="table table-card mb-0 table-bordered">
+                          <thead>
+                            <tr class="border-top-0">
+                              <th class="border-start-0 border-end-0">فلکس</th>
+                              <th class="border-start-0 border-end-0">
+                                تراز کردن
+                              </th>
+                              <th class="border-start-0 border-end-0">
+                                پر / بزرگ / پیچیدن
+                              </th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr class="border-bottom-0">
+                              <td class="border-start-0">
+                                <div><code>.d-flex</code></div>
+                                <div><code>.d-inline-flex</code></div>
+                                <div><code>.d-sm-flex</code></div>
+                                <div><code>.d-sm-inline-flex</code></div>
+                                <div><code>.d-md-flex</code></div>
+                                <div><code>.d-md-inline-flex</code></div>
+                                <div><code>.d-lg-flex</code></div>
+                                <div><code>.d-lg-inline-flex</code></div>
+                                <div><code>.d-xl-flex</code></div>
+                                <div><code>.d-xl-inline-flex</code></div>
+                              </td>
+                              <td>
+                                <div><code>.align-items-start</code></div>
+                                <div><code>.align-items-end</code></div>
+                                <div><code>.align-items-center</code></div>
+                                <div><code>.align-items-baseline</code></div>
+                                <div><code>.align-items-stretch</code></div>
+                                <hr />
+                                <div><code>.align-self-start</code></div>
+                                <div><code>.align-self-end</code></div>
+                                <div><code>.align-self-center</code></div>
+                                <div><code>.align-self-baseline</code></div>
+                                <div><code>.align-self-stretch</code></div>
+                                <hr />
+                                <div><code>.align-content-start</code></div>
+                                <div><code>.align-content-end</code></div>
+                                <div><code>.align-content-center</code></div>
+                                <div><code>.align-content-between</code></div>
+                                <div><code>.align-content-around</code></div>
+                                <div><code>.align-content-stretch</code></div>
+                              </td>
+                              <td class="border-end-0">
+                                <div><code>.flex-fill</code></div>
+                                <div><code>.flex-grow-0</code></div>
+                                <div><code>.flex-shrink-0</code></div>
+                                <hr />
+                                <div><code>.flex-nowrap</code></div>
+                                <div><code>.flex-wrap</code></div>
+                                <div><code>.flex-wrap-reverse</code></div>
+                                <hr />
+                                <div>
+                                  <code
+                                    >.order-{1|2|3|4|5|6<br />|7|8|9|10|11|12}</code
+                                  >
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="card-arrow">
+                        <div class="card-arrow-top-left"></div>
+                        <div class="card-arrow-top-right"></div>
+                        <div class="card-arrow-bottom-left"></div>
+                        <div class="card-arrow-bottom-right"></div>
+                      </div>
+                      <div class="hljs-container">
+                        <pre><code class="xml">&lt;!-- example --&gt;
+&lt;div class="d-flex align-items-center"&gt;
+  &lt;div class="flex-fill"&gt;&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="floatPositionOverflow" class="mb-5">
+                    <h4>فلوت / موقعیت/ اورفلو</h4>
+                    <p>
+                      با استفاده از ابزارهای شناور پاسخگو، شناورها را روی هر
+                      عنصر، در هر نقطه شکست، تغییر دهید.
+                    </p>
+                    <div class="card">
+                      <div class="table-responsive">
+                        <table class="table table-card mb-0 table-bordered">
+                          <thead>
+                            <tr class="border-top-0">
+                              <th class="border-start-0 border-end-0">فلوت</th>
+                              <th class="border-start-0 border-end-0">
+                                موقعیت
+                              </th>
+                              <th class="border-start-0 border-end-0">
+                                اورفلو
+                              </th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr class="border-bottom-0">
+                              <td class="border-start-0">
+                                <div><code>.float-start</code></div>
+                                <div><code>.float-sm-start</code></div>
+                                <div><code>.float-md-start</code></div>
+                                <div><code>.float-lg-start</code></div>
+                                <div><code>.float-xl-start</code></div>
+                                <hr />
+                                <div><code>.float-end</code></div>
+                                <div><code>.float-sm-end</code></div>
+                                <div><code>.float-md-end</code></div>
+                                <div><code>.float-lg-end</code></div>
+                                <div><code>.float-xl-end</code></div>
+                                <hr />
+                                <div><code>.float-none</code></div>
+                                <div><code>.float-sm-none</code></div>
+                                <div><code>.float-md-none</code></div>
+                                <div><code>.float-lg-none</code></div>
+                                <div><code>.float-xl-none</code></div>
+                              </td>
+                              <td>
+                                <div><code>.position-static</code></div>
+                                <div><code>.position-relative</code></div>
+                                <div><code>.position-absolute</code></div>
+                                <div><code>.position-fixed</code></div>
+                                <div><code>.position-sticky</code></div>
+                                <hr />
+                                <div><code>.fixed-top</code></div>
+                                <div><code>.fixed-bottom</code></div>
+                                <hr />
+                                <div><code>.desktop-sticky-top</code></div>
+                                <hr />
+                                <div><code>.top-0</code></div>
+                                <div><code>.end-0</code></div>
+                                <div><code>.bottom-0</code></div>
+                                <div><code>.start-0</code></div>
+                                <div><code>.top-auto</code></div>
+                                <div><code>.end-auto</code></div>
+                                <div><code>.bottom-auto</code></div>
+                                <div><code>.start-auto</code></div>
+                              </td>
+                              <td class="border-end-0">
+                                <div><code>.overflow-auto</code></div>
+                                <div><code>.overflow-hidden</code></div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="shadows" class="mb-5">
+                    <h4>سایه</h4>
+                    <p>
+                      سایه ها را به عناصر با نرم افزار Box-Shadow اضافه یا حذف
+                      کنید. لطفا
+                      <a
+                        href="https://getbootstrap.com/docs/5.0/utilities/shadows/"
+                        target="_blank"
+                        >مستندات رسمی
+                      </a>
+                      برای لیست کامل گزینه ها بخوانید.
+                    </p>
+                    <div class="card">
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col-lg mb-lg-0 mb-3">
+                            <div class="d-flex align-items-center mb-2">
+                              <div
+                                class="w-50px h-50px no-shadow border border-light me-2"
+                              ></div>
+                              .shadow-none
+                            </div>
+                            <div class="d-flex align-items-center mb-2">
+                              <div
+                                class="w-50px h-50px shadow border border-light me-2"
+                              ></div>
+                              .shadow
+                            </div>
+                          </div>
+                          <div class="col-lg">
+                            <div class="d-flex align-items-center mb-2">
+                              <div
+                                class="w-50px h-50px shadow-sm border border-light me-2"
+                              ></div>
+                              .shadow-sm
+                            </div>
+                            <div class="d-flex align-items-center mb-2">
+                              <div
+                                class="w-50px h-50px shadow-lg border border-light me-2"
+                              ></div>
+                              .shadow-lg
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-arrow">
+                        <div class="card-arrow-top-left"></div>
+                        <div class="card-arrow-top-right"></div>
+                        <div class="card-arrow-bottom-left"></div>
+                        <div class="card-arrow-bottom-right"></div>
+                      </div>
+                      <div class="hljs-container">
+                        <pre><code class="xml">&lt;!-- example --&gt;
+&lt;div class="shadow-none"&gt;&lt;/div&gt;</code></pre>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="widthAndHeight" class="mb-5">
+                    <h4>عرض و ارتفاع</h4>
+                    <p>
+                      با ابزارهای عرض و ارتفاع خود، به راحتی یک عنصر به عرض یا
+                      بلندی بسازید. لطفاً بخوانید
+                      <a
+                        href="https://getbootstrap.com/docs/5.0/utilities/sizing/"
+                        target="_blank"
+                        >مستندات رسمی
+                      </a>
+                      برای لیست کامل گزینه ها بخوانید.
+                    </p>
+                    <div class="card">
+                      <div class="table-responsive">
+                        <table class="table table-card mb-0 table-bordered">
+                          <thead>
+                            <tr class="border-top-0">
+                              <th class="border-start-0 border-end-0">عرض</th>
+                              <th class="border-start-0 border-end-0">
+                                ارتفاع
+                              </th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr class="border-bottom-0">
+                              <td class="border-start-0">
+                                <div><code>.w-25</code></div>
+                                <div><code>.w-50</code></div>
+                                <div><code>.w-75</code></div>
+                                <div><code>.w-100</code></div>
+                                <div><code>.w-auto</code></div>
+                                <div><code>.ms-100</code></div>
+                                <hr />
+                                <div><code>.w-{10|20|30|40|50}px</code></div>
+                                <div>
+                                  <code>.w-{60|70|80|50|90|100}px</code>
+                                </div>
+                                <div>
+                                  <code>.w-{100|150|200|250|300|350}px</code>
+                                </div>
+                                <div>
+                                  <code>.w-{400|450|500|550|600}px</code>
+                                </div>
+                              </td>
+                              <td class="border-end-0">
+                                <div><code>.h-25</code></div>
+                                <div><code>.h-50</code></div>
+                                <div><code>.h-75</code></div>
+                                <div><code>.h-100</code></div>
+                                <div><code>.h-auto</code></div>
+                                <div><code>.mh-100</code></div>
+                                <hr />
+                                <div><code>.h-{10|20|30|40|50}px</code></div>
+                                <div>
+                                  <code>.h-{60|70|80|50|90|100}px</code>
+                                </div>
+                                <div>
+                                  <code>.h-{100|150|200|250|300|350}px</code>
+                                </div>
+                                <div>
+                                  <code>.h-{400|450|500|550|600}px</code>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="card-arrow">
+                        <div class="card-arrow-top-left"></div>
+                        <div class="card-arrow-top-right"></div>
+                        <div class="card-arrow-bottom-left"></div>
+                        <div class="card-arrow-bottom-right"></div>
+                      </div>
+                      <div class="hljs-container">
+                        <pre><code class="xml">&lt;!-- example --&gt;
+&lt;img src="" class="ms-100 mh-100" /&gt;</code></pre>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="marginAndPadding" class="mb-5">
+                    <h4>مارجین و پدینگ</h4>
+                    <p>
+                      بوت استرپ شامل طیف گسترده ای از کلاس های کاربردی مارجین و
+                      پدینگ پاسخگو برای تغییر ظاهر یک عنصر است. لطفاً بخوانید
+                      <a
+                        href="https://getbootstrap.com/docs/5.0/utilities/spacing/"
+                        target="_blank"
+                        >مستندات رسمی
+                      </a>
+                      برای لیست کامل گزینه ها بخوانید.
+                    </p>
+                    <div class="card">
+                      <div class="table-responsive">
+                        <table class="table table-card mb-0 table-bordered">
+                          <thead>
+                            <tr class="border-top-0">
+                              <th class="border-start-0 border-end-0">
+                                مارجین
+                              </th>
+                              <th class="border-start-0 border-end-0">پدینگ</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr class="border-bottom-0">
+                              <td class="border-start-0">
+                                <div><code>.mt-{1|2|3|4|5}</code></div>
+                                <div><code>.me-{1|2|3|4|5}</code></div>
+                                <div><code>.mb-{1|2|3|4|5}</code></div>
+                                <div><code>.ms-{1|2|3|4|5}</code></div>
+                                <div><code>.mx-{1|2|3|4|5}</code></div>
+                                <div><code>.my-{1|2|3|4|5}</code></div>
+                                <hr />
+                                <div><code>.mt-{1~20}px</code></div>
+                                <div><code>.me-{1~20}px</code></div>
+                                <div><code>.mb-{1~20}px</code></div>
+                                <div><code>.ms-{1~20}px</code></div>
+                              </td>
+                              <td class="border-end-0">
+                                <div><code>.pt-{1|2|3|4|5}</code></div>
+                                <div><code>.pe-{1|2|3|4|5}</code></div>
+                                <div><code>.pb-{1|2|3|4|5}</code></div>
+                                <div><code>.ps-{1|2|3|4|5}</code></div>
+                                <div><code>.px-{1|2|3|4|5}</code></div>
+                                <div><code>.py-{1|2|3|4|5}</code></div>
+                                <hr />
+                                <div><code>.pt-{1~20}px</code></div>
+                                <div><code>.pe-{1~20}px</code></div>
+                                <div><code>.pb-{1~20}px</code></div>
+                                <div><code>.ps-{1~20}px</code></div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="card-arrow">
+                        <div class="card-arrow-top-left"></div>
+                        <div class="card-arrow-top-right"></div>
+                        <div class="card-arrow-bottom-left"></div>
+                        <div class="card-arrow-bottom-right"></div>
+                      </div>
+                      <div class="hljs-container">
+                        <pre><code class="xml">&lt;!-- example --&gt;
+&lt;div class="me-3"&gt;&lt;/div&gt;</code></pre>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="text" class="mb-5">
+                    <h4>متن</h4>
+                    <p>
+                      مستندات و نمونه هایی برای ابزارهای متنی رایج برای کنترل
+                      تراز، بسته بندی، وزن و موارد دیگر. لطفاً بخوانید<a
+                        href="https://getbootstrap.com/docs/5.0/utilities/text/"
+                        target="_blank"
+                        >مستندات رسمی
+                      </a>
+                      برای لیست کامل گزینه ها بخوانید.
+                    </p>
+                    <div class="card">
+                      <div class="table-responsive">
+                        <table class="table table-card mb-0 table-bordered">
+                          <thead>
+                            <tr class="border-top-0">
+                              <th class="border-start-0 border-end-0">
+                                چیدمان و دکوراسیون
+                              </th>
+                              <th class="border-start-0 border-end-0">
+                                بستن و تبدیل
+                              </th>
+                              <th class="border-start-0 border-end-0">
+                                سبک فونت
+                              </th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr class="border-bottom-0">
+                              <td class="border-start-0">
+                                <div><code>.text-justify</code></div>
+                                <div><code>.text-start</code></div>
+                                <div><code>.text-center</code></div>
+                                <div><code>.text-end</code></div>
+                                <hr />
+                                <div><code>.text-reset</code></div>
+                                <div><code>.text-decoration-none</code></div>
+                                <div>
+                                  <code>.text-decoration-underline</code>
+                                </div>
+                                <hr />
+                                <div><code>.text-gradient</code></div>
+                                <div><code>.line-height-1</code></div>
+                              </td>
+                              <td>
+                                <div><code>.text-wrap</code></div>
+                                <div><code>.text-nowrap</code></div>
+                                <div><code>.text-truncate</code></div>
+                                <div><code>.text-break</code></div>
+                                <hr />
+                                <div><code>.text-lowercase</code></div>
+                                <div><code>.text-uppercase</code></div>
+                                <div><code>.text-capitalize</code></div>
+                              </td>
+                              <td class="border-end-0">
+                                <div><code>.fw-bold</code></div>
+                                <div><code>.fw-bolder</code></div>
+                                <div><code>.fw-normal</code></div>
+                                <div><code>.fw-light</code></div>
+                                <div><code>.fw-lighter</code></div>
+                                <div><code>.fst-italic</code></div>
+                                <hr />
+                                <div><code>.fw-100</code></div>
+                                <div><code>.fw-200</code></div>
+                                <div><code>.fw-300</code></div>
+                                <div><code>.fw-400</code></div>
+                                <div><code>.fw-500</code></div>
+                                <div><code>.fw-600</code></div>
+                                <div><code>.fw-700</code></div>
+                                <div><code>.fw-800</code></div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="card-arrow">
+                        <div class="card-arrow-top-left"></div>
+                        <div class="card-arrow-top-right"></div>
+                        <div class="card-arrow-bottom-left"></div>
+                        <div class="card-arrow-bottom-right"></div>
+                      </div>
+                      <div class="hljs-container">
+                        <pre><code class="xml">&lt;!-- example --&gt;
+&lt;div class="fw-bold"&gt;&lt;/div&gt;</code></pre>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="opacityVisibilityVerticalAlign" class="mb-5">
+                    <h4>شفافیت / دید / تراز عمودی</h4>
+                    <p>
+                      با استفاده از ابزارهای بوت استرپ، دید، شفافیت و تراز عمودی
+                      را کنترل کنید. لطفاً بخوانید
+                      <a
+                        href="https://getbootstrap.com/docs/5.0/utilities/visibility/"
+                        target="_blank"
+                        >مستندات رسمی
+                      </a>
+                      برای لیست کامل گزینه ها بخوانید.
+                    </p>
+                    <div class="card">
+                      <div class="table-responsive">
+                        <table class="table table-card mb-0 table-bordered">
+                          <thead>
+                            <tr class="border-top-0">
+                              <th class="border-start-0 border-end-0">
+                                شفافیت
+                              </th>
+                              <th class="border-start-0 border-end-0">دید،</th>
+                              <th class="border-start-0 border-end-0">
+                                تراز عمودی
+                              </th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr class="border-top-0">
+                              <td class="border-start-0">
+                                <div><code>.opacity-10</code></div>
+                                <div><code>.opacity-9</code></div>
+                                <div><code>.opacity-8</code></div>
+                                <div><code>.opacity-7</code></div>
+                                <div><code>.opacity-6</code></div>
+                                <div><code>.opacity-5</code></div>
+                                <div><code>.opacity-4</code></div>
+                                <div><code>.opacity-3</code></div>
+                                <div><code>.opacity-2</code></div>
+                                <div><code>.opacity-1</code></div>
+                                <div><code>.opacity-0</code></div>
+                              </td>
+                              <td>
+                                <div><code>.visible</code></div>
+                                <div><code>.invisible</code></div>
+                              </td>
+                              <td class="border-end-0">
+                                <div><code>.align-baseline</code></div>
+                                <div><code>.align-top</code></div>
+                                <div><code>.align-middle</code></div>
+                                <div><code>.align-bottom</code></div>
+                                <div><code>.align-text-top</code></div>
+                                <div><code>.align-text-bottom</code></div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="card-arrow">
+                        <div class="card-arrow-top-left"></div>
+                        <div class="card-arrow-top-right"></div>
+                        <div class="card-arrow-bottom-left"></div>
+                        <div class="card-arrow-bottom-right"></div>
+                      </div>
+                      <div class="hljs-container">
+                        <pre><code class="xml">&lt;!-- example --&gt;
+&lt;div class="opacity-5"&gt;&lt;/div&gt;</code></pre>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-xl-3">
+                  <nav id="sidebar-bootstrap" class="navbar navbar-sticky">
+                    <nav class="nav">
+                      <a
+                        class="nav-link"
+                        href="#borders"
+                        data-toggle="scroll-to"
+                        >خط ها</a
+                      >
+                      <a
+                        class="nav-link"
+                        href="#borderRadius"
+                        data-toggle="scroll-to"
+                        >گوشه گرد</a
+                      >
+                      <a
+                        class="nav-link"
+                        href="#textColor"
+                        data-toggle="scroll-to"
+                        >رنگ متن</a
+                      >
+                      <a
+                        class="nav-link"
+                        href="#textTransparentColor"
+                        data-toggle="scroll-to"
+                        >رنگ متن شفاف</a
+                      >
+                      <a
+                        class="nav-link"
+                        href="#backgroundColor"
+                        data-toggle="scroll-to"
+                        >رنگ پشت زمینه</a
+                      >
+                      <a
+                        class="nav-link"
+                        href="#backgroundGradientColor"
+                        data-toggle="scroll-to"
+                        >رنگ گرادیانت پس زمینه</a
+                      >
+                      <a
+                        class="nav-link"
+                        href="#backgroundGradientFancyColor"
+                        data-toggle="scroll-to"
+                        >رنگ پس زمینه گرادیانت فانتزی</a
+                      >
+                      <a
+                        class="nav-link"
+                        href="#displayProperty"
+                        data-toggle="scroll-to"
+                        >ویژگی های نمایش</a
+                      >
+                      <a class="nav-link" href="#ratios" data-toggle="scroll-to"
+                        >ریتیو</a
+                      >
+                      <a class="nav-link" href="#flex" data-toggle="scroll-to"
+                        >فلکس</a
+                      >
+                      <a
+                        class="nav-link"
+                        href="#floatPositionOverflow"
+                        data-toggle="scroll-to"
+                        >فلوت / موقعیت <br />/ اورفلو</a
+                      >
+                      <a
+                        class="nav-link"
+                        href="#shadows"
+                        data-toggle="scroll-to"
+                        >سایه</a
+                      >
+                      <a
+                        class="nav-link"
+                        href="#widthAndHeight"
+                        data-toggle="scroll-to"
+                        >عرض و ارتفاع</a
+                      >
+                      <a
+                        class="nav-link"
+                        href="#marginAndPadding"
+                        data-toggle="scroll-to"
+                        >مارجین و پدینگ</a
+                      >
+                      <a class="nav-link" href="#text" data-toggle="scroll-to"
+                        >متن</a
+                      >
+                      <a
+                        class="nav-link"
+                        href="#opacityVisibilityVerticalAlign"
+                        data-toggle="scroll-to"
+                        >شفافیت / دید / تراز عمودی</a
+                      >
+                    </nav>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a href="#" data-toggle="scroll-to-top" class="btn-scroll-top fade"
+        ><i class="fa fa-arrow-up"></i
+      ></a>
+
+      <div class="app-theme-panel">
+        <div class="app-theme-panel-container">
+          <a
+            href="javascript:;"
+            data-toggle="theme-panel-expand"
+            class="app-theme-toggle-btn"
+            ><i class="bi bi-sliders"></i
+          ></a>
+          <div class="app-theme-panel-content">
+            <div class="small fw-bold text-white mb-1">رنگ قالب</div>
+            <div class="card mb-3">
+              <div class="card-body p-2">
+                <div class="app-theme-list">
+                  <div class="app-theme-list-item">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-list-link bg-pink"
+                      data-theme-class="theme-pink"
+                      data-toggle="theme-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="صورتی"
+                      >&nbsp;</a
+                    >
+                  </div>
+                  <div class="app-theme-list-item">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-list-link bg-red"
+                      data-theme-class="theme-red"
+                      data-toggle="theme-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="قرمز"
+                      >&nbsp;</a
+                    >
+                  </div>
+                  <div class="app-theme-list-item">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-list-link bg-warning"
+                      data-theme-class="theme-warning"
+                      data-toggle="theme-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="نارنجی"
+                      >&nbsp;</a
+                    >
+                  </div>
+                  <div class="app-theme-list-item">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-list-link bg-yellow"
+                      data-theme-class="theme-yellow"
+                      data-toggle="theme-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="زرد"
+                      >&nbsp;</a
+                    >
+                  </div>
+                  <div class="app-theme-list-item">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-list-link bg-lime"
+                      data-theme-class="theme-lime"
+                      data-toggle="theme-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="لیمویی"
+                      >&nbsp;</a
+                    >
+                  </div>
+                  <div class="app-theme-list-item">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-list-link bg-green"
+                      data-theme-class="theme-green"
+                      data-toggle="theme-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="سبز"
+                      >&nbsp;</a
+                    >
+                  </div>
+                  <div class="app-theme-list-item active">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-list-link bg-teal"
+                      data-theme-class=""
+                      data-toggle="theme-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="پیشفرض"
+                      >&nbsp;</a
+                    >
+                  </div>
+                  <div class="app-theme-list-item">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-list-link bg-info"
+                      data-theme-class="theme-info"
+                      data-toggle="theme-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="سبزآبی"
+                      >&nbsp;</a
+                    >
+                  </div>
+                  <div class="app-theme-list-item">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-list-link bg-primary"
+                      data-theme-class="theme-primary"
+                      data-toggle="theme-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="آبی"
+                      >&nbsp;</a
+                    >
+                  </div>
+                  <div class="app-theme-list-item">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-list-link bg-purple"
+                      data-theme-class="theme-purple"
+                      data-toggle="theme-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="بنفش"
+                      >&nbsp;</a
+                    >
+                  </div>
+                  <div class="app-theme-list-item">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-list-link bg-indigo"
+                      data-theme-class="theme-indigo"
+                      data-toggle="theme-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="یاسی"
+                      >&nbsp;</a
+                    >
+                  </div>
+                  <div class="app-theme-list-item">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-list-link bg-gray-100"
+                      data-theme-class="theme-gray-200"
+                      data-toggle="theme-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="خاکستری"
+                      >&nbsp;</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-arrow">
+                <div class="card-arrow-top-left"></div>
+                <div class="card-arrow-top-right"></div>
+                <div class="card-arrow-bottom-left"></div>
+                <div class="card-arrow-bottom-right"></div>
+              </div>
+            </div>
+            <div class="small fw-bold text-white mb-1">کاور تم</div>
+            <div class="card">
+              <div class="card-body p-2">
+                <div class="app-theme-cover">
+                  <div class="app-theme-cover-item active">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-cover-link"
+                      style="
+                        background-image: url(assets/img/cover/cover-thumb-1.jpg);
+                      "
+                      data-theme-cover-class=""
+                      data-toggle="theme-cover-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="پیشفرض"
+                      >&nbsp;</a
+                    >
+                  </div>
+                  <div class="app-theme-cover-item">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-cover-link"
+                      style="
+                        background-image: url(assets/img/cover/cover-thumb-2.jpg);
+                      "
+                      data-theme-cover-class="bg-cover-2"
+                      data-toggle="theme-cover-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="کاور 2"
+                      >&nbsp;</a
+                    >
+                  </div>
+                  <div class="app-theme-cover-item">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-cover-link"
+                      style="
+                        background-image: url(assets/img/cover/cover-thumb-3.jpg);
+                      "
+                      data-theme-cover-class="bg-cover-3"
+                      data-toggle="theme-cover-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="کاور 3"
+                      >&nbsp;</a
+                    >
+                  </div>
+                  <div class="app-theme-cover-item">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-cover-link"
+                      style="
+                        background-image: url(assets/img/cover/cover-thumb-4.jpg);
+                      "
+                      data-theme-cover-class="bg-cover-4"
+                      data-toggle="theme-cover-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="کاور 4"
+                      >&nbsp;</a
+                    >
+                  </div>
+                  <div class="app-theme-cover-item">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-cover-link"
+                      style="
+                        background-image: url(assets/img/cover/cover-thumb-5.jpg);
+                      "
+                      data-theme-cover-class="bg-cover-5"
+                      data-toggle="theme-cover-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="کاور 5"
+                      >&nbsp;</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-arrow">
+                <div class="card-arrow-top-left"></div>
+                <div class="card-arrow-top-right"></div>
+                <div class="card-arrow-bottom-left"></div>
+                <div class="card-arrow-bottom-right"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      data-cfasync="false"
+      src="assets/plugins/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+    ></script>
+    <script
+      src="assets/js/vendor.min.js"
+      type="eaed79906a4ac983f069d2c6-text/javascript"
+    ></script>
+    <script
+      src="assets/js/app.min.js"
+      type="eaed79906a4ac983f069d2c6-text/javascript"
+    ></script>
+
+    <script
+      src="assets/plugins/highlight.js/highlight.min.js"
+      type="eaed79906a4ac983f069d2c6-text/javascript"
+    ></script>
+    <script
+      src="assets/js/demo/highlightjs.demo.js"
+      type="eaed79906a4ac983f069d2c6-text/javascript"
+    ></script>
+
+    <script
+      src="assets/plugins/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js"
+      data-cf-settings="eaed79906a4ac983f069d2c6-|49"
+      defer=""
+    ></script>
+    <script
+      defer
+      src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194"
+      integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw=="
+      data-cf-beacon='{"rayId":"6e58f8f6ab9c8ec8","version":"2021.12.0","r":1,"token":"4db8c6ef997743fda032d4f73cfeff63","si":100}'
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

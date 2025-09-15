@@ -1,0 +1,1487 @@
+<!doctype html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <title>اچ‌یودی | تایپوگرافی</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <link href="assets/css/vendor.min.css" rel="stylesheet" />
+    <link href="assets/css/app.min.css" rel="stylesheet" />
+  </head>
+
+  <body
+    data-bs-spy="scroll"
+    data-bs-target="#sidebar-bootstrap"
+    data-bs-offset="200"
+  >
+    <div id="app" class="app">
+      <div id="header" class="app-header">
+        <div class="desktop-toggler">
+          <button
+            type="button"
+            class="menu-toggler"
+            data-toggle-class="app-sidebar-collapsed"
+            data-dismiss-class="app-sidebar-toggled"
+            data-toggle-target=".app"
+          >
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </button>
+        </div>
+
+        <div class="mobile-toggler">
+          <button
+            type="button"
+            class="menu-toggler"
+            data-toggle-class="app-sidebar-mobile-toggled"
+            data-toggle-target=".app"
+          >
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </button>
+        </div>
+
+        <div class="brand">
+          <a href="#" class="brand-logo">
+            <span class="brand-img">
+              <span class="brand-img-text text-theme">ه</span>
+            </span>
+            <span class="brand-text">اچ‌یودی ادمین</span>
+          </a>
+        </div>
+
+        <div class="menu">
+          <div class="menu-item dropdown">
+            <a
+              href="#"
+              data-toggle-class="app-header-menu-search-toggled"
+              data-toggle-target=".app"
+              class="menu-link"
+            >
+              <div class="menu-icon"><i class="bi bi-search nav-icon"></i></div>
+            </a>
+          </div>
+          <div class="menu-item dropdown dropdown-mobile-full">
+            <a
+              href="#"
+              data-bs-toggle="dropdown"
+              data-bs-display="static"
+              class="menu-link"
+            >
+              <div class="menu-icon">
+                <i class="bi bi-grid-3x3-gap nav-icon"></i>
+              </div>
+            </a>
+            <div
+              class="dropdown-menu fade dropdown-menu-end w-300px text-center p-0 mt-1"
+            >
+              <div class="row row-grid gx-0">
+                <div class="col-4">
+                  <a
+                    href="#"
+                    class="dropdown-item text-decoration-none p-3 bg-none"
+                  >
+                    <div class="position-relative">
+                      <i
+                        class="bi bi-circle-fill position-absolute text-theme top-0 mt-n2 me-n2 fs-6px d-block text-center w-100"
+                      ></i>
+                      <i class="bi bi-envelope h2 opacity-5 d-block my-1"></i>
+                    </div>
+                    <div class="fw-500 fs-10px text-white">صندوق ورودی</div>
+                  </a>
+                </div>
+                <div class="col-4">
+                  <a
+                    href="#"
+                    class="dropdown-item text-decoration-none p-3 bg-none"
+                  >
+                    <div>
+                      <i
+                        class="bi bi-hdd-network h2 opacity-5 d-block my-1"
+                      ></i>
+                    </div>
+                    <div class="fw-500 fs-10px text-white">دیسک درایو</div>
+                  </a>
+                </div>
+                <div class="col-4">
+                  <a
+                    href="#"
+                    class="dropdown-item text-decoration-none p-3 bg-none"
+                  >
+                    <div>
+                      <i class="bi bi-calendar4 h2 opacity-5 d-block my-1"></i>
+                    </div>
+                    <div class="fw-500 fs-10px text-white">تقویم</div>
+                  </a>
+                </div>
+              </div>
+              <div class="row row-grid gx-0">
+                <div class="col-4">
+                  <a
+                    href="#"
+                    class="dropdown-item text-decoration-none p-3 bg-none"
+                  >
+                    <div>
+                      <i class="bi bi-terminal h2 opacity-5 d-block my-1"></i>
+                    </div>
+                    <div class="fw-500 fs-10px text-white">ترمینال</div>
+                  </a>
+                </div>
+                <div class="col-4">
+                  <a
+                    href="#"
+                    class="dropdown-item text-decoration-none p-3 bg-none"
+                  >
+                    <div class="position-relative">
+                      <i
+                        class="bi bi-circle-fill position-absolute text-theme top-0 mt-n2 me-n2 fs-6px d-block text-center w-100"
+                      ></i>
+                      <i class="bi bi-sliders h2 opacity-5 d-block my-1"></i>
+                    </div>
+                    <div class="fw-500 fs-10px text-white">تنظیمات</div>
+                  </a>
+                </div>
+                <div class="col-4">
+                  <a
+                    href="#"
+                    class="dropdown-item text-decoration-none p-3 bg-none"
+                  >
+                    <div>
+                      <i
+                        class="bi bi-collection-play h2 opacity-5 d-block my-1"
+                      ></i>
+                    </div>
+                    <div class="fw-500 fs-10px text-white">کتابخانه</div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="menu-item dropdown dropdown-mobile-full">
+            <a
+              href="#"
+              data-bs-toggle="dropdown"
+              data-bs-display="static"
+              class="menu-link"
+            >
+              <div class="menu-icon"><i class="bi bi-bell nav-icon"></i></div>
+              <div class="menu-badge bg-theme"></div>
+            </a>
+            <div
+              class="dropdown-menu dropdown-menu-end mt-1 w-300px fs-11px pt-1"
+            >
+              <h6 class="dropdown-header fs-10px mb-1">اطلاعیه‌ها</h6>
+              <div class="dropdown-divider mt-1"></div>
+              <a
+                href="#"
+                class="d-flex align-items-center py-10px dropdown-item text-wrap"
+              >
+                <div class="fs-20px">
+                  <i class="bi bi-bag text-theme"></i>
+                </div>
+                <div class="flex-1 flex-wrap ps-3">
+                  <div class="mb-1 text-white">
+                    سفارش جدید دریافتی(1,299 تومان)
+                  </div>
+                  <div class="small">اکنون</div>
+                </div>
+                <div class="ps-2 fs-16px">
+                  <i class="bi bi-chevron-left"></i>
+                </div>
+              </a>
+              <a
+                href="#"
+                class="d-flex align-items-center py-10px dropdown-item text-wrap"
+              >
+                <div class="fs-20px w-20px">
+                  <i class="bi bi-person-circle text-theme"></i>
+                </div>
+                <div class="flex-1 flex-wrap ps-3">
+                  <div class="mb-1 text-white">3 اکانت ساخته شد</div>
+                  <div class="small">2 دقیقه قبل</div>
+                </div>
+                <div class="ps-2 fs-16px">
+                  <i class="bi bi-chevron-left"></i>
+                </div>
+              </a>
+              <a
+                href="#"
+                class="d-flex align-items-center py-10px dropdown-item text-wrap"
+              >
+                <div class="fs-20px w-20px">
+                  <i class="bi bi-gear text-theme"></i>
+                </div>
+                <div class="flex-1 flex-wrap ps-3">
+                  <div class="mb-1 text-white">نصب کامل شد</div>
+                  <div class="small">3 دقیقه قبل</div>
+                </div>
+                <div class="ps-2 fs-16px">
+                  <i class="bi bi-chevron-left"></i>
+                </div>
+              </a>
+              <a
+                href="#"
+                class="d-flex align-items-center py-10px dropdown-item text-wrap"
+              >
+                <div class="fs-20px w-20px">
+                  <i class="bi bi-grid text-theme"></i>
+                </div>
+                <div class="flex-1 flex-wrap ps-3">
+                  <div class="mb-1 text-white">ویجت اینستاگرام نصب شد</div>
+                  <div class="small">5 دقیقه قبل</div>
+                </div>
+                <div class="ps-2 fs-16px">
+                  <i class="bi bi-chevron-left"></i>
+                </div>
+              </a>
+              <a
+                href="#"
+                class="d-flex align-items-center py-10px dropdown-item text-wrap"
+              >
+                <div class="fs-20px w-20px">
+                  <i class="bi bi-credit-card text-theme"></i>
+                </div>
+                <div class="flex-1 flex-wrap ps-3">
+                  <div class="mb-1 text-white">روش پرداختی فعال شد</div>
+                  <div class="small">10 دقیقه قبل</div>
+                </div>
+                <div class="ps-2 fs-16px">
+                  <i class="bi bi-chevron-left"></i>
+                </div>
+              </a>
+              <hr class="bg-white-transparent-5 mb-0 mt-2" />
+              <div class="py-10px mb-n2 text-center">
+                <a href="#" class="text-decoration-none fw-bold">دیدن همه</a>
+              </div>
+            </div>
+          </div>
+          <div class="menu-item dropdown dropdown-mobile-full">
+            <a
+              href="#"
+              data-bs-toggle="dropdown"
+              data-bs-display="static"
+              class="menu-link"
+            >
+              <div class="menu-img online">
+                <img src="assets/img/user/profile.jpg" height="60px" />
+              </div>
+              <div class="menu-text d-sm-block d-none">
+                <span
+                  class="__cf_email__"
+                  data-cfemail="b5c0c6d0c7dbd4d8d0f5d4d6d6dac0dbc19bd6dad8"
+                  >[email&#160;protected]</span
+                >
+              </div>
+            </a>
+            <div class="dropdown-menu dropdown-menu-end me-lg-3 fs-11px mt-1">
+              <a class="dropdown-item d-flex align-items-center" href="#"
+                >پروفایل<i
+                  class="bi bi-person-circle ms-auto text-theme fs-16px my-n1"
+                ></i
+              ></a>
+              <a class="dropdown-item d-flex align-items-center" href="#"
+                >صندوق ورودی<i
+                  class="bi bi-envelope ms-auto text-theme fs-16px my-n1"
+                ></i
+              ></a>
+              <a class="dropdown-item d-flex align-items-center" href="#"
+                >تقویم<i
+                  class="bi bi-calendar ms-auto text-theme fs-16px my-n1"
+                ></i
+              ></a>
+              <a class="dropdown-item d-flex align-items-center" href="#"
+                >تنظیمات<i
+                  class="bi bi-gear ms-auto text-theme fs-16px my-n1"
+                ></i
+              ></a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item d-flex align-items-center" href="#"
+                >خروج<i
+                  class="bi bi-toggle-off ms-auto text-theme fs-16px my-n1"
+                ></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <form class="menu-search" method="POST" name="header_search_form">
+          <div class="menu-search-container">
+            <div class="menu-search-icon"><i class="bi bi-search"></i></div>
+            <div class="menu-search-input">
+              <input
+                type="text"
+                class="form-control form-control-lg"
+                placeholder="جستجو..."
+              />
+            </div>
+            <div class="menu-search-icon">
+              <a
+                href="#"
+                data-toggle-class="app-header-menu-search-toggled"
+                data-toggle-target=".app"
+                ><i class="bi bi-x-lg"></i
+              ></a>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div id="sidebar" class="app-sidebar">
+        <div
+          class="app-sidebar-content"
+          data-scrollbar="true"
+          data-height="100%"
+        >
+          <div class="menu">
+            <div class="menu-header">ناوبری</div>
+            <div class="menu-item">
+              <a href="index.html" class="menu-link">
+                <span class="menu-icon"><i class="bi bi-cpu"></i></span>
+                <span class="menu-text">داشبرد</span>
+              </a>
+            </div>
+            <div class="menu-item">
+              <a href="analytics.html" class="menu-link">
+                <span class="menu-icon"><i class="bi bi-bar-chart"></i></span>
+                <span class="menu-text">آمار</span>
+              </a>
+            </div>
+            <div class="menu-item has-sub">
+              <a href="#" class="menu-link">
+                <span class="menu-icon">
+                  <i class="bi bi-envelope"></i>
+                </span>
+                <span class="menu-text">ایمیل</span>
+                <span class="menu-caret"><b class="caret"></b></span>
+              </a>
+              <div class="menu-submenu">
+                <div class="menu-item">
+                  <a href="email_inbox.html" class="menu-link">
+                    <span class="menu-text">صندوق ورودی</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="email_compose.html" class="menu-link">
+                    <span class="menu-text">ارسال</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="email_detail.html" class="menu-link">
+                    <span class="menu-text">جزییات</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="menu-header">کامپوننت‌ها</div>
+            <div class="menu-item">
+              <a href="widgets.html" class="menu-link">
+                <span class="menu-icon"><i class="bi bi-columns-gap"></i></span>
+                <span class="menu-text">ویجت‌ها</span>
+              </a>
+            </div>
+            <div class="menu-item has-sub">
+              <a href="javascript:;" class="menu-link">
+                <div class="menu-icon">
+                  <i class="bi bi-bag-check"></i>
+                  <span
+                    class="w-5px h-5px rounded-3 bg-theme position-absolute top-0 end-0 mt-3px me-3px"
+                  ></span>
+                </div>
+                <div class="menu-text d-flex align-items-center">سیستم پوز</div>
+                <span class="menu-caret"><b class="caret"></b></span>
+              </a>
+              <div class="menu-submenu">
+                <div class="menu-item">
+                  <a
+                    href="pos_customer_order.html"
+                    target="_blank"
+                    class="menu-link"
+                  >
+                    <div class="menu-text">سفارش مشتری</div>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a
+                    href="pos_kitchen_order.html"
+                    target="_blank"
+                    class="menu-link"
+                  >
+                    <div class="menu-text">سفارش آشپزخانه</div>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a
+                    href="pos_counter_checkout.html"
+                    target="_blank"
+                    class="menu-link"
+                  >
+                    <div class="menu-text">پیشخوان پرداخت</div>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a
+                    href="pos_table_booking.html"
+                    target="_blank"
+                    class="menu-link"
+                  >
+                    <div class="menu-text">رزرو میز</div>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a
+                    href="pos_menu_stock.html"
+                    target="_blank"
+                    class="menu-link"
+                  >
+                    <div class="menu-text">موجودی انبار</div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="menu-item has-sub active">
+              <a href="#" class="menu-link">
+                <span class="menu-icon"><i class="bi bi-controller"></i></span>
+                <span class="menu-text">کیت رابط کاربری</span>
+                <span class="menu-caret"><b class="caret"></b></span>
+              </a>
+              <div class="menu-submenu">
+                <div class="menu-item">
+                  <a href="ui_bootstrap.html" class="menu-link">
+                    <span class="menu-text">بوت‌سترپ</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="ui_buttons.html" class="menu-link">
+                    <span class="menu-text">دکمه‌ها</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="ui_card.html" class="menu-link">
+                    <span class="menu-text">کا‌رت‌ها</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="ui_icons.html" class="menu-link">
+                    <span class="menu-text">آیکون‌ها</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="ui_modal_notification.html" class="menu-link">
+                    <span class="menu-text">مودال و اطلاعیه</span>
+                  </a>
+                </div>
+                <div class="menu-item active">
+                  <a href="ui_typography.html" class="menu-link">
+                    <span class="menu-text">تایپوگرافی</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="ui_tabs_accordions.html" class="menu-link">
+                    <span class="menu-text">تب و آکاردیون</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="menu-item has-sub">
+              <a href="#" class="menu-link">
+                <span class="menu-icon"><i class="bi bi-pen"></i></span>
+                <span class="menu-text">فرم‌ها</span>
+                <span class="menu-caret"><b class="caret"></b></span>
+              </a>
+              <div class="menu-submenu">
+                <div class="menu-item">
+                  <a href="form_elements.html" class="menu-link">
+                    <span class="menu-text">المنت‌های فرم‌</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="form_plugins.html" class="menu-link">
+                    <span class="menu-text">پلاگین‌های فرم‌</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="form_wizards.html" class="menu-link">
+                    <span class="menu-text">ویزاردها</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="menu-item has-sub">
+              <a href="#" class="menu-link">
+                <span class="menu-icon"><i class="bi bi-grid-3x3"></i></span>
+                <span class="menu-text">جداول</span>
+                <span class="menu-caret"><b class="caret"></b></span>
+              </a>
+              <div class="menu-submenu">
+                <div class="menu-item">
+                  <a href="table_elements.html" class="menu-link">
+                    <span class="menu-text">المنت‌های جدول</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="table_plugins.html" class="menu-link">
+                    <span class="menu-text">افزونه‌های جدول</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="menu-item has-sub">
+              <a href="#" class="menu-link">
+                <span class="menu-icon"><i class="bi bi-pie-chart"></i></span>
+                <span class="menu-text">نمودارها</span>
+                <span class="menu-caret"><b class="caret"></b></span>
+              </a>
+              <div class="menu-submenu">
+                <div class="menu-item">
+                  <a href="chart_js.html" class="menu-link">
+                    <span class="menu-text">چارت جی‌اس</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="chart_apex.html" class="menu-link">
+                    <span class="menu-text">اپکس چارت</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="menu-item">
+              <a href="map.html" class="menu-link">
+                <span class="menu-icon"><i class="bi bi-compass"></i></span>
+                <span class="menu-text">نقشه</span>
+              </a>
+            </div>
+            <div class="menu-item has-sub">
+              <a href="#" class="menu-link">
+                <span class="menu-icon"
+                  ><i class="bi bi-layout-sidebar"></i
+                ></span>
+                <span class="menu-text">چینش</span>
+                <span class="menu-caret"><b class="caret"></b></span>
+              </a>
+              <div class="menu-submenu">
+                <div class="menu-item">
+                  <a href="layout_starter.html" class="menu-link">
+                    <span class="menu-text">صفحه شروع</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="layout_fixed_footer.html" class="menu-link">
+                    <span class="menu-text">فوتر ثابت</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="layout_full_height.html" class="menu-link">
+                    <span class="menu-text">ارتفاع کامل</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="layout_full_width.html" class="menu-link">
+                    <span class="menu-text">تمام عرض</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="layout_boxed_layout.html" class="menu-link">
+                    <span class="menu-text">چینش باکس</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="layout_collapsed_sidebar.html" class="menu-link">
+                    <span class="menu-text">سایدبار چسبیده</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="menu-item has-sub">
+              <a href="#" class="menu-link">
+                <span class="menu-icon"><i class="bi bi-collection"></i></span>
+                <span class="menu-text">صفحات</span>
+                <span class="menu-caret"><b class="caret"></b></span>
+              </a>
+              <div class="menu-submenu">
+                <div class="menu-item">
+                  <a href="page_scrum_board.html" class="menu-link">
+                    <span class="menu-text">اسکرام برد</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="page_products.html" class="menu-link">
+                    <span class="menu-text">محصولات</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="page_orders.html" class="menu-link">
+                    <span class="menu-text">سفارشات</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="page_gallery.html" class="menu-link">
+                    <span class="menu-text">گالری</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="page_search_results.html" class="menu-link">
+                    <span class="menu-text">نتایج جستجو</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="page_coming_soon.html" class="menu-link">
+                    <span class="menu-text">به زودی</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="page_404_error.html" class="menu-link">
+                    <span class="menu-text">خطای 404</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="page_login.html" class="menu-link">
+                    <span class="menu-text">ورود</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="page_register.html" class="menu-link">
+                    <span class="menu-text">ثبت نام</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="menu-divider"></div>
+            <div class="menu-header">کاربران</div>
+            <div class="menu-item">
+              <a href="profile.html" class="menu-link">
+                <span class="menu-icon"><i class="bi bi-people"></i></span>
+                <span class="menu-text">پروفایل</span>
+              </a>
+            </div>
+            <div class="menu-item">
+              <a href="calendar.html" class="menu-link">
+                <span class="menu-icon"><i class="bi bi-calendar4"></i></span>
+                <span class="menu-text">تقویم</span>
+              </a>
+            </div>
+            <div class="menu-item">
+              <a href="settings.html" class="menu-link">
+                <span class="menu-icon"><i class="bi bi-gear"></i></span>
+                <span class="menu-text">تنظیمات</span>
+              </a>
+            </div>
+            <div class="menu-item">
+              <a href="helper.html" class="menu-link">
+                <span class="menu-icon"><i class="bi bi-gem"></i></span>
+                <span class="menu-text">راهنما</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="p-3 px-4 mt-auto">
+            <a
+              href="documentation/index.html"
+              class="btn d-block btn-outline-theme"
+            >
+              <i class="fa fa-code-branch me-2 ms-n2 opacity-5"></i> مستندات
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <button
+        class="app-sidebar-mobile-backdrop"
+        data-toggle-target=".app"
+        data-toggle-class="app-sidebar-mobile-toggled"
+      ></button>
+
+      <div id="content" class="app-content">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-xl-10">
+              <div class="row">
+                <div class="col-xl-9">
+                  <ul class="breadcrumb">
+                    <li class="breadcrumb-item">
+                      <a href="#">کیت رابط کاربری</a>
+                    </li>
+                    <li class="breadcrumb-item active">تایپوگرافی</li>
+                  </ul>
+                  <h1 class="page-header">
+                    تایپوگرافی <small>توضیح هدر در این قسمت قرار دارد...</small>
+                  </h1>
+                  <hr class="mb-4" />
+
+                  <div id="headings" class="mb-5">
+                    <h4>عنوان</h4>
+                    <p>
+                      تمام عنوان های اچ تی ام ال <code>&lt;h1&gt;</code> تا
+                      <code>&lt;h6&gt;</code>,در دسترس هستند.
+                      <code>.h1</code> تا <code>.h6</code> کلاس ها نیز در دسترس
+                      هستند برای زمانی که شما می خواهید با یک ظاهر طراحی فونت یک
+                      عنوان را مطابقت دهید، اما نمی توانید از عنصر اچ تی ام ال
+                      مرتبط استفاده کنید. لطفا
+                      <a
+                        href="https://getbootstrap.com/docs/5.0/content/typography/"
+                        target="_blank"
+                      >
+                        مستندات رسمی بوت استرپ
+                      </a>
+                      برای لیست کامل گزینه ها بخوانید.
+                    </p>
+                    <div class="card">
+                      <div class="card-body">
+                        <h1>h1. عنوان بوت استرپ</h1>
+                        <h2>h2. عنوان بوت استرپ</h2>
+                        <h3>h3. عنوان بوت استرپ</h3>
+                        <h4>h4. عنوان بوت استرپ</h4>
+                        <h5>h5. عنوان بوت استرپ</h5>
+                        <h6>h6. عنوان بوت استرپ</h6>
+                      </div>
+                      <div class="card-arrow">
+                        <div class="card-arrow-top-left"></div>
+                        <div class="card-arrow-top-right"></div>
+                        <div class="card-arrow-bottom-left"></div>
+                        <div class="card-arrow-bottom-right"></div>
+                      </div>
+                      <div class="hljs-container">
+                        <pre><code class="xml">&lt;!-- heading tag --&gt;
+&lt;h1&gt;h1. عنوان بوت استرپ&lt;/h1&gt;
+&lt;h2&gt;h2. عنوان بوت استرپ&lt;/h2&gt;
+&lt;h3&gt;h3. عنوان بوت استرپ&lt;/h3&gt;
+&lt;h4&gt;h4. عنوان بوت استرپ&lt;/h4&gt;
+&lt;h5&gt;h5. عنوان بوت استرپ&lt;/h5&gt;
+&lt;h6&gt;h6. عنوان بوت استرپ&lt;/h6&gt;
+
+&lt;!-- heading class --&gt;
+&lt;p class="h1"&gt;h1. عنوان بوت استرپ&lt;/p&gt;
+&lt;p class="h2"&gt;h2. عنوان بوت استرپ&lt;/p&gt;
+&lt;p class="h3"&gt;h3. عنوان بوت استرپ&lt;/p&gt;
+&lt;p class="h4"&gt;h4. عنوان بوت استرپ&lt;/p&gt;
+&lt;p class="h5"&gt;h5. عنوان بوت استرپ&lt;/p&gt;
+&lt;p class="h6"&gt;h6. عنوان بوت استرپ&lt;/p&gt;</code></pre>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="displayHeadings" class="mb-5">
+                    <h4>نمایش عنوان</h4>
+                    <p>
+                      عناصر عنوان سنتی به گونه‌ای طراحی شده‌اند که بهترین عملکرد
+                      را در محتوای صفحه شما داشته باشند. هنگامی که نیاز به یک
+                      عنوان برای متمایز شدن دارید، استفاده از نمایش عنوان را در
+                      نظر بگیرید - یک سبک عنوان بزرگتر و کمی با نظر بیشتر.
+                    </p>
+                    <div class="card">
+                      <div class="card-body">
+                        <h1 class="display-1">نمایش 1</h1>
+                        <h1 class="display-2">نمایش 2</h1>
+                        <h1 class="display-3">نمایش 3</h1>
+                        <h1 class="display-4">نمایش 4</h1>
+                      </div>
+                      <div class="card-arrow">
+                        <div class="card-arrow-top-left"></div>
+                        <div class="card-arrow-top-right"></div>
+                        <div class="card-arrow-bottom-left"></div>
+                        <div class="card-arrow-bottom-right"></div>
+                      </div>
+                      <div class="hljs-container">
+                        <pre><code class="xml">&lt;h1 class="display-1"&gt;نمایش 1&lt;/h1&gt;
+&lt;h1 class="display-2"&gt;نمایش 2&lt;/h1&gt;
+&lt;h1 class="display-3"&gt;نمایش 3&lt;/h1&gt;
+&lt;h1 class="display-4"&gt;نمایش 4&lt;/h1&gt;</code></pre>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="lead" class="mb-5">
+                    <h4>لید</h4>
+                    <p>
+                      با افزودن یک پاراگراف را برجسته کنید <code>.lead</code>.
+                    </p>
+                    <div class="card">
+                      <div class="card-body">
+                        <p class="lead">
+                          لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
+                          چاپ و با استفاده از طراحان گرافیک است
+                        </p>
+                      </div>
+                      <div class="card-arrow">
+                        <div class="card-arrow-top-left"></div>
+                        <div class="card-arrow-top-right"></div>
+                        <div class="card-arrow-bottom-left"></div>
+                        <div class="card-arrow-bottom-right"></div>
+                      </div>
+                      <div class="hljs-container">
+                        <pre><code class="xml">&lt;p class="lead"&gt;
+  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است&lt;/p&gt;</code></pre>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="inlineTextElements" class="mb-5">
+                    <h4>عنوان</h4>
+                    <p>
+                      یک ظاهر طراحی شده برای عناصر معمول داخلی اچ تی ام ال 5.
+                    </p>
+                    <div class="card">
+                      <div class="card-body">
+                        <p>
+                          شما می توانید تگ مارک را مانند رو به رو به
+                          <mark>برجسته</mark> متن بدهید
+                        </p>
+                        <p>
+                          <del
+                            >این خط متن به عنوان متن حذف شده مورد توجه قرار
+                            گرفته است.</del
+                          >
+                        </p>
+                        <p><s>این خط از متن قرار است دیگر دقیق نباشد.</s></p>
+                        <p>
+                          <ins
+                            >این خط متن قرار است به عنوان افزودنی به سند تلقی
+                            شود.</ins
+                          >
+                        </p>
+                        <p><u>این خط متن به صورت زیرخط دار ارائه می شود</u></p>
+                        <p>
+                          <small
+                            >این خط از متن به عنوان چاپ ظریف در نظر گرفته شده
+                            است.</small
+                          >
+                        </p>
+                        <p>
+                          <strong
+                            >این خط به عنوان متن پررنگ ارائه شده است.</strong
+                          >
+                        </p>
+                        <p>
+                          <em>این خط به عنوان متن کج شده ارائه شده است.</em>
+                        </p>
+                      </div>
+                      <div class="card-arrow">
+                        <div class="card-arrow-top-left"></div>
+                        <div class="card-arrow-top-right"></div>
+                        <div class="card-arrow-bottom-left"></div>
+                        <div class="card-arrow-bottom-right"></div>
+                      </div>
+                      <div class="hljs-container">
+                        <pre><code class="xml">&lt;p&gt;You can use the mark tag to &lt;mark&gt;highlight&lt;/mark&gt; text.&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;This line of text is meant to be treated as deleted text.&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;&lt;s&gt;This line of text is meant to be treated as no longer accurate.&lt;/s&gt;&lt;/p&gt;
+&lt;p&gt;&lt;ins&gt;This line of text is meant to be treated as an addition to the document.&lt;/ins&gt;&lt;/p&gt;
+&lt;p&gt;&lt;u&gt;This line of text will render as underlined&lt;/u&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;This line of text is meant to be treated as fine print.&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;This line rendered as bold text.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;This line rendered as italicized text.&lt;/em&gt;&lt;/p&gt;</code></pre>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="abbreviations" class="mb-5">
+                    <h4>اختصار</h4>
+                    <p>
+                      پیاده سازی تلطیف شده از اچ تی ام ال
+                      <code>&lt;abbr&gt;</code> برای اختصار و برای نشان دادن
+                      نسخه گسترش یافته در لینک هاست.اختصار به طور پیش فرض تأکید
+                      شده است و یک مکان نما را برای ارائه زمینه های اضافی در
+                      لینک هاست .اضافه کردن <code>.initialism</code> به اختصار
+                      برای داشتن اندازه فونت کمی کوچکتر است.
+                    </p>
+                    <div class="card">
+                      <div class="card-body">
+                        <p><abbr title="attribute">اتربیوت</abbr></p>
+                        <p>
+                          <abbr
+                            title="HyperText Markup Language"
+                            class="initialism"
+                            >اچ تی ام ال</abbr
+                          >
+                        </p>
+                      </div>
+                      <div class="card-arrow">
+                        <div class="card-arrow-top-left"></div>
+                        <div class="card-arrow-top-right"></div>
+                        <div class="card-arrow-bottom-left"></div>
+                        <div class="card-arrow-bottom-right"></div>
+                      </div>
+                      <div class="hljs-container">
+                        <pre><code class="xml">&lt;p&gt;&lt;abbr title="attribute"&gt;attr&lt;/abbr&gt;&lt;/p&gt;
+&lt;p&gt;&lt;abbr title="HyperText Markup Language" class="initialism"&gt;HTML&lt;/abbr&gt;&lt;/p&gt;</code></pre>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="blockquotes" class="mb-5">
+                    <h4>نقل قول</h4>
+                    <p>
+                      برای نقل قول در بلوک های محتوا از منبع دیگری در سند شما از
+                      <code>&lt;blockquote class="blockquote"&gt;</code> در
+                      اطراف هر اچ تی ام ال می‌توانید استفاده کنید.
+                    </p>
+                    <div class="card">
+                      <div class="card-body">
+                        <figure class="mb-0">
+                          <blockquote class="blockquote">
+                            <p>یک نقل قول شناخته شده، موجود در یک عنصر بلوک.</p>
+                          </blockquote>
+                          <figcaption class="blockquote-footer mb-0">
+                            فردی معروف <cite title="منبع">منبع</cite>
+                          </figcaption>
+                        </figure>
+                      </div>
+                      <div class="card-arrow">
+                        <div class="card-arrow-top-left"></div>
+                        <div class="card-arrow-top-right"></div>
+                        <div class="card-arrow-bottom-left"></div>
+                        <div class="card-arrow-bottom-right"></div>
+                      </div>
+                      <div class="hljs-container">
+                        <pre><code class="xml">&lt;figure&gt;
+  &lt;blockquote class="blockquote"&gt;
+    &lt;p&gt;یک نقل قول شناخته شده، موجود در یک عنصر بلوک.&lt;/p&gt;
+  &lt;/blockquote&gt;
+  &lt;figcaption class="blockquote-footer"&gt;
+    فردی معروف &lt;cite title="منبع"&gt;منبع&lt;/cite&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;</code></pre>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="unstyledList" class="mb-5">
+                    <h4>لیست بدون استایل</h4>
+                    <p>
+                      پیش فرض را حذف کنید <code>list-style</code> و حاشیه سمت چپ
+                      در آیتم های لیست (فقط فرزندان). این ویژگی فقط برای
+                      آیتم‌های فهرست فرزندان اعمال می‌شود، به این معنی که باید
+                      کلاس را برای لیست‌های تودرتو نیز اضافه کنید.
+                    </p>
+                    <div class="card">
+                      <div class="card-body">
+                        <ul class="list-unstyled">
+                          <li>لورم ایپسوم متن ساختگی</li>
+                          <li>با تولید سادگی نامفهوم</li>
+                          <li>
+                            از صنعت چاپ و با استفاده از طراحان
+                            <ul>
+                              <li>چاپگرها و متون بلکه روزنامه</li>
+                              <li>مجله در ستون و سطرآنچنان</li>
+                            </ul>
+                          </li>
+                          <li>برای شرایط فعلی تکنولوژی مورد نیاز</li>
+                          <li>کاربردهای متنوع با هدف</li>
+                          <li>بهبود ابزارهای کاربردی می باشد</li>
+                        </ul>
+                      </div>
+                      <div class="card-arrow">
+                        <div class="card-arrow-top-left"></div>
+                        <div class="card-arrow-top-right"></div>
+                        <div class="card-arrow-bottom-left"></div>
+                        <div class="card-arrow-bottom-right"></div>
+                      </div>
+                      <div class="hljs-container">
+                        <pre><code class="xml">&lt;ul class="list-unstyled"&gt;
+  &lt;li&gt;لورم ایپسوم متن ساختگی&lt;/li&gt;
+  &lt;li&gt;با تولید سادگی نامفهوم &lt;/li&gt;
+  &lt;li&gt;از صنعت چاپ و با استفاده از طراحان 
+    &lt;ul&gt;
+      &lt;li&gt; چاپگرها و متون بلکه روزنامه&lt;/li&gt;
+      &lt;li&gt;مجله در ستون و سطرآنچنان &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;برای شرایط فعلی تکنولوژی مورد نیاز &lt;/li&gt;
+  &lt;li&gt;کاربردهای متنوع با هدف&lt;/li&gt;
+  &lt;li&gt; بهبود ابزارهای کاربردی می باشد&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="inlineList" class="mb-5">
+                    <h4>لیست خطی</h4>
+                    <p>
+                      گلوله های یک لیست را حذف کنید و با ترکیبی از دو کلاس
+                      مقداری حاشیه سبک اعمال کنید. <code>.list-inline</code> و
+                      <code>.list-inline-item</code>.
+                    </p>
+                    <div class="card">
+                      <div class="card-body">
+                        <ul class="list-inline">
+                          <li class="list-inline-item">لورم ایپسوم</li>
+                          <li class="list-inline-item">متن ساختگی</li>
+                          <li class="list-inline-item">تولید سادگی نامفهوم</li>
+                        </ul>
+                      </div>
+                      <div class="card-arrow">
+                        <div class="card-arrow-top-left"></div>
+                        <div class="card-arrow-top-right"></div>
+                        <div class="card-arrow-bottom-left"></div>
+                        <div class="card-arrow-bottom-right"></div>
+                      </div>
+                      <div class="hljs-container">
+                        <pre><code class="xml">&lt;ul class="list-inline"&gt;
+  &lt;li class="list-inline-item"&gt;لورم ایپسوم&lt;/li&gt;
+  &lt;li class="list-inline-item"&gt;متن ساختگی&lt;/li&gt;
+  &lt;li class="list-inline-item"&gt; تولید سادگی نامفهوم&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="descriptionList" class="mb-5">
+                    <h4>فهرست توصیفی</h4>
+                    <p>
+                      با استفاده از کلاس‌های از پیش تعریف‌شده (یا ترکیب‌های
+                      معنایی) اصطلاحات و توضیحات را به صورت افقی تراز کنید. برای
+                      مدت طولانی‌تر، می‌توانید به صورت اختیاری یک کلاس
+                      .text-truncate اضافه کنید تا متن را با بیضی کوتاه کنید.
+                    </p>
+                    <div class="card">
+                      <div class="card-body">
+                        <dl class="row">
+                          <dt class="col-sm-3">فهرست توصیفی</dt>
+                          <dd class="col-sm-9">
+                            یک لیست توصیفی مناسب برای تعریف شرایط است.
+                          </dd>
+                          <dt class="col-sm-3">ایسیمود</dt>
+                          <dd class="col-sm-9">
+                            <p>
+                              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از
+                              صنعت چاپ
+                            </p>
+                            <p>با استفاده از طراحان گرافیک است.</p>
+                          </dd>
+                          <dt class="col-sm-3 text-truncate">
+                            چاپگرها و متون بلکه روزنامه و مجله
+                          </dt>
+                          <dd class="col-sm-9">
+                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از
+                            صنعت چاپ و با استفاده از طراحان گرافیک است
+                          </dd>
+                          <dt class="col-sm-3">لانه زنی</dt>
+                          <dd class="col-sm-9">
+                            <dl class="row">
+                              <dt class="col-sm-4">فهرست تعریف نشده</dt>
+                              <dd class="col-sm-8">
+                                اپگرها و متون بلکه روزنامه و مجله در ستون و
+                                سطرآنچنان که لازم است
+                              </dd>
+                            </dl>
+                          </dd>
+                        </dl>
+                      </div>
+                      <div class="card-arrow">
+                        <div class="card-arrow-top-left"></div>
+                        <div class="card-arrow-top-right"></div>
+                        <div class="card-arrow-bottom-left"></div>
+                        <div class="card-arrow-bottom-right"></div>
+                      </div>
+                      <div class="hljs-container">
+                        <pre><code class="xml">&lt;dl class="row"&gt;
+  &lt;dt class="col-sm-3"&gt;فهرست توصیفیs&lt;/dt&gt;
+  &lt;dd class="col-sm-9"&gt;یک لیست توصیفی مناسب برای تعریف شرایط است.&lt;/dd&gt;
+  &lt;dt class="col-sm-3"&gt;ایسیمود&lt;/dt&gt;
+  &lt;dd class="col-sm-9"&gt;
+    &lt;p&gt;لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ&lt;/p&gt;
+    &lt;p&gt; با استفاده از طراحان گرافیک است.&lt;/p&gt;
+  &lt;/dd&gt;
+  &lt;dt class="col-sm-3 text-truncate"&gt; چاپگرها و متون بلکه روزنامه و مجله &lt;/dt&gt;
+  &lt;dd class="col-sm-9"&gt;لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است&lt;/dd&gt;
+  &lt;dt class="col-sm-3"&gt;لانه زنی&lt;/dt&gt;
+  &lt;dd class="col-sm-9"&gt;
+    &lt;dl class="row"&gt;
+      &lt;dt class="col-sm-4"&gt;فهرست تعریف نشده&lt;/dt&gt;
+      &lt;dd class="col-sm-8"&gt;اپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است &lt;/dd&gt;
+    &lt;/dl&gt;
+  &lt;/dd&gt;
+&lt;/dl&gt;</code></pre>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-xl-3">
+                  <nav
+                    id="sidebar-bootstrap"
+                    class="navbar navbar-sticky d-none d-xl-block"
+                  >
+                    <nav class="nav">
+                      <a
+                        class="nav-link"
+                        href="#headings"
+                        data-toggle="scroll-to"
+                      >
+                        عنوان
+                      </a>
+                      <a
+                        class="nav-link"
+                        href="#displayHeadings"
+                        data-toggle="scroll-to"
+                        >نمایش عنوان
+                      </a>
+                      <a class="nav-link" href="#lead" data-toggle="scroll-to"
+                        >لید</a
+                      >
+                      <a
+                        class="nav-link"
+                        href="#inlineTextElements"
+                        data-toggle="scroll-to"
+                        >عناصر متن درون خطی</a
+                      >
+                      <a
+                        class="nav-link"
+                        href="#abbreviations"
+                        data-toggle="scroll-to"
+                        >اختصار</a
+                      >
+                      <a
+                        class="nav-link"
+                        href="#blockquotes"
+                        data-toggle="scroll-to"
+                        >نقل قول</a
+                      >
+                      <a
+                        class="nav-link"
+                        href="#unstyledList"
+                        data-toggle="scroll-to"
+                        >لیست بدون استایل</a
+                      >
+                      <a
+                        class="nav-link"
+                        href="#inlineList"
+                        data-toggle="scroll-to"
+                        >لیست خطی</a
+                      >
+                      <a
+                        class="nav-link"
+                        href="#descriptionList"
+                        data-toggle="scroll-to"
+                        >فهرست توصیفی</a
+                      >
+                    </nav>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a href="#" data-toggle="scroll-to-top" class="btn-scroll-top fade"
+        ><i class="fa fa-arrow-up"></i
+      ></a>
+
+      <div class="app-theme-panel">
+        <div class="app-theme-panel-container">
+          <a
+            href="javascript:;"
+            data-toggle="theme-panel-expand"
+            class="app-theme-toggle-btn"
+            ><i class="bi bi-sliders"></i
+          ></a>
+          <div class="app-theme-panel-content">
+            <div class="small fw-bold text-white mb-1">رنگ قالب</div>
+            <div class="card mb-3">
+              <div class="card-body p-2">
+                <div class="app-theme-list">
+                  <div class="app-theme-list-item">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-list-link bg-pink"
+                      data-theme-class="theme-pink"
+                      data-toggle="theme-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="صورتی"
+                      >&nbsp;</a
+                    >
+                  </div>
+                  <div class="app-theme-list-item">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-list-link bg-red"
+                      data-theme-class="theme-red"
+                      data-toggle="theme-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="قرمز"
+                      >&nbsp;</a
+                    >
+                  </div>
+                  <div class="app-theme-list-item">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-list-link bg-warning"
+                      data-theme-class="theme-warning"
+                      data-toggle="theme-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="نارنجی"
+                      >&nbsp;</a
+                    >
+                  </div>
+                  <div class="app-theme-list-item">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-list-link bg-yellow"
+                      data-theme-class="theme-yellow"
+                      data-toggle="theme-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="زرد"
+                      >&nbsp;</a
+                    >
+                  </div>
+                  <div class="app-theme-list-item">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-list-link bg-lime"
+                      data-theme-class="theme-lime"
+                      data-toggle="theme-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="لیمویی"
+                      >&nbsp;</a
+                    >
+                  </div>
+                  <div class="app-theme-list-item">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-list-link bg-green"
+                      data-theme-class="theme-green"
+                      data-toggle="theme-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="سبز"
+                      >&nbsp;</a
+                    >
+                  </div>
+                  <div class="app-theme-list-item active">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-list-link bg-teal"
+                      data-theme-class=""
+                      data-toggle="theme-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="پیشفرض"
+                      >&nbsp;</a
+                    >
+                  </div>
+                  <div class="app-theme-list-item">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-list-link bg-info"
+                      data-theme-class="theme-info"
+                      data-toggle="theme-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="سبزآبی"
+                      >&nbsp;</a
+                    >
+                  </div>
+                  <div class="app-theme-list-item">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-list-link bg-primary"
+                      data-theme-class="theme-primary"
+                      data-toggle="theme-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="آبی"
+                      >&nbsp;</a
+                    >
+                  </div>
+                  <div class="app-theme-list-item">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-list-link bg-purple"
+                      data-theme-class="theme-purple"
+                      data-toggle="theme-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="بنفش"
+                      >&nbsp;</a
+                    >
+                  </div>
+                  <div class="app-theme-list-item">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-list-link bg-indigo"
+                      data-theme-class="theme-indigo"
+                      data-toggle="theme-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="یاسی"
+                      >&nbsp;</a
+                    >
+                  </div>
+                  <div class="app-theme-list-item">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-list-link bg-gray-100"
+                      data-theme-class="theme-gray-200"
+                      data-toggle="theme-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="خاکستری"
+                      >&nbsp;</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-arrow">
+                <div class="card-arrow-top-left"></div>
+                <div class="card-arrow-top-right"></div>
+                <div class="card-arrow-bottom-left"></div>
+                <div class="card-arrow-bottom-right"></div>
+              </div>
+            </div>
+            <div class="small fw-bold text-white mb-1">کاور تم</div>
+            <div class="card">
+              <div class="card-body p-2">
+                <div class="app-theme-cover">
+                  <div class="app-theme-cover-item active">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-cover-link"
+                      style="
+                        background-image: url(assets/img/cover/cover-thumb-1.jpg);
+                      "
+                      data-theme-cover-class=""
+                      data-toggle="theme-cover-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="پیشفرض"
+                      >&nbsp;</a
+                    >
+                  </div>
+                  <div class="app-theme-cover-item">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-cover-link"
+                      style="
+                        background-image: url(assets/img/cover/cover-thumb-2.jpg);
+                      "
+                      data-theme-cover-class="bg-cover-2"
+                      data-toggle="theme-cover-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="کاور 2"
+                      >&nbsp;</a
+                    >
+                  </div>
+                  <div class="app-theme-cover-item">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-cover-link"
+                      style="
+                        background-image: url(assets/img/cover/cover-thumb-3.jpg);
+                      "
+                      data-theme-cover-class="bg-cover-3"
+                      data-toggle="theme-cover-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="کاور 3"
+                      >&nbsp;</a
+                    >
+                  </div>
+                  <div class="app-theme-cover-item">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-cover-link"
+                      style="
+                        background-image: url(assets/img/cover/cover-thumb-4.jpg);
+                      "
+                      data-theme-cover-class="bg-cover-4"
+                      data-toggle="theme-cover-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="کاور 4"
+                      >&nbsp;</a
+                    >
+                  </div>
+                  <div class="app-theme-cover-item">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-cover-link"
+                      style="
+                        background-image: url(assets/img/cover/cover-thumb-5.jpg);
+                      "
+                      data-theme-cover-class="bg-cover-5"
+                      data-toggle="theme-cover-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="کاور 5"
+                      >&nbsp;</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-arrow">
+                <div class="card-arrow-top-left"></div>
+                <div class="card-arrow-top-right"></div>
+                <div class="card-arrow-bottom-left"></div>
+                <div class="card-arrow-bottom-right"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      data-cfasync="false"
+      src="assets/plugins/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+    ></script>
+    <script
+      src="assets/js/vendor.min.js"
+      type="f3ea635235a74713c8cd0749-text/javascript"
+    ></script>
+    <script
+      src="assets/js/app.min.js"
+      type="f3ea635235a74713c8cd0749-text/javascript"
+    ></script>
+
+    <script
+      src="assets/plugins/highlight.js/highlight.min.js"
+      type="f3ea635235a74713c8cd0749-text/javascript"
+    ></script>
+    <script
+      src="assets/js/demo/highlightjs.demo.js"
+      type="f3ea635235a74713c8cd0749-text/javascript"
+    ></script>
+
+    <script
+      src="assets/plugins/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js"
+      data-cf-settings="f3ea635235a74713c8cd0749-|49"
+      defer=""
+    ></script>
+    <script
+      defer
+      src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194"
+      integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw=="
+      data-cf-beacon='{"rayId":"6e58f8c31d408ec8","version":"2021.12.0","r":1,"token":"4db8c6ef997743fda032d4f73cfeff63","si":100}'
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

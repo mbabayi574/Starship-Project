@@ -1,0 +1,1879 @@
+<!doctype html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <title>اچ‌یودی | افزونه های جدول</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <link href="assets/css/vendor.min.css" rel="stylesheet" />
+    <link href="assets/css/app.min.css" rel="stylesheet" />
+
+    <link
+      href="assets/plugins/datatables.net-bs5/css/dataTables.bootstrap5.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/plugins/datatables.net-buttons-bs5/css/buttons.bootstrap5.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/plugins/datatables.net-responsive-bs5/css/responsive.bootstrap5.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/plugins/bootstrap-table/dist/bootstrap-table.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body
+    data-bs-spy="scroll"
+    data-bs-target="#sidebar-bootstrap"
+    data-bs-offset="200"
+  >
+    <div id="app" class="app">
+      <div id="header" class="app-header">
+        <div class="desktop-toggler">
+          <button
+            type="button"
+            class="menu-toggler"
+            data-toggle-class="app-sidebar-collapsed"
+            data-dismiss-class="app-sidebar-toggled"
+            data-toggle-target=".app"
+          >
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </button>
+        </div>
+
+        <div class="mobile-toggler">
+          <button
+            type="button"
+            class="menu-toggler"
+            data-toggle-class="app-sidebar-mobile-toggled"
+            data-toggle-target=".app"
+          >
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </button>
+        </div>
+
+        <div class="brand">
+          <a href="#" class="brand-logo">
+            <span class="brand-img">
+              <span class="brand-img-text text-theme">ه</span>
+            </span>
+            <span class="brand-text">اچ‌یودی ادمین</span>
+          </a>
+        </div>
+
+        <div class="menu">
+          <div class="menu-item dropdown">
+            <a
+              href="#"
+              data-toggle-class="app-header-menu-search-toggled"
+              data-toggle-target=".app"
+              class="menu-link"
+            >
+              <div class="menu-icon"><i class="bi bi-search nav-icon"></i></div>
+            </a>
+          </div>
+          <div class="menu-item dropdown dropdown-mobile-full">
+            <a
+              href="#"
+              data-bs-toggle="dropdown"
+              data-bs-display="static"
+              class="menu-link"
+            >
+              <div class="menu-icon">
+                <i class="bi bi-grid-3x3-gap nav-icon"></i>
+              </div>
+            </a>
+            <div
+              class="dropdown-menu fade dropdown-menu-end w-300px text-center p-0 mt-1"
+            >
+              <div class="row row-grid gx-0">
+                <div class="col-4">
+                  <a
+                    href="#"
+                    class="dropdown-item text-decoration-none p-3 bg-none"
+                  >
+                    <div class="position-relative">
+                      <i
+                        class="bi bi-circle-fill position-absolute text-theme top-0 mt-n2 me-n2 fs-6px d-block text-center w-100"
+                      ></i>
+                      <i class="bi bi-envelope h2 opacity-5 d-block my-1"></i>
+                    </div>
+                    <div class="fw-500 fs-10px text-white">صندوق ورودی</div>
+                  </a>
+                </div>
+                <div class="col-4">
+                  <a
+                    href="#"
+                    class="dropdown-item text-decoration-none p-3 bg-none"
+                  >
+                    <div>
+                      <i
+                        class="bi bi-hdd-network h2 opacity-5 d-block my-1"
+                      ></i>
+                    </div>
+                    <div class="fw-500 fs-10px text-white">دیسک درایو</div>
+                  </a>
+                </div>
+                <div class="col-4">
+                  <a
+                    href="#"
+                    class="dropdown-item text-decoration-none p-3 bg-none"
+                  >
+                    <div>
+                      <i class="bi bi-calendar4 h2 opacity-5 d-block my-1"></i>
+                    </div>
+                    <div class="fw-500 fs-10px text-white">تقویم</div>
+                  </a>
+                </div>
+              </div>
+              <div class="row row-grid gx-0">
+                <div class="col-4">
+                  <a
+                    href="#"
+                    class="dropdown-item text-decoration-none p-3 bg-none"
+                  >
+                    <div>
+                      <i class="bi bi-terminal h2 opacity-5 d-block my-1"></i>
+                    </div>
+                    <div class="fw-500 fs-10px text-white">ترمینال</div>
+                  </a>
+                </div>
+                <div class="col-4">
+                  <a
+                    href="#"
+                    class="dropdown-item text-decoration-none p-3 bg-none"
+                  >
+                    <div class="position-relative">
+                      <i
+                        class="bi bi-circle-fill position-absolute text-theme top-0 mt-n2 me-n2 fs-6px d-block text-center w-100"
+                      ></i>
+                      <i class="bi bi-sliders h2 opacity-5 d-block my-1"></i>
+                    </div>
+                    <div class="fw-500 fs-10px text-white">تنظیمات</div>
+                  </a>
+                </div>
+                <div class="col-4">
+                  <a
+                    href="#"
+                    class="dropdown-item text-decoration-none p-3 bg-none"
+                  >
+                    <div>
+                      <i
+                        class="bi bi-collection-play h2 opacity-5 d-block my-1"
+                      ></i>
+                    </div>
+                    <div class="fw-500 fs-10px text-white">کتابخانه</div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="menu-item dropdown dropdown-mobile-full">
+            <a
+              href="#"
+              data-bs-toggle="dropdown"
+              data-bs-display="static"
+              class="menu-link"
+            >
+              <div class="menu-icon"><i class="bi bi-bell nav-icon"></i></div>
+              <div class="menu-badge bg-theme"></div>
+            </a>
+            <div
+              class="dropdown-menu dropdown-menu-end mt-1 w-300px fs-11px pt-1"
+            >
+              <h6 class="dropdown-header fs-10px mb-1">اطلاعیه‌ها</h6>
+              <div class="dropdown-divider mt-1"></div>
+              <a
+                href="#"
+                class="d-flex align-items-center py-10px dropdown-item text-wrap"
+              >
+                <div class="fs-20px">
+                  <i class="bi bi-bag text-theme"></i>
+                </div>
+                <div class="flex-1 flex-wrap ps-3">
+                  <div class="mb-1 text-white">
+                    سفارش جدید دریافتی(1,299 تومان)
+                  </div>
+                  <div class="small">اکنون</div>
+                </div>
+                <div class="ps-2 fs-16px">
+                  <i class="bi bi-chevron-left"></i>
+                </div>
+              </a>
+              <a
+                href="#"
+                class="d-flex align-items-center py-10px dropdown-item text-wrap"
+              >
+                <div class="fs-20px w-20px">
+                  <i class="bi bi-person-circle text-theme"></i>
+                </div>
+                <div class="flex-1 flex-wrap ps-3">
+                  <div class="mb-1 text-white">3 اکانت ساخته شد</div>
+                  <div class="small">2 دقیقه قبل</div>
+                </div>
+                <div class="ps-2 fs-16px">
+                  <i class="bi bi-chevron-left"></i>
+                </div>
+              </a>
+              <a
+                href="#"
+                class="d-flex align-items-center py-10px dropdown-item text-wrap"
+              >
+                <div class="fs-20px w-20px">
+                  <i class="bi bi-gear text-theme"></i>
+                </div>
+                <div class="flex-1 flex-wrap ps-3">
+                  <div class="mb-1 text-white">نصب کامل شد</div>
+                  <div class="small">3 دقیقه قبل</div>
+                </div>
+                <div class="ps-2 fs-16px">
+                  <i class="bi bi-chevron-left"></i>
+                </div>
+              </a>
+              <a
+                href="#"
+                class="d-flex align-items-center py-10px dropdown-item text-wrap"
+              >
+                <div class="fs-20px w-20px">
+                  <i class="bi bi-grid text-theme"></i>
+                </div>
+                <div class="flex-1 flex-wrap ps-3">
+                  <div class="mb-1 text-white">ویجت اینستاگرام نصب شد</div>
+                  <div class="small">5 دقیقه قبل</div>
+                </div>
+                <div class="ps-2 fs-16px">
+                  <i class="bi bi-chevron-left"></i>
+                </div>
+              </a>
+              <a
+                href="#"
+                class="d-flex align-items-center py-10px dropdown-item text-wrap"
+              >
+                <div class="fs-20px w-20px">
+                  <i class="bi bi-credit-card text-theme"></i>
+                </div>
+                <div class="flex-1 flex-wrap ps-3">
+                  <div class="mb-1 text-white">روش پرداختی فعال شد</div>
+                  <div class="small">10 دقیقه قبل</div>
+                </div>
+                <div class="ps-2 fs-16px">
+                  <i class="bi bi-chevron-left"></i>
+                </div>
+              </a>
+              <hr class="bg-white-transparent-5 mb-0 mt-2" />
+              <div class="py-10px mb-n2 text-center">
+                <a href="#" class="text-decoration-none fw-bold">دیدن همه</a>
+              </div>
+            </div>
+          </div>
+          <div class="menu-item dropdown dropdown-mobile-full">
+            <a
+              href="#"
+              data-bs-toggle="dropdown"
+              data-bs-display="static"
+              class="menu-link"
+            >
+              <div class="menu-img online">
+                <img src="assets/img/user/profile.jpg" height="60px" />
+              </div>
+              <div class="menu-text d-sm-block d-none">
+                <span
+                  class="__cf_email__"
+                  data-cfemail="9aefe9ffe8f4fbf7ffdafbf9f9f5eff4eeb4f9f5f7"
+                  >[email&#160;protected]</span
+                >
+              </div>
+            </a>
+            <div class="dropdown-menu dropdown-menu-end me-lg-3 fs-11px mt-1">
+              <a class="dropdown-item d-flex align-items-center" href="#"
+                >پروفایل<i
+                  class="bi bi-person-circle ms-auto text-theme fs-16px my-n1"
+                ></i
+              ></a>
+              <a class="dropdown-item d-flex align-items-center" href="#"
+                >صندوق ورودی<i
+                  class="bi bi-envelope ms-auto text-theme fs-16px my-n1"
+                ></i
+              ></a>
+              <a class="dropdown-item d-flex align-items-center" href="#"
+                >تقویم<i
+                  class="bi bi-calendar ms-auto text-theme fs-16px my-n1"
+                ></i
+              ></a>
+              <a class="dropdown-item d-flex align-items-center" href="#"
+                >تنظیمات<i
+                  class="bi bi-gear ms-auto text-theme fs-16px my-n1"
+                ></i
+              ></a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item d-flex align-items-center" href="#"
+                >خروج<i
+                  class="bi bi-toggle-off ms-auto text-theme fs-16px my-n1"
+                ></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <form class="menu-search" method="POST" name="header_search_form">
+          <div class="menu-search-container">
+            <div class="menu-search-icon"><i class="bi bi-search"></i></div>
+            <div class="menu-search-input">
+              <input
+                type="text"
+                class="form-control form-control-lg"
+                placeholder="جستجو..."
+              />
+            </div>
+            <div class="menu-search-icon">
+              <a
+                href="#"
+                data-toggle-class="app-header-menu-search-toggled"
+                data-toggle-target=".app"
+                ><i class="bi bi-x-lg"></i
+              ></a>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div id="sidebar" class="app-sidebar">
+        <div
+          class="app-sidebar-content"
+          data-scrollbar="true"
+          data-height="100%"
+        >
+          <div class="menu">
+            <div class="menu-header">ناوبری</div>
+            <div class="menu-item">
+              <a href="index.html" class="menu-link">
+                <span class="menu-icon"><i class="bi bi-cpu"></i></span>
+                <span class="menu-text">داشبرد</span>
+              </a>
+            </div>
+            <div class="menu-item">
+              <a href="analytics.html" class="menu-link">
+                <span class="menu-icon"><i class="bi bi-bar-chart"></i></span>
+                <span class="menu-text">آمار</span>
+              </a>
+            </div>
+            <div class="menu-item has-sub">
+              <a href="#" class="menu-link">
+                <span class="menu-icon">
+                  <i class="bi bi-envelope"></i>
+                </span>
+                <span class="menu-text">ایمیل</span>
+                <span class="menu-caret"><b class="caret"></b></span>
+              </a>
+              <div class="menu-submenu">
+                <div class="menu-item">
+                  <a href="email_inbox.html" class="menu-link">
+                    <span class="menu-text">صندوق ورودی</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="email_compose.html" class="menu-link">
+                    <span class="menu-text">ارسال</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="email_detail.html" class="menu-link">
+                    <span class="menu-text">جزییات</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="menu-header">کامپوننت‌ها</div>
+            <div class="menu-item">
+              <a href="widgets.html" class="menu-link">
+                <span class="menu-icon"><i class="bi bi-columns-gap"></i></span>
+                <span class="menu-text">ویجت‌ها</span>
+              </a>
+            </div>
+            <div class="menu-item has-sub">
+              <a href="javascript:;" class="menu-link">
+                <div class="menu-icon">
+                  <i class="bi bi-bag-check"></i>
+                  <span
+                    class="w-5px h-5px rounded-3 bg-theme position-absolute top-0 end-0 mt-3px me-3px"
+                  ></span>
+                </div>
+                <div class="menu-text d-flex align-items-center">سیستم پوز</div>
+                <span class="menu-caret"><b class="caret"></b></span>
+              </a>
+              <div class="menu-submenu">
+                <div class="menu-item">
+                  <a
+                    href="pos_customer_order.html"
+                    target="_blank"
+                    class="menu-link"
+                  >
+                    <div class="menu-text">سفارش مشتری</div>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a
+                    href="pos_kitchen_order.html"
+                    target="_blank"
+                    class="menu-link"
+                  >
+                    <div class="menu-text">سفارش آشپزخانه</div>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a
+                    href="pos_counter_checkout.html"
+                    target="_blank"
+                    class="menu-link"
+                  >
+                    <div class="menu-text">پیشخوان پرداخت</div>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a
+                    href="pos_table_booking.html"
+                    target="_blank"
+                    class="menu-link"
+                  >
+                    <div class="menu-text">رزرو میز</div>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a
+                    href="pos_menu_stock.html"
+                    target="_blank"
+                    class="menu-link"
+                  >
+                    <div class="menu-text">موجودی انبار</div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="menu-item has-sub">
+              <a href="#" class="menu-link">
+                <span class="menu-icon"><i class="bi bi-controller"></i></span>
+                <span class="menu-text">کیت رابط کاربری</span>
+                <span class="menu-caret"><b class="caret"></b></span>
+              </a>
+              <div class="menu-submenu">
+                <div class="menu-item">
+                  <a href="ui_bootstrap.html" class="menu-link">
+                    <span class="menu-text">بوت‌سترپ</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="ui_buttons.html" class="menu-link">
+                    <span class="menu-text">دکمه‌ها</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="ui_card.html" class="menu-link">
+                    <span class="menu-text">کا‌رت‌ها</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="ui_icons.html" class="menu-link">
+                    <span class="menu-text">آیکون‌ها</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="ui_modal_notification.html" class="menu-link">
+                    <span class="menu-text">مودال و اطلاعیه</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="ui_typography.html" class="menu-link">
+                    <span class="menu-text">تایپوگرافی</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="ui_tabs_accordions.html" class="menu-link">
+                    <span class="menu-text">تب و آکاردیون</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="menu-item has-sub">
+              <a href="#" class="menu-link">
+                <span class="menu-icon"><i class="bi bi-pen"></i></span>
+                <span class="menu-text">فرم‌ها</span>
+                <span class="menu-caret"><b class="caret"></b></span>
+              </a>
+              <div class="menu-submenu">
+                <div class="menu-item">
+                  <a href="form_elements.html" class="menu-link">
+                    <span class="menu-text">المنت‌های فرم‌</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="form_plugins.html" class="menu-link">
+                    <span class="menu-text">پلاگین‌های فرم‌</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="form_wizards.html" class="menu-link">
+                    <span class="menu-text">ویزاردها</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="menu-item has-sub active">
+              <a href="#" class="menu-link">
+                <span class="menu-icon"><i class="bi bi-grid-3x3"></i></span>
+                <span class="menu-text">جداول</span>
+                <span class="menu-caret"><b class="caret"></b></span>
+              </a>
+              <div class="menu-submenu">
+                <div class="menu-item">
+                  <a href="table_elements.html" class="menu-link">
+                    <span class="menu-text">المنت‌های جدول</span>
+                  </a>
+                </div>
+                <div class="menu-item active">
+                  <a href="table_plugins.html" class="menu-link">
+                    <span class="menu-text">افزونه‌های جدول</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="menu-item has-sub">
+              <a href="#" class="menu-link">
+                <span class="menu-icon"><i class="bi bi-pie-chart"></i></span>
+                <span class="menu-text">نمودارها</span>
+                <span class="menu-caret"><b class="caret"></b></span>
+              </a>
+              <div class="menu-submenu">
+                <div class="menu-item">
+                  <a href="chart_js.html" class="menu-link">
+                    <span class="menu-text">چارت جی‌اس</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="chart_apex.html" class="menu-link">
+                    <span class="menu-text">اپکس چارت</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="menu-item">
+              <a href="map.html" class="menu-link">
+                <span class="menu-icon"><i class="bi bi-compass"></i></span>
+                <span class="menu-text">نقشه</span>
+              </a>
+            </div>
+            <div class="menu-item has-sub">
+              <a href="#" class="menu-link">
+                <span class="menu-icon"
+                  ><i class="bi bi-layout-sidebar"></i
+                ></span>
+                <span class="menu-text">چینش</span>
+                <span class="menu-caret"><b class="caret"></b></span>
+              </a>
+              <div class="menu-submenu">
+                <div class="menu-item">
+                  <a href="layout_starter.html" class="menu-link">
+                    <span class="menu-text">صفحه شروع</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="layout_fixed_footer.html" class="menu-link">
+                    <span class="menu-text">فوتر ثابت</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="layout_full_height.html" class="menu-link">
+                    <span class="menu-text">ارتفاع کامل</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="layout_full_width.html" class="menu-link">
+                    <span class="menu-text">تمام عرض</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="layout_boxed_layout.html" class="menu-link">
+                    <span class="menu-text">چینش باکس</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="layout_collapsed_sidebar.html" class="menu-link">
+                    <span class="menu-text">سایدبار چسبیده</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="menu-item has-sub">
+              <a href="#" class="menu-link">
+                <span class="menu-icon"><i class="bi bi-collection"></i></span>
+                <span class="menu-text">صفحات</span>
+                <span class="menu-caret"><b class="caret"></b></span>
+              </a>
+              <div class="menu-submenu">
+                <div class="menu-item">
+                  <a href="page_scrum_board.html" class="menu-link">
+                    <span class="menu-text">اسکرام برد</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="page_products.html" class="menu-link">
+                    <span class="menu-text">محصولات</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="page_orders.html" class="menu-link">
+                    <span class="menu-text">سفارشات</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="page_gallery.html" class="menu-link">
+                    <span class="menu-text">گالری</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="page_search_results.html" class="menu-link">
+                    <span class="menu-text">نتایج جستجو</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="page_coming_soon.html" class="menu-link">
+                    <span class="menu-text">به زودی</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="page_404_error.html" class="menu-link">
+                    <span class="menu-text">خطای 404</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="page_login.html" class="menu-link">
+                    <span class="menu-text">ورود</span>
+                  </a>
+                </div>
+                <div class="menu-item">
+                  <a href="page_register.html" class="menu-link">
+                    <span class="menu-text">ثبت نام</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="menu-divider"></div>
+            <div class="menu-header">کاربران</div>
+            <div class="menu-item">
+              <a href="profile.html" class="menu-link">
+                <span class="menu-icon"><i class="bi bi-people"></i></span>
+                <span class="menu-text">پروفایل</span>
+              </a>
+            </div>
+            <div class="menu-item">
+              <a href="calendar.html" class="menu-link">
+                <span class="menu-icon"><i class="bi bi-calendar4"></i></span>
+                <span class="menu-text">تقویم</span>
+              </a>
+            </div>
+            <div class="menu-item">
+              <a href="settings.html" class="menu-link">
+                <span class="menu-icon"><i class="bi bi-gear"></i></span>
+                <span class="menu-text">تنظیمات</span>
+              </a>
+            </div>
+            <div class="menu-item">
+              <a href="helper.html" class="menu-link">
+                <span class="menu-icon"><i class="bi bi-gem"></i></span>
+                <span class="menu-text">راهنما</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="p-3 px-4 mt-auto">
+            <a
+              href="documentation/index.html"
+              class="btn d-block btn-outline-theme"
+            >
+              <i class="fa fa-code-branch me-2 ms-n2 opacity-5"></i> مستندات
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <button
+        class="app-sidebar-mobile-backdrop"
+        data-toggle-target=".app"
+        data-toggle-class="app-sidebar-mobile-toggled"
+      ></button>
+
+      <div id="content" class="app-content">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-xl-10">
+              <div class="row">
+                <div class="col-xl-9">
+                  <ul class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">جداول</a></li>
+                    <li class="breadcrumb-item active">افزونه‌های جدول</li>
+                  </ul>
+                  <h1 class="page-header">
+                    افزونه های جدول
+                    <small>توضیح هدر در این قسمت قرار دارد...</small>
+                  </h1>
+                  <hr class="mb-4" />
+
+                  <div id="datatable" class="mb-5">
+                    <h4>جدول داده ای</h4>
+                    <p>
+                      جدول داده ای یک افزونه برای کتابخانه جی کوئری جاوااسکریپت
+                      است. این ابزار بسیار انعطاف‌پذیر است که بر پایه‌های پیشرفت
+                      ساخته شده است و همه این ویژگی‌های پیشرفته را به هر جدول اچ
+                      تی ام ال اضافه می‌کند. لطفاً بخوانید
+                      <a href="https://datatables.net/" target="_blank"
+                        >مستندات رسمی
+                      </a>
+                      برای لیست کامل گزینه ها بخوانید.
+                    </p>
+                    <div class="card">
+                      <div class="card-body">
+                        <table
+                          id="datatableDefault"
+                          class="table text-nowrap w-100"
+                        >
+                          <thead>
+                            <tr>
+                              <th>#</th>
+                              <th>نام</th>
+                              <th>سمت</th>
+                              <th>دفتر</th>
+                              <th>سن</th>
+                              <th>تاریخ شروع</th>
+                              <th>حقوق</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>1.</td>
+                              <td>تینا محمدی</td>
+                              <td>معمار سیستم</td>
+                              <td>تهران</td>
+                              <td>61</td>
+                              <td>1395/04/25</td>
+                              <td>320,800</td>
+                            </tr>
+                            <tr>
+                              <td>2.</td>
+                              <td>گلاره وحیدی</td>
+                              <td>حسابدار</td>
+                              <td>مشهد</td>
+                              <td>63</td>
+                              <td>1395/07/25</td>
+                              <td>170,750</td>
+                            </tr>
+                            <tr>
+                              <td>3.</td>
+                              <td>عاطفه نوری</td>
+                              <td>مدیر اجرایی</td>
+                              <td>گیلان</td>
+                              <td>66</td>
+                              <td>1396/01/12</td>
+                              <td>86,000</td>
+                            </tr>
+                            <tr>
+                              <td>4.</td>
+                              <td>کیمیا اعلا</td>
+                              <td>برنامه نویس</td>
+                              <td>تهران</td>
+                              <td>22</td>
+                              <td>1399/03/29</td>
+                              <td>433,060</td>
+                            </tr>
+                            <tr>
+                              <td>5.</td>
+                              <td>عاطفه محمدی</td>
+                              <td>حسابدار</td>
+                              <td>مشهد</td>
+                              <td>33</td>
+                              <td>1394/11/28</td>
+                              <td>162,700</td>
+                            </tr>
+                            <tr>
+                              <td>6.</td>
+                              <td>بیتا جم</td>
+                              <td>مدیریت بودجه</td>
+                              <td>تهران</td>
+                              <td>61</td>
+                              <td>1399/12/02</td>
+                              <td>372,000</td>
+                            </tr>
+                            <tr>
+                              <td>7.</td>
+                              <td>همایون مهرآیین</td>
+                              <td>مسئول فروش</td>
+                              <td>گیلان</td>
+                              <td>59</td>
+                              <td>1399/08/06</td>
+                              <td>137,500</td>
+                            </tr>
+                            <tr>
+                              <td>8.</td>
+                              <td>رها داوودی</td>
+                              <td>مدیریت بودجه</td>
+                              <td>مشهد</td>
+                              <td>55</td>
+                              <td>1397/10/14</td>
+                              <td>327,900</td>
+                            </tr>
+                            <tr>
+                              <td>9.</td>
+                              <td>کارن نیروانا</td>
+                              <td>برنامه نویس</td>
+                              <td>گیلان</td>
+                              <td>39</td>
+                              <td>1396/09/15</td>
+                              <td>205,500</td>
+                            </tr>
+                            <tr>
+                              <td>10.</td>
+                              <td>سونیا صمدی</td>
+                              <td>مهندس نرم افزار</td>
+                              <td>تهران</td>
+                              <td>23</td>
+                              <td>1394/12/13</td>
+                              <td>103,600</td>
+                            </tr>
+                            <tr>
+                              <td>11.</td>
+                              <td>جواد صمدی</td>
+                              <td>مدیر دفتر</td>
+                              <td>رشت</td>
+                              <td>30</td>
+                              <td>1394/12/19</td>
+                              <td>90,560</td>
+                            </tr>
+                            <tr>
+                              <td>12.</td>
+                              <td>کامران فروهر</td>
+                              <td>مدیر تیم</td>
+                              <td>تهران</td>
+                              <td>22</td>
+                              <td>1392/03/03</td>
+                              <td>342,000</td>
+                            </tr>
+                            <tr>
+                              <td>13.</td>
+                              <td>فرید سپهری</td>
+                              <td>مدیر اجرایی</td>
+                              <td>گیلان</td>
+                              <td>36</td>
+                              <td>1394/10/16</td>
+                              <td>470,600</td>
+                            </tr>
+                            <tr>
+                              <td>14.</td>
+                              <td>هاله شیخ</td>
+                              <td>مدیر تولید محتوا</td>
+                              <td>رشت</td>
+                              <td>43</td>
+                              <td>1399/12/18</td>
+                              <td>313,500</td>
+                            </tr>
+                            <tr>
+                              <td>15.</td>
+                              <td>تانیا جم</td>
+                              <td>مدیر اجرایی</td>
+                              <td>رشت</td>
+                              <td>19</td>
+                              <td>1397/03/17</td>
+                              <td>385,750</td>
+                            </tr>
+                            <tr>
+                              <td>16.</td>
+                              <td>مهران سپهری</td>
+                              <td>طراح</td>
+                              <td>رشت</td>
+                              <td>66</td>
+                              <td>1399/11/27</td>
+                              <td>198,500</td>
+                            </tr>
+                            <tr>
+                              <td>17.</td>
+                              <td>پندار نیک</td>
+                              <td>مدیر اجرایی)</td>
+                              <td>تهران</td>
+                              <td>64</td>
+                              <td>1397/06/09</td>
+                              <td>725,000</td>
+                            </tr>
+                            <tr>
+                              <td>18.</td>
+                              <td>گلنوش مالکی</td>
+                              <td>مدیر سیستم</td>
+                              <td>تهران</td>
+                              <td>59</td>
+                              <td>1396/04/10</td>
+                              <td>237,500</td>
+                            </tr>
+                            <tr>
+                              <td>19.</td>
+                              <td>بهنام محمدی</td>
+                              <td>مهندس نرم افزار</td>
+                              <td>رشت</td>
+                              <td>41</td>
+                              <td>1399/10/13</td>
+                              <td>132,000</td>
+                            </tr>
+                            <tr>
+                              <td>20.</td>
+                              <td>داوود امیری</td>
+                              <td>مدیر دفتر</td>
+                              <td>تهران</td>
+                              <td>35</td>
+                              <td>1399/09/26</td>
+                              <td>217,500</td>
+                            </tr>
+                            <tr>
+                              <td>21.</td>
+                              <td>صبا احمدی</td>
+                              <td>مدیر تولید</td>
+                              <td>تهران</td>
+                              <td>30</td>
+                              <td>1395/09/03</td>
+                              <td>345,000</td>
+                            </tr>
+                            <tr>
+                              <td>22.</td>
+                              <td>یگانه سیما</td>
+                              <td>مدیر محصول</td>
+                              <td>تهران</td>
+                              <td>40</td>
+                              <td>1396/06/25</td>
+                              <td>675,000</td>
+                            </tr>
+                            <tr>
+                              <td>23.</td>
+                              <td>سیما سالاری</td>
+                              <td>مدیر فروش</td>
+                              <td>تهران</td>
+                              <td>21</td>
+                              <td>1395/12/12</td>
+                              <td>106,450</td>
+                            </tr>
+                            <tr>
+                              <td>24.</td>
+                              <td>دارا جم</td>
+                              <td>مسئول فروش</td>
+                              <td>کرمان</td>
+                              <td>23</td>
+                              <td>1397/09/20</td>
+                              <td>85,600</td>
+                            </tr>
+                            <tr>
+                              <td>25.</td>
+                              <td>آناهیتا رومی</td>
+                              <td>مدیر اجرایی</td>
+                              <td>رشت</td>
+                              <td>47</td>
+                              <td>1396/10/09</td>
+                              <td>1,200,000</td>
+                            </tr>
+                            <tr>
+                              <td>26.</td>
+                              <td>گلاره احمدی</td>
+                              <td>توسعه دهنده</td>
+                              <td>تهران</td>
+                              <td>42</td>
+                              <td>1397/12/22</td>
+                              <td>92,575</td>
+                            </tr>
+                            <tr>
+                              <td>27.</td>
+                              <td>مینا کریمی</td>
+                              <td>مدیر اجرایی</td>
+                              <td>تبریز</td>
+                              <td>28</td>
+                              <td>1397/11/14</td>
+                              <td>357,650</td>
+                            </tr>
+                            <tr>
+                              <td>28.</td>
+                              <td>بهنام صمدی</td>
+                              <td>مهندس نرم افزار</td>
+                              <td>گیلان</td>
+                              <td>28</td>
+                              <td>1395/06/07</td>
+                              <td>206,850</td>
+                            </tr>
+                            <tr>
+                              <td>29.</td>
+                              <td>فرید احمدی</td>
+                              <td>مدیریت شرکت)</td>
+                              <td>گیلان</td>
+                              <td>48</td>
+                              <td>1397/03/11</td>
+                              <td>850,000</td>
+                            </tr>
+                            <tr>
+                              <td>30.</td>
+                              <td>شیما کریمی</td>
+                              <td>بازاریابی</td>
+                              <td>مشهد</td>
+                              <td>20</td>
+                              <td>1395/08/14</td>
+                              <td>163,000</td>
+                            </tr>
+                            <tr>
+                              <td>31.</td>
+                              <td>میلاد نور</td>
+                              <td>مدیریت بودجه</td>
+                              <td>کرمان</td>
+                              <td>37</td>
+                              <td>1395/06/02</td>
+                              <td>95,400</td>
+                            </tr>
+                            <tr>
+                              <td>32.</td>
+                              <td>سیما محمدی</td>
+                              <td>توسعه دهنده</td>
+                              <td>رشت</td>
+                              <td>53</td>
+                              <td>1396/10/22</td>
+                              <td>114,500</td>
+                            </tr>
+                            <tr>
+                              <td>33.</td>
+                              <td>پدرام محمدی</td>
+                              <td>نویسنده</td>
+                              <td>رشت</td>
+                              <td>27</td>
+                              <td>1395/05/07</td>
+                              <td>145,000</td>
+                            </tr>
+                            <tr>
+                              <td>34.</td>
+                              <td>گلاره کریمی</td>
+                              <td>مدیر تیم</td>
+                              <td>گیلان</td>
+                              <td>22</td>
+                              <td>1394/10/26</td>
+                              <td>235,500</td>
+                            </tr>
+                            <tr>
+                              <td>35.</td>
+                              <td>مانا کریمی</td>
+                              <td>پشتیبانی سایت</td>
+                              <td>تهران</td>
+                              <td>46</td>
+                              <td>1395/03/09</td>
+                              <td>324,050</td>
+                            </tr>
+                            <tr>
+                              <td>36.</td>
+                              <td>یارا شهیدی</td>
+                              <td>طراح</td>
+                              <td>گیلان</td>
+                              <td>47</td>
+                              <td>1396/12/09</td>
+                              <td>85,675</td>
+                            </tr>
+                            <tr>
+                              <td>37.</td>
+                              <td>سیما احمدی</td>
+                              <td>مدیر دفتر</td>
+                              <td>گیلان</td>
+                              <td>51</td>
+                              <td>1394/12/16</td>
+                              <td>164,500</td>
+                            </tr>
+                            <tr>
+                              <td>38.</td>
+                              <td>سیما محمدی</td>
+                              <td>منشی</td>
+                              <td>گیلان</td>
+                              <td>41</td>
+                              <td>1397/02/12</td>
+                              <td>109,850</td>
+                            </tr>
+                            <tr>
+                              <td>39.</td>
+                              <td>ویدا احدی</td>
+                              <td>مدیر مالی</td>
+                              <td>گیلان</td>
+                              <td>62</td>
+                              <td>1396/02/14</td>
+                              <td>452,500</td>
+                            </tr>
+                            <tr>
+                              <td>40.</td>
+                              <td>تینا منصوری</td>
+                              <td>مدیر دفتر</td>
+                              <td>رشت</td>
+                              <td>37</td>
+                              <td>1394/12/11</td>
+                              <td>136,200</td>
+                            </tr>
+                            <tr>
+                              <td>41.</td>
+                              <td>جواد خواجوی</td>
+                              <td>مدیر</td>
+                              <td>تهران</td>
+                              <td>65</td>
+                              <td>1394/09/26</td>
+                              <td>645,750</td>
+                            </tr>
+                            <tr>
+                              <td>42.</td>
+                              <td>الهه جم</td>
+                              <td>مهندس ارشد</td>
+                              <td>تبریز</td>
+                              <td>64</td>
+                              <td>1395/02/03</td>
+                              <td>234,500</td>
+                            </tr>
+                            <tr>
+                              <td>43.</td>
+                              <td>بیتا احدی</td>
+                              <td>مهندس نرم افزار</td>
+                              <td>رشت</td>
+                              <td>38</td>
+                              <td>1395/05/03</td>
+                              <td>163,500</td>
+                            </tr>
+                            <tr>
+                              <td>44.</td>
+                              <td>صنم امیری</td>
+                              <td>مهندس ارشد</td>
+                              <td>مشهد</td>
+                              <td>37</td>
+                              <td>1396/08/19</td>
+                              <td>139,575</td>
+                            </tr>
+                            <tr>
+                              <td>45.</td>
+                              <td>مایا امیری</td>
+                              <td>توسعه دهنده</td>
+                              <td>تهران</td>
+                              <td>61</td>
+                              <td>1392/08/11</td>
+                              <td>98,540</td>
+                            </tr>
+                            <tr>
+                              <td>46.</td>
+                              <td>فریده کالو</td>
+                              <td>مهندس ارشد</td>
+                              <td>گیلان</td>
+                              <td>47</td>
+                              <td>1396/07/07</td>
+                              <td>87,500</td>
+                            </tr>
+                            <tr>
+                              <td>47.</td>
+                              <td>صنم امیری</td>
+                              <td>مهندس داده</td>
+                              <td>تبریز</td>
+                              <td>64</td>
+                              <td>1399/04/09</td>
+                              <td>138,575</td>
+                            </tr>
+                            <tr>
+                              <td>48.</td>
+                              <td>فرهبد زیلاند</td>
+                              <td>مهندس نرم افزار</td>
+                              <td>تهران</td>
+                              <td>63</td>
+                              <td>1397/01/04</td>
+                              <td>125,250</td>
+                            </tr>
+                            <tr>
+                              <td>49.</td>
+                              <td>ژیلا صنم</td>
+                              <td>مهندس نرم افزار</td>
+                              <td>گیلان</td>
+                              <td>56</td>
+                              <td>1399/06/01</td>
+                              <td>115,000</td>
+                            </tr>
+                            <tr>
+                              <td>50.</td>
+                              <td>ژیلا محمدی</td>
+                              <td>برنامه نویس</td>
+                              <td>تهران</td>
+                              <td>43</td>
+                              <td>1392/02/01</td>
+                              <td>75,650</td>
+                            </tr>
+                            <tr>
+                              <td>51.</td>
+                              <td>سارا فروهر</td>
+                              <td>مسئول فروش</td>
+                              <td>تهران</td>
+                              <td>46</td>
+                              <td>1395/12/06</td>
+                              <td>145,600</td>
+                            </tr>
+                            <tr>
+                              <td>52.</td>
+                              <td>همایون محمدی</td>
+                              <td>مدیر اجرایی</td>
+                              <td>رشت</td>
+                              <td>47</td>
+                              <td>1395/03/21</td>
+                              <td>356,250</td>
+                            </tr>
+                            <tr>
+                              <td>53.</td>
+                              <td>لاله محمدی</td>
+                              <td>مدیر سیستم</td>
+                              <td>رشت</td>
+                              <td>21</td>
+                              <td>1396/02/27</td>
+                              <td>103,500</td>
+                            </tr>
+                            <tr>
+                              <td>54.</td>
+                              <td>هدا محمدی</td>
+                              <td>توسعه دهنده</td>
+                              <td>گیلان</td>
+                              <td>30</td>
+                              <td>1397/07/14</td>
+                              <td>86,500</td>
+                            </tr>
+                            <tr>
+                              <td>55.</td>
+                              <td>شادی محمدی</td>
+                              <td>مدیر اجرایی</td>
+                              <td>تهران</td>
+                              <td>51</td>
+                              <td>1394/11/13</td>
+                              <td>183,000</td>
+                            </tr>
+                            <tr>
+                              <td>56.</td>
+                              <td>یگانه محمدی</td>
+                              <td>برنامه نویس</td>
+                              <td>تبریز</td>
+                              <td>29</td>
+                              <td>1395/06/27</td>
+                              <td>183,000</td>
+                            </tr>
+                            <tr>
+                              <td>57.</td>
+                              <td>دنیا محمدی</td>
+                              <td>پشتیبانی مشتری</td>
+                              <td>تهران</td>
+                              <td>27</td>
+                              <td>1395/01/25</td>
+                              <td>112,000</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="card-arrow">
+                        <div class="card-arrow-top-left"></div>
+                        <div class="card-arrow-top-right"></div>
+                        <div class="card-arrow-bottom-left"></div>
+                        <div class="card-arrow-bottom-right"></div>
+                      </div>
+                      <div class="hljs-container">
+                        <pre><code>&lt;!-- required css --&gt;
+&lt;link href="assets/plugins/datatables.net-bs5/css/dataTables.bootstrap5.min.css" rel="stylesheet" /&gt;
+&lt;link href="assets/plugins/datatables.net-responsive-bs5/css/responsive.bootstrap5.min.css" rel="stylesheet" /&gt;
+&lt;link href="assets/plugins/datatables.net-buttons-bs5/css/buttons.bootstrap5.min.css" rel="stylesheet" /&gt;
+
+&lt;!-- required js --&gt;
+&lt;script src="assets/plugins/datatables.net/js/jquery.dataTables.min.js"&gt;&lt;/script&gt;
+&lt;script src="assets/plugins/datatables.net-bs5/js/dataTables.bootstrap5.min.js"&gt;&lt;/script&gt;
+&lt;script src="assets/plugins/datatables.net-buttons/js/dataTables.buttons.min.js"&gt;&lt;/script&gt;
+&lt;script src="assets/plugins/datatables.net-buttons/js/buttons.colVis.min.js"&gt;&lt;/script&gt;
+&lt;script src="assets/plugins/datatables.net-buttons/js/buttons.flash.min.js"&gt;&lt;/script&gt;
+&lt;script src="assets/plugins/datatables.net-buttons/js/buttons.html5.min.js"&gt;&lt;/script&gt;
+&lt;script src="assets/plugins/datatables.net-buttons/js/buttons.print.min.js"&gt;&lt;/script&gt;
+&lt;script src="assets/plugins/datatables.net-buttons-bs5/js/buttons.bootstrap5.min.js"&gt;&lt;/script&gt;
+&lt;script src="assets/plugins/datatables.net-responsive/js/dataTables.responsive.min.js"&gt;&lt;/script&gt;
+&lt;script src="assets/plugins/datatables.net-responsive-bs5/js/responsive.bootstrap5.min.js"&gt;&lt;/script&gt;
+
+&lt;!-- html --&gt;
+&lt;table id="datatableDefault" class="table text-nowrap w-100"&gt;
+  ...
+&lt;/table&gt;
+
+&lt;!-- script --&gt;
+&lt;script&gt;
+  $('#datatableDefault').DataTable({
+    dom: "&lt;'row mb-3'&lt;'col-sm-4'l&gt;&lt;'col-sm-8 text-end'&lt;'d-flex justify-content-end'fB&gt;&gt;&gt;t&lt;'d-flex align-items-center'&lt;'me-auto'i&gt;&lt;'mb-0'p&gt;&gt;",
+    lengthMenu: [ 10, 20, 30, 40, 50 ],
+    responsive: true,
+    buttons: [ 
+      { extend: 'print', className: 'btn btn-default' },
+      { extend: 'csv', className: 'btn btn-default' }
+    ]
+  });
+&lt;/script&gt;</code></pre>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="bootstrapTable" class="mb-5">
+                    <h4>جدول پایه</h4>
+                    <p>
+                      جدول بوت استرپ یک جدول توسعه یافته برای ادغام با برخی از
+                      پرکاربردترین چارچوب های سی اس اس است. (پشتیبانی از
+                      بوت‌سترپ سمنتیک سوآ، بالما متریال دیزاین، فادیشن). لطفاً
+                      بخوانید<a
+                        href="https://bootstrap-table.com/"
+                        target="_blank"
+                        >مستندات رسمی
+                      </a>
+                      برای لیست کامل گزینه ها بخوانید.
+                    </p>
+                    <div class="card">
+                      <div class="card-body">
+                        <table
+                          class="table"
+                          data-toggle="table"
+                          data-sort-class="table-active"
+                          data-sortable="true"
+                          data-search="true"
+                          data-pagination="true"
+                          data-show-refresh="true"
+                          data-show-columns="true"
+                          data-show-fullscreen="true"
+                          data-height="460"
+                        >
+                          <thead>
+                            <tr>
+                              <th data-sortable="true">شناسه مورد</th>
+                              <th data-sortable="true">نام مورد</th>
+                              <th data-sortable="true">قیمت آیتم</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>1</td>
+                              <td>مورد 1</td>
+                              <td>1 تومان</td>
+                            </tr>
+                            <tr>
+                              <td>2</td>
+                              <td>مورد 2</td>
+                              <td>2 تومان</td>
+                            </tr>
+                            <tr>
+                              <td>3</td>
+                              <td>مورد 3</td>
+                              <td>3 تومان</td>
+                            </tr>
+                            <tr>
+                              <td>4</td>
+                              <td>مورد 4</td>
+                              <td>4 تومان</td>
+                            </tr>
+                            <tr>
+                              <td>5</td>
+                              <td>مورد 5</td>
+                              <td>5 تومان</td>
+                            </tr>
+                            <tr>
+                              <td>6</td>
+                              <td>مورد 6</td>
+                              <td>6 تومان</td>
+                            </tr>
+                            <tr>
+                              <td>7</td>
+                              <td>مورد 7</td>
+                              <td>7 تومان</td>
+                            </tr>
+                            <tr>
+                              <td>8</td>
+                              <td>مورد 8</td>
+                              <td>8 تومان</td>
+                            </tr>
+                            <tr>
+                              <td>9</td>
+                              <td>مورد 9</td>
+                              <td>9 تومان</td>
+                            </tr>
+                            <tr>
+                              <td>10</td>
+                              <td>مورد 10</td>
+                              <td>10 تومان</td>
+                            </tr>
+                            <tr>
+                              <td>11</td>
+                              <td>مورد 11</td>
+                              <td>11 تومان</td>
+                            </tr>
+                            <tr>
+                              <td>12</td>
+                              <td>مورد 12</td>
+                              <td>12 تومان</td>
+                            </tr>
+                            <tr>
+                              <td>13</td>
+                              <td>مورد 13</td>
+                              <td>13 تومان</td>
+                            </tr>
+                            <tr>
+                              <td>14</td>
+                              <td>مورد 14</td>
+                              <td>14 تومان</td>
+                            </tr>
+                            <tr>
+                              <td>15</td>
+                              <td>مورد 15</td>
+                              <td>15 تومان</td>
+                            </tr>
+                            <tr>
+                              <td>16</td>
+                              <td>مورد 16</td>
+                              <td>16 تومان</td>
+                            </tr>
+                            <tr>
+                              <td>17</td>
+                              <td>مورد 17</td>
+                              <td>17 تومان</td>
+                            </tr>
+                            <tr>
+                              <td>18</td>
+                              <td>مورد 18</td>
+                              <td>18 تومان</td>
+                            </tr>
+                            <tr>
+                              <td>19</td>
+                              <td>مورد 19</td>
+                              <td>19 تومان</td>
+                            </tr>
+                            <tr>
+                              <td>20</td>
+                              <td>مورد 20</td>
+                              <td>20 تومان</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="card-arrow">
+                        <div class="card-arrow-top-left"></div>
+                        <div class="card-arrow-top-right"></div>
+                        <div class="card-arrow-bottom-left"></div>
+                        <div class="card-arrow-bottom-right"></div>
+                      </div>
+                      <div class="hljs-container">
+                        <pre><code>&lt;!-- required css / js --&gt;
+&lt;link href="assets/plugins/bootstrap-table/dist/bootstrap-table.min.css" rel="stylesheet" /&gt;
+&lt;script src="assets/plugins/bootstrap-table/dist/bootstrap-table.min.js"&gt;&lt;/script&gt;
+
+&lt;!-- html --&gt;
+&lt;table class="table" data-toggle="table"
+  data-sort-class="table-active"
+  data-sortable="true"
+  data-search="true"
+  data-pagination="true"
+  data-show-refresh="true"
+  data-show-columns="true"
+  data-show-fullscreen="true"
+  data-height="460"&gt;
+...
+&lt;/table&gt;</code></pre>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-xl-3">
+                  <nav
+                    id="sidebar-bootstrap"
+                    class="navbar navbar-sticky d-none d-xl-block"
+                  >
+                    <nav class="nav">
+                      <a
+                        class="nav-link"
+                        href="#datatable"
+                        data-toggle="scroll-to"
+                        >جدول داده ای</a
+                      >
+                      <a
+                        class="nav-link"
+                        href="#bootstrapTable"
+                        data-toggle="scroll-to"
+                        >Bootstrap table</a
+                      >
+                    </nav>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a href="#" data-toggle="scroll-to-top" class="btn-scroll-top fade"
+        ><i class="fa fa-arrow-up"></i
+      ></a>
+
+      <div class="app-theme-panel">
+        <div class="app-theme-panel-container">
+          <a
+            href="javascript:;"
+            data-toggle="theme-panel-expand"
+            class="app-theme-toggle-btn"
+            ><i class="bi bi-sliders"></i
+          ></a>
+          <div class="app-theme-panel-content">
+            <div class="small fw-bold text-white mb-1">رنگ قالب</div>
+            <div class="card mb-3">
+              <div class="card-body p-2">
+                <div class="app-theme-list">
+                  <div class="app-theme-list-item">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-list-link bg-pink"
+                      data-theme-class="theme-pink"
+                      data-toggle="theme-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="صورتی"
+                      >&nbsp;</a
+                    >
+                  </div>
+                  <div class="app-theme-list-item">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-list-link bg-red"
+                      data-theme-class="theme-red"
+                      data-toggle="theme-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="قرمز"
+                      >&nbsp;</a
+                    >
+                  </div>
+                  <div class="app-theme-list-item">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-list-link bg-warning"
+                      data-theme-class="theme-warning"
+                      data-toggle="theme-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="نارنجی"
+                      >&nbsp;</a
+                    >
+                  </div>
+                  <div class="app-theme-list-item">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-list-link bg-yellow"
+                      data-theme-class="theme-yellow"
+                      data-toggle="theme-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="زرد"
+                      >&nbsp;</a
+                    >
+                  </div>
+                  <div class="app-theme-list-item">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-list-link bg-lime"
+                      data-theme-class="theme-lime"
+                      data-toggle="theme-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="لیمویی"
+                      >&nbsp;</a
+                    >
+                  </div>
+                  <div class="app-theme-list-item">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-list-link bg-green"
+                      data-theme-class="theme-green"
+                      data-toggle="theme-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="سبز"
+                      >&nbsp;</a
+                    >
+                  </div>
+                  <div class="app-theme-list-item active">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-list-link bg-teal"
+                      data-theme-class=""
+                      data-toggle="theme-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="پیشفرض"
+                      >&nbsp;</a
+                    >
+                  </div>
+                  <div class="app-theme-list-item">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-list-link bg-info"
+                      data-theme-class="theme-info"
+                      data-toggle="theme-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="سبزآبی"
+                      >&nbsp;</a
+                    >
+                  </div>
+                  <div class="app-theme-list-item">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-list-link bg-primary"
+                      data-theme-class="theme-primary"
+                      data-toggle="theme-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="آبی"
+                      >&nbsp;</a
+                    >
+                  </div>
+                  <div class="app-theme-list-item">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-list-link bg-purple"
+                      data-theme-class="theme-purple"
+                      data-toggle="theme-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="بنفش"
+                      >&nbsp;</a
+                    >
+                  </div>
+                  <div class="app-theme-list-item">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-list-link bg-indigo"
+                      data-theme-class="theme-indigo"
+                      data-toggle="theme-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="یاسی"
+                      >&nbsp;</a
+                    >
+                  </div>
+                  <div class="app-theme-list-item">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-list-link bg-gray-100"
+                      data-theme-class="theme-gray-200"
+                      data-toggle="theme-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="خاکستری"
+                      >&nbsp;</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-arrow">
+                <div class="card-arrow-top-left"></div>
+                <div class="card-arrow-top-right"></div>
+                <div class="card-arrow-bottom-left"></div>
+                <div class="card-arrow-bottom-right"></div>
+              </div>
+            </div>
+            <div class="small fw-bold text-white mb-1">کاور تم</div>
+            <div class="card">
+              <div class="card-body p-2">
+                <div class="app-theme-cover">
+                  <div class="app-theme-cover-item active">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-cover-link"
+                      style="
+                        background-image: url(assets/img/cover/cover-thumb-1.jpg);
+                      "
+                      data-theme-cover-class=""
+                      data-toggle="theme-cover-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="پیشفرض"
+                      >&nbsp;</a
+                    >
+                  </div>
+                  <div class="app-theme-cover-item">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-cover-link"
+                      style="
+                        background-image: url(assets/img/cover/cover-thumb-2.jpg);
+                      "
+                      data-theme-cover-class="bg-cover-2"
+                      data-toggle="theme-cover-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="کاور 2"
+                      >&nbsp;</a
+                    >
+                  </div>
+                  <div class="app-theme-cover-item">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-cover-link"
+                      style="
+                        background-image: url(assets/img/cover/cover-thumb-3.jpg);
+                      "
+                      data-theme-cover-class="bg-cover-3"
+                      data-toggle="theme-cover-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="کاور 3"
+                      >&nbsp;</a
+                    >
+                  </div>
+                  <div class="app-theme-cover-item">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-cover-link"
+                      style="
+                        background-image: url(assets/img/cover/cover-thumb-4.jpg);
+                      "
+                      data-theme-cover-class="bg-cover-4"
+                      data-toggle="theme-cover-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="کاور 4"
+                      >&nbsp;</a
+                    >
+                  </div>
+                  <div class="app-theme-cover-item">
+                    <a
+                      href="javascript:;"
+                      class="app-theme-cover-link"
+                      style="
+                        background-image: url(assets/img/cover/cover-thumb-5.jpg);
+                      "
+                      data-theme-cover-class="bg-cover-5"
+                      data-toggle="theme-cover-selector"
+                      data-bs-toggle="tooltip"
+                      data-bs-trigger="hover"
+                      data-bs-container="body"
+                      data-bs-title="کاور 5"
+                      >&nbsp;</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-arrow">
+                <div class="card-arrow-top-left"></div>
+                <div class="card-arrow-top-right"></div>
+                <div class="card-arrow-bottom-left"></div>
+                <div class="card-arrow-bottom-right"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      data-cfasync="false"
+      src="assets/plugins/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+    ></script>
+    <script
+      src="assets/js/vendor.min.js"
+      type="5cd566d4c9167be52e0a161f-text/javascript"
+    ></script>
+    <script
+      src="assets/js/app.min.js"
+      type="5cd566d4c9167be52e0a161f-text/javascript"
+    ></script>
+
+    <script
+      src="assets/plugins/highlight.js/highlight.min.js"
+      type="5cd566d4c9167be52e0a161f-text/javascript"
+    ></script>
+    <script
+      src="assets/js/demo/highlightjs.demo.js"
+      type="5cd566d4c9167be52e0a161f-text/javascript"
+    ></script>
+    <script
+      src="assets/plugins/datatables.net/js/jquery.dataTables.min.js"
+      type="5cd566d4c9167be52e0a161f-text/javascript"
+    ></script>
+    <script
+      src="assets/plugins/datatables.net-bs5/js/dataTables.bootstrap5.min.js"
+      type="5cd566d4c9167be52e0a161f-text/javascript"
+    ></script>
+    <script
+      src="assets/plugins/datatables.net-buttons/js/dataTables.buttons.min.js"
+      type="5cd566d4c9167be52e0a161f-text/javascript"
+    ></script>
+    <script
+      src="assets/plugins/datatables.net-buttons/js/buttons.colVis.min.js"
+      type="5cd566d4c9167be52e0a161f-text/javascript"
+    ></script>
+    <script
+      src="assets/plugins/datatables.net-buttons/js/buttons.flash.min.js"
+      type="5cd566d4c9167be52e0a161f-text/javascript"
+    ></script>
+    <script
+      src="assets/plugins/datatables.net-buttons/js/buttons.html5.min.js"
+      type="5cd566d4c9167be52e0a161f-text/javascript"
+    ></script>
+    <script
+      src="assets/plugins/datatables.net-buttons/js/buttons.print.min.js"
+      type="5cd566d4c9167be52e0a161f-text/javascript"
+    ></script>
+    <script
+      src="assets/plugins/datatables.net-buttons-bs5/js/buttons.bootstrap5.min.js"
+      type="5cd566d4c9167be52e0a161f-text/javascript"
+    ></script>
+    <script
+      src="assets/plugins/datatables.net-responsive/js/dataTables.responsive.min.js"
+      type="5cd566d4c9167be52e0a161f-text/javascript"
+    ></script>
+    <script
+      src="assets/plugins/datatables.net-responsive-bs5/js/responsive.bootstrap5.min.js"
+      type="5cd566d4c9167be52e0a161f-text/javascript"
+    ></script>
+    <script
+      src="assets/plugins/bootstrap-table/dist/bootstrap-table.min.js"
+      type="5cd566d4c9167be52e0a161f-text/javascript"
+    ></script>
+    <script
+      src="assets/js/demo/table-plugins.demo.js"
+      type="5cd566d4c9167be52e0a161f-text/javascript"
+    ></script>
+
+    <script
+      src="assets/plugins/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js"
+      data-cf-settings="5cd566d4c9167be52e0a161f-|49"
+      defer=""
+    ></script>
+    <script
+      defer
+      src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194"
+      integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw=="
+      data-cf-beacon='{"rayId":"6e58f8ce3f6e8ec8","version":"2021.12.0","r":1,"token":"4db8c6ef997743fda032d4f73cfeff63","si":100}'
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
