@@ -47,6 +47,7 @@
     "jszip": "^3.10.1",
     "lity": "^2.4.1",
     "masonry-layout": "^4.2.2",
+    "moment": "^2.30.1",
     "pdfmake": "^0.2.18",
     "photoswipe": "^5.4.4",
     "quill": "^2.0.3",
